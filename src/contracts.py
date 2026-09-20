@@ -2,7 +2,7 @@ from typing import Literal, TypedDict
 
 
 RetrievalMethod = Literal["dense", "bm25", "hybrid", "pageindex"]
-RetrievalSource = Literal["hybrid", "pageindex", "none"]
+RetrievalSource = Literal["hybrid", "pageindex", "dense", "none"]
 
 
 class DocumentMetadata(TypedDict):
@@ -113,5 +113,5 @@ def validate_generation_result(result: object) -> None:
     if not isinstance(result.get("answer"), str) or not result["answer"].strip():
         raise ValueError("generation answer must be a non-empty string")
     validate_search_results(result.get("sources"))
-    if result.get("retrieval_source") not in {"hybrid", "pageindex", "none"}:
+    if result.get("retrieval_source") not in {"hybrid", "pageindex", "dense", "none"}:
         raise ValueError("generation retrieval_source is invalid")

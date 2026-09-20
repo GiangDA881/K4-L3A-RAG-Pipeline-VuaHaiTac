@@ -28,7 +28,8 @@ LLM_PROVIDER = os.getenv("LLM_PROVIDER", "xkiro")
 LLM_MODEL = os.getenv("LLM_MODEL", "qwen/qwen3.8-omni-flash:free")
 
 SYSTEM_PROMPT = """Trả lời chỉ từ context được cung cấp.
-Mỗi khẳng định phải có citation. Nếu thiếu evidence, hãy từ chối xác minh."""
+Mỗi khẳng định phải có citation theo đúng Source ID trong context (ví dụ [article_01.md::chunk-0]).
+Nếu thiếu evidence, hãy từ chối xác minh."""
 
 
 def reorder_for_llm(chunks: list[dict]) -> list[dict]:
@@ -43,9 +44,12 @@ def format_context(chunks: list[dict]) -> str:
     parts = []
     for index, chunk in enumerate(chunks, 1):
         metadata = chunk["metadata"]
+        source_id = chunk.get("id", f"document-{index}")
+        source = metadata.get("source", "unknown")
+        url = metadata.get("url") or source
         parts.append(
-            f"[Document {index} | Title: {metadata['title']} | "
-            f"Source: {metadata['source']}]\n{chunk['content']}"
+            f"[Source ID: {source_id} | Title: {metadata['title']} | "
+            f"Source: {source} | URL: {url}]\n{chunk['content']}"
         )
     return "\n\n---\n\n".join(parts)
 
@@ -59,25 +63,30 @@ def call_llm(system_prompt: str, user_message: str) -> str:
 
 def generate_with_citation(query: str, top_k: int = TOP_K) -> dict:
     """Trả về GenerationResult."""
-    # TODO: Implement end-to-end generation.
-    #
-    # chunks = retrieve(query, top_k=top_k)
-    # if not chunks:
-    #     return {
-    #         "answer": "Tôi không thể xác minh thông tin này từ nguồn hiện có.",
-    #         "sources": [],
-    #         "retrieval_source": "none",
-    #     }
-    # reordered = reorder_for_llm(chunks)
-    # context = format_context(reordered)
-    # user_message = f"Context:\n{context}\n\nQuestion: {query}"
-    # answer = call_llm(SYSTEM_PROMPT, user_message)
-    # return {
-    #     "answer": answer,
-    #     "sources": chunks,
-    #     "retrieval_source": chunks[0]["retrieval_method"],
-    # }
-    raise NotImplementedError("Implement generate_with_citation")
+    safe_refusal = "Tôi không thể xác minh thông tin này từ nguồn hiện có."
+    if not query.strip() or top_k <= 0:
+        return {"answer": safe_refusal, "sources": [], "retrieval_source": "none"}
+
+    try:
+        chunks = retrieve(query, top_k=top_k)
+    except Exception:
+        chunks = []
+    if not chunks:
+        return {"answer": safe_refusal, "sources": [], "retrieval_source": "none"}
+
+    reordered = reorder_for_llm(chunks)
+    context = format_context(reordered)
+    user_message = f"Context:\n{context}\n\nQuestion: {query}"
+    try:
+        answer = call_llm(SYSTEM_PROMPT, user_message)
+    except Exception:
+        answer = safe_refusal
+    if not isinstance(answer, str) or not answer.strip():
+        answer = safe_refusal
+
+    method = chunks[0].get("retrieval_method")
+    retrieval_source = method if method in {"hybrid", "pageindex", "dense"} else "hybrid"
+    return {"answer": answer.strip(), "sources": chunks, "retrieval_source": retrieval_source}
 
 
 if __name__ == "__main__":
