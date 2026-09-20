@@ -14,7 +14,7 @@ Không giữ tên `INDIVIDUAL_REPORT.md` khi nộp. Template: [INDIVIDUAL_REPORT
 | --- | --- | --- |
 | 2A202602446 | Nguyễn Xuân Trường Giang | [2A202602446 - Nguyễn Xuân Trường Giang.md](./2A202602446%20-%20Nguyễn%20Xuân%20Trường%20Giang.md) |
 | 2A202602954 | Phan Trọng Hoàn | *(chưa nộp)* |
-| 2A202602672 | Nguyễn Nhân Sâm | *(chưa nộp)* |
+| 2A202602672 | Nguyễn Nhân Sâm | [2A202602672 - NguyenNhanSam.md](./2A202602672%20-%20NguyenNhanSam.md) |
 
 Link trực tiếp trên GitHub:
 

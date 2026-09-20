@@ -57,7 +57,7 @@ def convert_legal_docs() -> None:
             stale.unlink()
 
     if len(converted_names) < 3:
-        raise RuntimeError(f"Need at least 3 legal markdown files, got {converted}")
+        raise RuntimeError(f"Need at least 3 legal markdown files, got {len(converted_names)}")
 
 
 def convert_news_articles() -> None:
@@ -89,7 +89,7 @@ def convert_news_articles() -> None:
             stale.unlink()
 
     if len(converted_names) < 5:
-        raise RuntimeError(f"Need at least 5 news markdown files, got {converted}")
+        raise RuntimeError(f"Need at least 5 news markdown files, got {len(converted_names)}")
 
 
 def convert_all() -> None:

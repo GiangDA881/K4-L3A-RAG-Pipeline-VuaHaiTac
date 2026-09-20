@@ -1,0 +1,2619 @@
+{
+  "dataset_size": 16,
+  "dense_only": {
+    "faithfulness": 0.955,
+    "answer_relevance": 0.738125,
+    "context_recall": 0.6212499999999999,
+    "context_precision": 0.5806250000000001
+  },
+  "hybrid_rrf": {
+    "faithfulness": 0.94625,
+    "answer_relevance": 0.6525,
+    "context_recall": 0.574375,
+    "context_precision": 0.47250000000000003
+  },
+  "delta": {
+    "faithfulness": -0.008749999999999925,
+    "answer_relevance": -0.08562500000000006,
+    "context_recall": -0.04687499999999989,
+    "context_precision": -0.10812500000000003
+  },
+  "rows": {
+    "dense_only": [
+      {
+        "number": 1,
+        "question": "E-visa Việt Nam có thời hạn bao lâu và có được nhập cảnh nhiều lần không?",
+        "result": {
+          "answer": "E-visa Việt Nam có thời hạn **90 ngày** và **được phép nhập cảnh nhiều lần**. Chính sách này áp dụng từ ngày **15/8/2023**. [news/article_02.md::chunk-24]",
+          "sources": [
+            {
+              "id": "news/article_01.md::chunk-22",
+              "content": "### **VIETNAM ELECTRONIC VISA (E-VISA)**\nFrom 15th August 2023, Vietnam grants e-visas for citizens of all countries and territories with 90-day stay duration and valid for multiple entry.\n![Visa All](https://vietnam.travel/sites/default/files/inline-images/visaall_0.jpg)\nHere is the list of border gates that allowed foreigners enter and exit Vietnam by E-visa.",
+              "score": 0.7181124687194824,
+              "metadata": {
+                "source": "article_01.md",
+                "title": "Vietnam Visa Requirements | Vietnam Tourism",
+                "doc_type": "news",
+                "url": "https://vietnam.travel/plan-your-trip/visa-requirements",
+                "chunk_index": 22
+              },
+              "retrieval_method": "dense"
+            },
+            {
+              "id": "news/article_02.md::chunk-24",
+              "content": "**What is Vietnam’s e-visa?**\nVietnam's e-visa is one of several visa types offered by the Vietnam Immigration Department to foreigners entering the country. The e-visa is valid for 90 days, and multiple entry. As of 15th August 2023, Vietnam's e-visa is available to all countries/territories around the world.\nTravellers can apply directly for e-visas at [Vietnam e-Visa Official Website](https://evisa.xuatnhapcanh.gov.vn/web/guest/trang-chu-ttdt)\n## read more",
+              "score": 0.7179504632949829,
+              "metadata": {
+                "source": "article_02.md",
+                "title": "An official guide to e-Visas in Vietnam | Vietnam Tourism",
+                "doc_type": "news",
+                "url": "https://vietnam.travel/plan-your-trip/official-vietnam-evisa-application",
+                "chunk_index": 24
+              },
+              "retrieval_method": "dense"
+            },
+            {
+              "id": "news/article_02.md::chunk-20",
+              "content": "## **From 15th August 2023, citizens of all countries and territories around the world can apply for electronic visas (e-visas) entering Vietnam and enjoy the 90-day e-visa duration, valid for multiple entry.**\n* * *\n![evisa for all](https://vietnam.travel/sites/default/files/inline-images/visaall.jpg)\n* * *\n**Foreigners with e-visas are allowed to enter Vietnam via:**",
+              "score": 0.6919203996658325,
+              "metadata": {
+                "source": "article_02.md",
+                "title": "An official guide to e-Visas in Vietnam | Vietnam Tourism",
+                "doc_type": "news",
+                "url": "https://vietnam.travel/plan-your-trip/official-vietnam-evisa-application",
+                "chunk_index": 20
+              },
+              "retrieval_method": "dense"
+            },
+            {
+              "id": "news/article_01.md::chunk-19",
+              "content": "Overview Vietnam visa exemption you may also like\n### **OVERVIEW**\n**New policies from 15th August 2023**\n  1. Vietnam grants e-visas for citizens of all countries and territories with 90-day stay duration and valid for multiple entry.\n  2. Citizens of 13 coutries enjoying unilateral visa exemption can stay in Vietnam up to 45 days.",
+              "score": 0.6671561002731323,
+              "metadata": {
+                "source": "article_01.md",
+                "title": "Vietnam Visa Requirements | Vietnam Tourism",
+                "doc_type": "news",
+                "url": "https://vietnam.travel/plan-your-trip/visa-requirements",
+                "chunk_index": 19
+              },
+              "retrieval_method": "dense"
+            },
+            {
+              "id": "news/article_01.md::chunk-20",
+              "content": "* * *\n## Vietnam visa exemption\nVietnam's new visa policy effective from 15th August 2023 extends stay duration for 13 countries enjoying unilateral visa exemption from 15 days to 45 days, regardless of passport type and entry purpose. The 13 coutries include: Germany, France, Italy, Spain, the UK, Russia, Japan, Republic of Korea, Denmark, Sweden, Norway, Finland and Belarus.\n![Vietnam Visa Exemptions](https://vietnam.travel/sites/default/files/inline-images/1345.jpg)",
+              "score": 0.6052329540252686,
+              "metadata": {
+                "source": "article_01.md",
+                "title": "Vietnam Visa Requirements | Vietnam Tourism",
+                "doc_type": "news",
+                "url": "https://vietnam.travel/plan-your-trip/visa-requirements",
+                "chunk_index": 20
+              },
+              "retrieval_method": "dense"
+            }
+          ],
+          "retrieval_source": "dense"
+        },
+        "scores": {
+          "faithfulness": 1.0,
+          "answer_relevance": 1.0,
+          "context_recall": 1.0,
+          "context_precision": 1.0
+        }
+      },
+      {
+        "number": 2,
+        "question": "Những nhóm hoạt động nào được Vietnam Tourism gợi ý cho du khách?",
+        "result": {
+          "answer": "Vietnam Tourism gợi ý các nhóm hoạt động sau cho du khách:\n\n- Phiêu lưu (Adventure)\n- Chăm sóc sức khỏe (Wellness)\n- Du lịch gia đình (Family)\n- Du lịch cao cấp (Luxury)\n- Golf [news/article_03.md::chunk-12]",
+          "sources": [
+            {
+              "id": "news/article_05.md::chunk-28",
+              "content": "[![](https://image.vietnam.travel/sites/default/files/styles/thing_to_do_list/public/2023-06/_LAMmichelin_1.jpg?itok=O2TNI-fQ)Take a taste roller coaster with The MICHELIN Guide Hanoi & Ho Chi Minh City 2023 Full Selection](https://vietnam.travel/things-to-do/take-taste-roller-coaster-michelin-guide-hanoi-ho-chi-minh-city-2023-full-selection)\n[view more](https://vietnam.travel/things-to-do/food)\n[](https://vietnam.travel/things-to-do/food)\n## INFOGRAPHICS\nLearn more about Vietnam",
+              "score": 0.6470208764076233,
+              "metadata": {
+                "source": "article_05.md",
+                "title": "Food | Vietnam Tourism",
+                "doc_type": "news",
+                "url": "https://vietnam.travel/things-to-do/food",
+                "chunk_index": 28
+              },
+              "retrieval_method": "dense"
+            },
+            {
+              "id": "news/article_04.md::chunk-0",
+              "content": "# Things to do | Vietnam Tourism\n\n**Source:** https://vietnam.travel/things-to-do\n\n**Crawled:** 2026-09-20T07:48:29.908149+00:00\n\n**Landing:** `article_04.json`\n\n---",
+              "score": 0.6413437128067017,
+              "metadata": {
+                "source": "article_04.md",
+                "title": "Things to do | Vietnam Tourism",
+                "doc_type": "news",
+                "url": "https://vietnam.travel/things-to-do",
+                "chunk_index": 0
+              },
+              "retrieval_method": "dense"
+            },
+            {
+              "id": "news/article_04.md::chunk-32",
+              "content": "[![](https://image.vietnam.travel/sites/default/files/styles/thing_to_do_thumb/public/2026-08/199-Y%C3%AAn%20B%C3%A1i-hovanliem%40gmail.com-mua%20vang%20ta%20bac.jpg?itok=DeMyGeW6)Enjoy early autumn in Northern Vietnam](https://vietnam.travel/things-to-do/enjoy-early-autumn-northern-vietnam)\n[view more](https://vietnam.travel/things-to-do)\n  * ![](https://image.vietnam.travel/sites/default/files/styles/top_banner/public/2019-09/Culture%20Vietnam%20Tourism-2.jpg?itok=sPWwEMUR)",
+              "score": 0.6367828845977783,
+              "metadata": {
+                "source": "article_04.md",
+                "title": "Things to do | Vietnam Tourism",
+                "doc_type": "news",
+                "url": "https://vietnam.travel/things-to-do",
+                "chunk_index": 32
+              },
+              "retrieval_method": "dense"
+            },
+            {
+              "id": "news/article_04.md::chunk-30",
+              "content": "[![](https://image.vietnam.travel/sites/default/files/styles/thing_to_do_thumb/public/2026-09/47%20-%20Tr%C3%A0%20Qu%E1%BA%BF%20ng%C3%A0y%20m%E1%BB%9Bi%20-%20Ph%E1%BA%A1m%20Ph%C6%B0%E1%BB%9Bc_1.jpg?itok=kpjFU6e7)The Sustainable Trail: Discover \"Best Tourism Villages\" in Vietnam](https://vietnam.travel/things-to-do/sustainable-trail-discover-best-tourism-villages-vietnam)",
+              "score": 0.631584644317627,
+              "metadata": {
+                "source": "article_04.md",
+                "title": "Things to do | Vietnam Tourism",
+                "doc_type": "news",
+                "url": "https://vietnam.travel/things-to-do",
+                "chunk_index": 30
+              },
+              "retrieval_method": "dense"
+            },
+            {
+              "id": "news/article_03.md::chunk-12",
+              "content": "* [Adventure](https://www.vietnam.travel/things-to-do/adventure)\n    * [Wellness](https://www.vietnam.travel/things-to-do/wellness)\n    * [Family](https://www.vietnam.travel/things-to-do/family)\n    * [Luxury](https://www.vietnam.travel/things-to-do/luxury)\n    * [Golf](https://www.vietnam.travel/things-to-do/golf)\n[ UPCOMING FESTIVALS & EVENTS ](https://www.vietnam.travel/event)",
+              "score": 0.6298788785934448,
+              "metadata": {
+                "source": "article_03.md",
+                "title": "Vietnam Highlights | Vietnam Tourism",
+                "doc_type": "news",
+                "url": "https://www.vietnam.travel/node/156",
+                "chunk_index": 12
+              },
+              "retrieval_method": "dense"
+            }
+          ],
+          "retrieval_source": "dense"
+        },
+        "scores": {
+          "faithfulness": 1.0,
+          "answer_relevance": 0.5,
+          "context_recall": 0.5,
+          "context_precision": 0.4
+        }
+      },
+      {
+        "number": 3,
+        "question": "Ở Hà Nội, Huế và Hội An nên thử món ăn nào?",
+        "result": {
+          "answer": "- **Hà Nội:** bún chả. [news/article_05.md::chunk-19]  \n- **Huế:** bún bò Huế. [news/article_05.md::chunk-19]  \n- **Hội An:** cao lầu. [news/article_05.md::chunk-19]",
+          "sources": [
+            {
+              "id": "news/article_05.md::chunk-19",
+              "content": "## Travel around Vietnam, and you'll find that tastes and dishes vary from North to South. In the capital, locals may lunch on bún chả with slices of pork belly, while the Saigonese wolf down bánh xèo (crispy pancakes) rolled with greens and dipped in sweet-and-sour fish sauce. In the former Imperial City, meaty bún bò Huế is a breakfast favourite, while in Hội An, you can’t beat a bowl of toothsome cao lầu noodles for a quick snack",
+              "score": 0.5861167907714844,
+              "metadata": {
+                "source": "article_05.md",
+                "title": "Food | Vietnam Tourism",
+                "doc_type": "news",
+                "url": "https://vietnam.travel/things-to-do/food",
+                "chunk_index": 19
+              },
+              "retrieval_method": "dense"
+            },
+            {
+              "id": "news/article_05.md::chunk-27",
+              "content": "[![](https://image.vietnam.travel/sites/default/files/styles/thing_to_do_list/public/2023-08/bun-ca-ha-noi-3_1686916683_1.jpg?itok=PyIwcaUz)Ha Noi Food Guide: The best street food dishes to sample](https://vietnam.travel/things-to-do/ha-noi-food-guide-best-street-food-dishes-sample)\n[![](https://image.vietnam.travel/sites/default/files/styles/thing_to_do_list/public/2023-08/pho%20bo_1.jpg?itok=LEqE1qJq)Must-try noodles in Vietnam](https://vietnam.travel/things-to-do/must-try-noodles-vietnam)",
+              "score": 0.5433422923088074,
+              "metadata": {
+                "source": "article_05.md",
+                "title": "Food | Vietnam Tourism",
+                "doc_type": "news",
+                "url": "https://vietnam.travel/things-to-do/food",
+                "chunk_index": 27
+              },
+              "retrieval_method": "dense"
+            },
+            {
+              "id": "news/article_05.md::chunk-26",
+              "content": "[![](https://image.vietnam.travel/sites/default/files/styles/thing_to_do_thumb/public/2024-02/banh-mi-ha-noi-14_1688279495%20%281%29.jpg?itok=J3VPL9eC)Explore delicious dishes in Ho Chi Minh City](https://vietnam.travel/things-to-do/explore-delicious-dishes-ho-chi-minh-city)",
+              "score": 0.5379559993743896,
+              "metadata": {
+                "source": "article_05.md",
+                "title": "Food | Vietnam Tourism",
+                "doc_type": "news",
+                "url": "https://vietnam.travel/things-to-do/food",
+                "chunk_index": 26
+              },
+              "retrieval_method": "dense"
+            },
+            {
+              "id": "news/article_05.md::chunk-24",
+              "content": "[![](https://image.vietnam.travel/sites/default/files/styles/thing_to_do_thumb/public/2025-06/z6304427090068_1d511fc9c5a0d043e7cda70149c06310.jpg?itok=Lgiko0y1)Five-colour sticky rice, the quintessence of Vietnamese cuisine](https://vietnam.travel/things-to-do/five-colour-sticky-rice-quintessence-vietnamese-cuisine)",
+              "score": 0.5219231247901917,
+              "metadata": {
+                "source": "article_05.md",
+                "title": "Food | Vietnam Tourism",
+                "doc_type": "news",
+                "url": "https://vietnam.travel/things-to-do/food",
+                "chunk_index": 24
+              },
+              "retrieval_method": "dense"
+            },
+            {
+              "id": "news/article_05.md::chunk-28",
+              "content": "[![](https://image.vietnam.travel/sites/default/files/styles/thing_to_do_list/public/2023-06/_LAMmichelin_1.jpg?itok=O2TNI-fQ)Take a taste roller coaster with The MICHELIN Guide Hanoi & Ho Chi Minh City 2023 Full Selection](https://vietnam.travel/things-to-do/take-taste-roller-coaster-michelin-guide-hanoi-ho-chi-minh-city-2023-full-selection)\n[view more](https://vietnam.travel/things-to-do/food)\n[](https://vietnam.travel/things-to-do/food)\n## INFOGRAPHICS\nLearn more about Vietnam",
+              "score": 0.5169866681098938,
+              "metadata": {
+                "source": "article_05.md",
+                "title": "Food | Vietnam Tourism",
+                "doc_type": "news",
+                "url": "https://vietnam.travel/things-to-do/food",
+                "chunk_index": 28
+              },
+              "retrieval_method": "dense"
+            }
+          ],
+          "retrieval_source": "dense"
+        },
+        "scores": {
+          "faithfulness": 1.0,
+          "answer_relevance": 1.0,
+          "context_recall": 1.0,
+          "context_precision": 0.2
+        }
+      },
+      {
+        "number": 4,
+        "question": "Tết ảnh hưởng thế nào đến việc đi du lịch Việt Nam?",
+        "result": {
+          "answer": "Tết là kỳ nghỉ lễ lớn nhất trong năm ở Việt Nam, thường diễn ra vào cuối tháng 1 hoặc đầu tháng 2. [news/article_06.md::chunk-35]\n\nTrong thời gian này:\n\n- Phần lớn cửa hàng, doanh nghiệp và nhà hàng đóng cửa vì người Việt về quê sum họp gia đình. [news/article_06.md::chunk-35]\n- Các đầu mối giao thông thường chật kín trong những ngày trước Tết. [news/article_06.md::chunk-35]\n- Nếu đi lại trong dịp Tết, bạn nên xác nhận việc đặt phương tiện từ sớm. [news/article_06.md::chunk-35]\n\nVì vậy, Tết có thể khiến việc ăn uống, mua sắm và di chuyển ở Việt Nam kém thuận tiện hơn so với thời điểm bình thường. [news/article_06.md::chunk-35]",
+          "sources": [
+            {
+              "id": "news/article_06.md::chunk-35",
+              "content": "Vietnamese Lunar New Year Festival (Tet) is the biggest holiday of the year, and takes place in late January or early February. Travellers should be aware that most businesses and restaurants shut down during this holiday, as Vietnamese travel home to be with their families. Public transport hubs are full to overflowing in the days leading up to Tet. Any transportation booked over the Tet period should be confirmed well in advance.",
+              "score": 0.5520725250244141,
+              "metadata": {
+                "source": "article_06.md",
+                "title": "Plan your trip | Vietnam Tourism",
+                "doc_type": "news",
+                "url": "https://vietnam.travel/plan-your-trip",
+                "chunk_index": 35
+              },
+              "retrieval_method": "dense"
+            },
+            {
+              "id": "news/article_06.md::chunk-33",
+              "content": "[ ![public holidays in vietnam](https://image.vietnam.travel/sites/default/files/styles/essential_information_thumbnail/public/2019-07/vietnam%20tourism-7_0.jpg?itok=-4Be9m7X) Public holidays ![](https://vietnam.travel/plan-your-trip) Vietnamese Lunar New Year Festival (Tet) is the biggest holiday of the year, and takes place in ...  ](https://vietnam.travel/plan-your-trip)",
+              "score": 0.5082315802574158,
+              "metadata": {
+                "source": "article_06.md",
+                "title": "Plan your trip | Vietnam Tourism",
+                "doc_type": "news",
+                "url": "https://vietnam.travel/plan-your-trip",
+                "chunk_index": 33
+              },
+              "retrieval_method": "dense"
+            },
+            {
+              "id": "legal/luat-du-lich-2017.md::chunk-26",
+              "content": "Nam và khách du lịch ra nước ngoài.\n\n2. Khách du lịch nội địa là công dân Việt Nam, người nước ngoài cư trú ở Việt\n\nNam đi du lịch trong lãnh thổ Việt Nam.\n\n3. Khách du lịch quốc tế đến Việt Nam là người nước ngoài, người Việt Nam\n\nđịnh cư ở nước ngoài vào Việt Nam du lịch.\n\n4. Khách du lịch ra nước ngoài là công dân Việt Nam và người nước ngoài cư\n\ntrú ở Việt Nam đi du lịch nước ngoài.\n\nĐiều 11. Quyền của khách du lịch",
+              "score": 0.4937427043914795,
+              "metadata": {
+                "source": "luat-du-lich-2017.md",
+                "title": "Luật Du lịch số 09/2017/QH14",
+                "doc_type": "legal",
+                "url": "https://congbao.chinhphu.vn/van-ban/luat-so-09-2017-qh14-24241/18448.htm",
+                "chunk_index": 26
+              },
+              "retrieval_method": "dense"
+            },
+            {
+              "id": "legal/luat-du-lich-2017.md::chunk-22",
+              "content": "5. Khách du lịch, cộng đồng dân cư và tổ chức, cá nhân khác có trách nhiệm\nbảo vệ, giữ gìn cảnh quan, môi trường, bản sắc văn hóa, phong tục, tập quán của\ndân tộc; có thái độ ứng xử văn minh, lịch sự nhằm nâng cao hình ảnh đất nước, con\nngười và du lịch Việt Nam.\n\nĐiều 9. Các hành vi bị nghiêm cấm trong hoạt động du lịch\n\n1. Làm phương hại đến chủ quyền, lợi ích quốc gia, quốc phòng, an ninh, trật\ntự, an toàn xã hội, truyền thống văn hóa, đạo đức, thuần phong mỹ tục của dân tộc.\n\n\f48",
+              "score": 0.490053653717041,
+              "metadata": {
+                "source": "luat-du-lich-2017.md",
+                "title": "Luật Du lịch số 09/2017/QH14",
+                "doc_type": "legal",
+                "url": "https://congbao.chinhphu.vn/van-ban/luat-so-09-2017-qh14-24241/18448.htm",
+                "chunk_index": 22
+              },
+              "retrieval_method": "dense"
+            },
+            {
+              "id": "legal/luat-du-lich-2017.md::chunk-11",
+              "content": "3. Bảo đảm chủ quyền quốc gia, quốc phòng, an ninh, trật tự, an toàn xã hội, mở\nrộng  quan  hệ  đối  ngoại  và  hội  nhập  quốc  tế,  quảng  bá  hình  ảnh  đất  nước,  con\nngười Việt Nam.\n\n4. Bảo đảm lợi ích quốc gia, lợi ích cộng đồng, quyền và lợi ích hợp pháp của\n\nkhách du lịch, tổ chức, cá nhân kinh doanh du lịch.\n\n5. Phát triển đồng thời du lịch nội địa và du lịch quốc tế; tôn trọng và đối xử\n\nbình đẳng đối với khách du lịch.\n\nĐiều 5. Chính sách phát triển du lịch",
+              "score": 0.48892563581466675,
+              "metadata": {
+                "source": "luat-du-lich-2017.md",
+                "title": "Luật Du lịch số 09/2017/QH14",
+                "doc_type": "legal",
+                "url": "https://congbao.chinhphu.vn/van-ban/luat-so-09-2017-qh14-24241/18448.htm",
+                "chunk_index": 11
+              },
+              "retrieval_method": "dense"
+            }
+          ],
+          "retrieval_source": "dense"
+        },
+        "scores": {
+          "faithfulness": 0.99,
+          "answer_relevance": 0.99,
+          "context_recall": 1.0,
+          "context_precision": 0.4
+        }
+      },
+      {
+        "number": 5,
+        "question": "Luật Du lịch 2017 điều chỉnh những vấn đề gì?",
+        "result": {
+          "answer": "Chưa thể xác minh Luật Du lịch 2017 điều chỉnh những vấn đề gì, vì phần trích dẫn được cung cấp chỉ nêu tên luật và tiêu đề “Điều 1. Phạm vi điều chỉnh”, chưa có nội dung cụ thể của điều khoản này. [legal/luat-du-lich-2017.md::chunk-0]",
+          "sources": [
+            {
+              "id": "legal/luat-du-lich-2017.md::chunk-0",
+              "content": "# Luật Du lịch số 09/2017/QH14\n\n**Source:** https://congbao.chinhphu.vn/van-ban/luat-so-09-2017-qh14-24241/18448.htm\n\n**Landing:** `luat-du-lich-2017.pdf`\n\n---\n\nCÔNG BÁO/Số 515 + 516/Ngày 25-7-2017\n\n43\n\nQUỐC HỘI\n\nLuật số: 09/2017/QH14\n\nCỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM\nĐộc lập - Tự do - Hạnh phúc\n\nLUẬT\nDU LỊCH\n\nCăn cứ Hiến pháp nước Cộng hòa xã hội chủ nghĩa Việt Nam;\n\nQuốc hội ban hành Luật Du lịch.\n\nChương I\nNHỮNG QUY ĐỊNH CHUNG\n\nĐiều 1. Phạm vi điều chỉnh",
+              "score": 0.7224494218826294,
+              "metadata": {
+                "source": "luat-du-lich-2017.md",
+                "title": "Luật Du lịch số 09/2017/QH14",
+                "doc_type": "legal",
+                "url": "https://congbao.chinhphu.vn/van-ban/luat-so-09-2017-qh14-24241/18448.htm",
+                "chunk_index": 0
+              },
+              "retrieval_method": "dense"
+            },
+            {
+              "id": "legal/nghi-dinh-94-2021-nd-cp.md::chunk-2",
+              "content": "Căn cứ Luật Du lịch ngày 19 tháng 6 năm 2017;\n\nTheo đề nghị của Bộ trưởng Bộ Văn hóa, Thể thao và Du lịch;\n\nChính  phủ  ban  hành  Nghị  định  sửa  đổi,  bổ  sung  Điều  14  của  Nghị  định  số\n\n168/2017/NĐ-CP ngày 31 tháng 12 năm 2017 của Chính phủ quy định chi tiết một\n\nsố điều của Luật Du lịch về mức ký quỹ kinh doanh dịch vụ lữ hành.\n\nĐiều 1. Sửa đổi, bổ sung Điều 14 của Nghị định số 168/2017/NĐ-CP ngày 31\n\ntháng 12 năm 2017 của Chính phủ quy định chi tiết một số điều của Luật Du",
+              "score": 0.6876206994056702,
+              "metadata": {
+                "source": "nghi-dinh-94-2021-nd-cp.md",
+                "title": "Nghị định 94/2021/NĐ-CP sửa đổi mức ký quỹ lữ hành",
+                "doc_type": "legal",
+                "url": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-94-2021-nd-cp-34718.htm",
+                "chunk_index": 2
+              },
+              "retrieval_method": "dense"
+            },
+            {
+              "id": "legal/nghi-dinh-168-2017-nd-cp.md::chunk-1",
+              "content": "CÔNG BÁO/Số 429 + 430/Ngày 10-3-2018 3\nVĂN BẢN QUY PHẠM PHÁP LUẬT\nCHÍNH PHỦ\nCHÍNH PHỦ CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM\nĐộc lập - Tự do - Hạnh phúc\nSố: 168/2017/NĐ-CP Hà Nội, ngày 31 tháng 12 năm 2017\nNGHỊ ĐỊNH\nQuy định chi tiết một số điều của Luật Du lịch\nCăn cứ Luật tổ chức Chính phủ ngày 19 tháng 6 năm 2015;\nCăn cứ Luật Du lịch ngày 19 tháng 6 năm 2017;\nTheo đề nghị của Bộ trưởng Bộ Văn hóa, Thể thao và Du lịch;\nChính phủ ban hành Nghị định quy định chi tiết một số điều của Luật Du lịch.",
+              "score": 0.654471218585968,
+              "metadata": {
+                "source": "nghi-dinh-168-2017-nd-cp.md",
+                "title": "Nghị định 168/2017/NĐ-CP quy định chi tiết Luật Du lịch",
+                "doc_type": "legal",
+                "url": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-168-2017-nd-cp-26028/21615.htm",
+                "chunk_index": 1
+              },
+              "retrieval_method": "dense"
+            },
+            {
+              "id": "legal/nghi-dinh-168-2017-nd-cp.md::chunk-0",
+              "content": "# Nghị định 168/2017/NĐ-CP quy định chi tiết Luật Du lịch\n\n**Source:** https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-168-2017-nd-cp-26028/21615.htm\n\n**Landing:** `nghi-dinh-168-2017-nd-cp.pdf`\n\n---",
+              "score": 0.6513044834136963,
+              "metadata": {
+                "source": "nghi-dinh-168-2017-nd-cp.md",
+                "title": "Nghị định 168/2017/NĐ-CP quy định chi tiết Luật Du lịch",
+                "doc_type": "legal",
+                "url": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-168-2017-nd-cp-26028/21615.htm",
+                "chunk_index": 0
+              },
+              "retrieval_method": "dense"
+            },
+            {
+              "id": "legal/nghi-dinh-94-2021-nd-cp.md::chunk-1",
+              "content": "Hà Nội, ngày 28 tháng 10 năm 2021\n\nNGHỊ ĐỊNH\nSửa đổi, bổ sung Điều 14 của Nghị định số 168/2017/NĐ-CP\nngày 31 tháng 12 năm 2017 của Chính phủ quy định chi tiết một số điều\ncủa Luật Du lịch về mức ký quỹ kinh doanh dịch vụ lữ hành\n\nCăn cứ Luật Tổ chức Chính phủ ngày 19 tháng 6 năm 2015; Luật sửa đổi, bổ\n\nsung một số điều của Luật Tổ chức Chính phủ và Luật Tổ chức chính quyền địa\n\nphương ngày 22 tháng 11 năm 2019;\n\nCăn cứ Luật Du lịch ngày 19 tháng 6 năm 2017;",
+              "score": 0.6439392566680908,
+              "metadata": {
+                "source": "nghi-dinh-94-2021-nd-cp.md",
+                "title": "Nghị định 94/2021/NĐ-CP sửa đổi mức ký quỹ lữ hành",
+                "doc_type": "legal",
+                "url": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-94-2021-nd-cp-34718.htm",
+                "chunk_index": 1
+              },
+              "retrieval_method": "dense"
+            }
+          ],
+          "retrieval_source": "dense"
+        },
+        "scores": {
+          "faithfulness": 0.95,
+          "answer_relevance": 0.15,
+          "context_recall": 0.05,
+          "context_precision": 0.25
+        }
+      },
+      {
+        "number": 6,
+        "question": "Tôi muốn đi xuyên Việt nhưng chỉ có một tuần; corpus gợi ý tuyến điểm nào?",
+        "result": {
+          "answer": "Corpus hiện có tuyến **10 ngày**, có thể rút gọn theo trục Bắc–Trung–Nam như sau:\n\n**Hà Nội → Hạ Long → Đà Nẵng/Hội An → Mỹ Sơn → Huế → TP. Hồ Chí Minh.** Tuyến này tương ứng với các chặng từ ngày 1 đến ngày 7 trong lịch trình gốc. [news/article_03.md::chunk-23]\n\nVới **một tuần**, nên ưu tiên các điểm trên và **bỏ các điểm tham quan ngày 8–9** như Địa đạo Củ Chi và Đồng bằng sông Cửu Long, vì chúng thuộc phần còn lại của lịch trình 10 ngày. [news/article_03.md::chunk-23] [news/article_03.md::chunk-34]\n\nCorpus không cung cấp lịch phân bổ cụ thể cho phiên bản 7 ngày, nên tôi không thể xác minh số đêm hoặc thời lượng chính xác tại từng điểm.",
+          "sources": [
+            {
+              "id": "news/article_03.md::chunk-23",
+              "content": "Overview day 1 day 2 day 3 day 4 day 5 day 6 day 7 day 8 day 9 day 10\n  *     * 10days\n### Route\nTo\n    * ### HIGHLIGHTS\n**Day 1** : Hanoi Arrival\n**Day 2** : Hanoi\n**Day 3:** Hanoi – Ha Long Bay\n**Day 4:** Ha Long Bay – Da Nang – Hoi An\n**Day 5:** My Son & Hoi An\n**Day 6:** Hoi An – Hue\n**Day 7:** Hue – Ho Chi Minh City\n**Day 8** : Cu Chi Tunnels & Ho Chi Minh City\n**Day 9:** Ho Chi Minh City – Mekong Delta – Ho Chi Minh City\n**Day 10** : Ho Chi Minh City Departure",
+              "score": 0.4994891285896301,
+              "metadata": {
+                "source": "article_03.md",
+                "title": "Vietnam Highlights | Vietnam Tourism",
+                "doc_type": "news",
+                "url": "https://www.vietnam.travel/node/156",
+                "chunk_index": 23
+              },
+              "retrieval_method": "dense"
+            },
+            {
+              "id": "news/article_06.md::chunk-147",
+              "content": "* [![](https://image.vietnam.travel/sites/default/files/styles/reference_thumbnail/public/2019-07/top%20things%20to%20do%20in%20hue.jpg?itok=5-xcOQWJ)3 days in Hue for culture seekers ](https://vietnam.travel/things-to-do/hue-itinerary)\n  * [![](https://image.vietnam.travel/sites/default/files/styles/reference_thumbnail/public/2018-12/saigon%20itinerary%20vietnam%20travel.jpg?itok=w-yj5v4Q)The perfect weekend in HCMC](https://vietnam.travel/things-to-do/ho-chi-minh-city-itinerary)",
+              "score": 0.4921298027038574,
+              "metadata": {
+                "source": "article_06.md",
+                "title": "Plan your trip | Vietnam Tourism",
+                "doc_type": "news",
+                "url": "https://vietnam.travel/plan-your-trip",
+                "chunk_index": 147
+              },
+              "retrieval_method": "dense"
+            },
+            {
+              "id": "news/article_03.md::chunk-34",
+              "content": "Take an afternoon flight to Ho Chi Minh City and overnight there\n  * ![](https://image.vietnam.travel/sites/default/files/styles/recommended_trips_detail/public/2018-08/Vietnam%20Highlights.jpg?itok=N3B_fBEc)\nDAY 8 \n### Cu Chi Tunnels & Ho Chi Minh City",
+              "score": 0.48598331212997437,
+              "metadata": {
+                "source": "article_03.md",
+                "title": "Vietnam Highlights | Vietnam Tourism",
+                "doc_type": "news",
+                "url": "https://www.vietnam.travel/node/156",
+                "chunk_index": 34
+              },
+              "retrieval_method": "dense"
+            },
+            {
+              "id": "news/article_06.md::chunk-146",
+              "content": "## EXPERIENCES\nSee outstanding travel products from our partners\n## itineraries\n  * [![](https://image.vietnam.travel/sites/default/files/styles/reference_thumbnail/public/2017-06/weekend-in-hanoi.jpg?itok=3Pt6VENP)The perfect weekend in Ha Noi](https://vietnam.travel/things-to-do/perfect-weekend-ha-noi)",
+              "score": 0.4792923927307129,
+              "metadata": {
+                "source": "article_06.md",
+                "title": "Plan your trip | Vietnam Tourism",
+                "doc_type": "news",
+                "url": "https://vietnam.travel/plan-your-trip",
+                "chunk_index": 146
+              },
+              "retrieval_method": "dense"
+            },
+            {
+              "id": "news/article_03.md::chunk-21",
+              "content": "* [Overview](https://www.vietnam.travel/node/156#overview)\n  * Day\n  * [1](https://www.vietnam.travel/node/156#day1)\n  * [2](https://www.vietnam.travel/node/156#day2)\n  * [3](https://www.vietnam.travel/node/156#day3)\n  * [4](https://www.vietnam.travel/node/156#day4)\n  * [5](https://www.vietnam.travel/node/156#day5)\n  * [6](https://www.vietnam.travel/node/156#day6)\n  * [7](https://www.vietnam.travel/node/156#day7)\n  * [8](https://www.vietnam.travel/node/156#day8)",
+              "score": 0.47553831338882446,
+              "metadata": {
+                "source": "article_03.md",
+                "title": "Vietnam Highlights | Vietnam Tourism",
+                "doc_type": "news",
+                "url": "https://www.vietnam.travel/node/156",
+                "chunk_index": 21
+              },
+              "retrieval_method": "dense"
+            }
+          ],
+          "retrieval_source": "dense"
+        },
+        "scores": {
+          "faithfulness": 0.98,
+          "answer_relevance": 0.98,
+          "context_recall": 0.99,
+          "context_precision": 0.68
+        }
+      },
+      {
+        "number": 7,
+        "question": "Nếu thích kiến trúc và di sản, nên kết hợp những điểm nào ở miền Trung?",
+        "result": {
+          "answer": "Nếu thích kiến trúc và di sản, trong phạm vi thông tin được cung cấp, bạn nên chọn **Hội An**:\n\n- **Phố cổ Hội An**: đi bộ qua những con phố cổ với nhà của thương nhân Trung Hoa và các ngôi nhà gỗ được cải tạo thành nhà hàng, quán cà phê, cửa hàng của nghệ nhân và thợ may địa phương. [news/article_03.md::chunk-30]\n- **Chùa Cầu Nhật Bản**: khám phá công trình có từ thế kỷ 16. [news/article_03.md::chunk-30]\n- Hội An nổi bật nhờ sự kết hợp độc đáo giữa **kiến trúc Trung Hoa, Nhật Bản và Việt Nam**. [news/article_03.md::chunk-30]\n\nContext chưa cung cấp đủ thông tin để xác minh thêm các điểm kiến trúc và di sản khác ở miền Trung.",
+          "sources": [
+            {
+              "id": "news/article_03.md::chunk-30",
+              "content": "Return to**Hoi An** in the afternoon and spend the remainder of the day walking the ancient streets lined with Chinese traders’ homes and wooden houses reincarnated as restaurants, cafés, and outlets for local artists, craftsmen and tailors. Explore the beautiful 16th century Japanese Bridge. Hoi An's unique fusion of Chinese, Japanese and Vietnamese architecture is well displayed here, in what is arguably Vietnam's most tourist-friendly town",
+              "score": 0.5278298854827881,
+              "metadata": {
+                "source": "article_03.md",
+                "title": "Vietnam Highlights | Vietnam Tourism",
+                "doc_type": "news",
+                "url": "https://www.vietnam.travel/node/156",
+                "chunk_index": 30
+              },
+              "retrieval_method": "dense"
+            },
+            {
+              "id": "legal/luat-du-lich-2017.md::chunk-46",
+              "content": "2. Khai thác, sử dụng hợp lý, hiệu quả tài nguyên du lịch và bảo tồn các di tích\nlịch sử - văn hóa, di sản thiên nhiên hướng tới mục tiêu phát triển bền vững gắn\nvới bảo vệ môi trường và ứng phó với biến đổi khí hậu.\n\n3. Bảo đảm tính liên kết giữa các địa phương trong vùng, giữa các vùng trong cả\nnước; khai thác, sử dụng tối đa kết cấu hạ tầng hiện có; phát huy tối ưu tiềm năng,\nlợi thế của từng vùng, từng địa phương để phát triển sản phẩm du lịch.",
+              "score": 0.5044665932655334,
+              "metadata": {
+                "source": "luat-du-lich-2017.md",
+                "title": "Luật Du lịch số 09/2017/QH14",
+                "doc_type": "legal",
+                "url": "https://congbao.chinhphu.vn/van-ban/luat-so-09-2017-qh14-24241/18448.htm",
+                "chunk_index": 46
+              },
+              "retrieval_method": "dense"
+            },
+            {
+              "id": "legal/luat-du-lich-2017.md::chunk-132",
+              "content": "4. Xây dựng và tổ chức các chương trình nghệ thuật biểu diễn truyền thống và\nđương đại; kết nối hệ thống bảo tàng, nhà hát với hoạt động du lịch; khai thác trò\nchơi dân gian, lễ hội truyền thống hấp dẫn khách du lịch; xây dựng các công viên\nchủ đề, trung tâm giải trí.\n\n5. Cung cấp các dịch vụ y tế, chăm sóc sức khỏe, chăm sóc sắc đẹp trên cơ sở\n\nkhai thác giá trị y học cổ truyền, y học hiện đại.\n\n6. Cung cấp các dịch vụ có liên quan khác theo nhu cầu của khách du lịch và",
+              "score": 0.4733790159225464,
+              "metadata": {
+                "source": "luat-du-lich-2017.md",
+                "title": "Luật Du lịch số 09/2017/QH14",
+                "doc_type": "legal",
+                "url": "https://congbao.chinhphu.vn/van-ban/luat-so-09-2017-qh14-24241/18448.htm",
+                "chunk_index": 132
+              },
+              "retrieval_method": "dense"
+            },
+            {
+              "id": "news/article_04.md::chunk-32",
+              "content": "[![](https://image.vietnam.travel/sites/default/files/styles/thing_to_do_thumb/public/2026-08/199-Y%C3%AAn%20B%C3%A1i-hovanliem%40gmail.com-mua%20vang%20ta%20bac.jpg?itok=DeMyGeW6)Enjoy early autumn in Northern Vietnam](https://vietnam.travel/things-to-do/enjoy-early-autumn-northern-vietnam)\n[view more](https://vietnam.travel/things-to-do)\n  * ![](https://image.vietnam.travel/sites/default/files/styles/top_banner/public/2019-09/Culture%20Vietnam%20Tourism-2.jpg?itok=sPWwEMUR)",
+              "score": 0.4680899381637573,
+              "metadata": {
+                "source": "article_04.md",
+                "title": "Things to do | Vietnam Tourism",
+                "doc_type": "news",
+                "url": "https://vietnam.travel/things-to-do",
+                "chunk_index": 32
+              },
+              "retrieval_method": "dense"
+            },
+            {
+              "id": "news/article_03.md::chunk-25",
+              "content": "DAY 2 \n### Hanoi city’s highlights \nStart the day with a tour of The Presidential Palace (formerly Palace of the Governor-General of French Indochina), Ho Chi Minh’s house-on-stilt and nearby One Pillar Pagoda\nVisit the **Temple of Literature** – the first university of Vietnam built in 11th century\nNext is a visit to the **Museum of Ethnology** , which gives an excellent overview of the country's ethnic groups, their customs and ways of life",
+              "score": 0.4581320285797119,
+              "metadata": {
+                "source": "article_03.md",
+                "title": "Vietnam Highlights | Vietnam Tourism",
+                "doc_type": "news",
+                "url": "https://www.vietnam.travel/node/156",
+                "chunk_index": 25
+              },
+              "retrieval_method": "dense"
+            }
+          ],
+          "retrieval_source": "dense"
+        },
+        "scores": {
+          "faithfulness": 0.95,
+          "answer_relevance": 0.5,
+          "context_recall": 0.33,
+          "context_precision": 0.25
+        }
+      },
+      {
+        "number": 8,
+        "question": "Du khách cần chuẩn bị những tiện ích thực tế nào trước chuyến đi Việt Nam?",
+        "result": {
+          "answer": "Trước chuyến đi Việt Nam, du khách nên chuẩn bị và tìm hiểu:\n\n- **Thị thực và yêu cầu nhập cảnh**. [news/article_06.md::chunk-19]\n- **Phương tiện di chuyển trong Việt Nam**. [news/article_06.md::chunk-19]\n- **Thời tiết và khí hậu** tại điểm đến để chuẩn bị trang phục, đồ dùng phù hợp. [news/article_06.md::chunk-19]\n- **Cách ứng xử, phép lịch sự và văn hóa địa phương**. [news/article_06.md::chunk-22]\n- **Phương thức thanh toán và tiền tệ** được sử dụng tại Việt Nam. [news/article_06.md::chunk-22]\n\nContext chưa cung cấp thông tin cụ thể hơn về các tiện ích cần mang theo, như Wi‑Fi, SIM điện thoại, ổ cắm điện, thuốc men hoặc bảo hiểm du lịch.",
+          "sources": [
+            {
+              "id": "news/article_06.md::chunk-22",
+              "content": "[ ![](https://image.vietnam.travel/sites/default/files/2019-11/Culture%20non%20la%20white.jpg) Etiquette ](https://vietnam.travel/things-to-do/vietnamese-etiquette-travellers)\n[ ![](https://image.vietnam.travel/sites/default/files/2019-11/Our%20Partners.jpg) Payments ](https://vietnam.travel/things-to-do/currency-and-payments-vietnam)\n## practicalities\nGet ready for your visit",
+              "score": 0.5910857915878296,
+              "metadata": {
+                "source": "article_06.md",
+                "title": "Plan your trip | Vietnam Tourism",
+                "doc_type": "news",
+                "url": "https://vietnam.travel/plan-your-trip",
+                "chunk_index": 22
+              },
+              "retrieval_method": "dense"
+            },
+            {
+              "id": "legal/nghi-dinh-168-2017-nd-cp.md::chunk-23",
+              "content": "quản lý và địa hình khu vực.\n2. Có kết cấu hạ tầng, cơ sở vật chất kỹ thuật, dịch vụ đáp ứng nhu cầu lưu trú,\năn uống và các nhu cầu khác của khách du lịch, bao gồm:\na) Có hệ thống điện lưới, hệ thống cung cấp nước sạch;\nb) Có cơ sở kinh doanh dịch vụ ăn uống, mua sắm đạt tiêu chuẩn phục vụ\nkhách du lịch, đáp ứng tối thiểu 100.000 lượt khách mỗi năm; hệ thống cơ sở lưu\ntrú du lịch đáp ứng tối thiểu 50.000 lượt khách lưu trú mỗi năm;",
+              "score": 0.585344672203064,
+              "metadata": {
+                "source": "nghi-dinh-168-2017-nd-cp.md",
+                "title": "Nghị định 168/2017/NĐ-CP quy định chi tiết Luật Du lịch",
+                "doc_type": "legal",
+                "url": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-168-2017-nd-cp-26028/21615.htm",
+                "chunk_index": 23
+              },
+              "retrieval_method": "dense"
+            },
+            {
+              "id": "legal/luat-du-lich-2017.md::chunk-28",
+              "content": "3. Được tạo điều kiện thuận lợi về xuất cảnh, nhập cảnh, quá cảnh, hải quan,\nlưu  cư trú, đi  lại  trên  lãnh thổ  Việt  Nam  phù hợp  với quy  định  của  pháp luật và\nđiều ước quốc tế mà nước Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên.\n\n4. Được bảo đảm quyền và lợi ích hợp pháp theo hợp đồng đã giao kết với tổ\n\nchức, cá nhân kinh doanh, cung cấp dịch vụ du lịch.",
+              "score": 0.5796080827713013,
+              "metadata": {
+                "source": "luat-du-lich-2017.md",
+                "title": "Luật Du lịch số 09/2017/QH14",
+                "doc_type": "legal",
+                "url": "https://congbao.chinhphu.vn/van-ban/luat-so-09-2017-qh14-24241/18448.htm",
+                "chunk_index": 28
+              },
+              "retrieval_method": "dense"
+            },
+            {
+              "id": "news/article_06.md::chunk-19",
+              "content": "## travel tips\nRead up before you go\n[ ![](https://image.vietnam.travel/sites/default/files/2019-11/Visas_2.jpg) Visas ](https://vietnam.travel/plan-your-trip/visa-requirements)\n[ ![](https://image.vietnam.travel/sites/default/files/2019-11/Transport_2.jpg) Transport ](https://vietnam.travel/plan-your-trip/transport-within-vietnam)\n[ ![](https://image.vietnam.travel/sites/default/files/2019-11/Weather%20white_2.jpg) Weather ](https://vietnam.travel/things-to-do/weather-and-climate-vietnam)",
+              "score": 0.5748335123062134,
+              "metadata": {
+                "source": "article_06.md",
+                "title": "Plan your trip | Vietnam Tourism",
+                "doc_type": "news",
+                "url": "https://vietnam.travel/plan-your-trip",
+                "chunk_index": 19
+              },
+              "retrieval_method": "dense"
+            },
+            {
+              "id": "legal/nghi-dinh-168-2017-nd-cp.md::chunk-27",
+              "content": "2. Có trong danh mục các khu vực tiềm năng phát triển khu du lịch quốc gia\nđược Thủ tướng Chính phủ phê duyệt.\n3. Có kết cấu hạ tầng, cơ sở vật chất kỹ thuật, dịch vụ chất lượng cao, đồng bộ,\nđáp ứng nhu cầu lưu trú, ăn uống và các nhu cầu khác của khách du lịch, bao gồm:\na) Có cơ sở kinh doanh dịch vụ ăn uống, mua sắm, thể thao, vui chơi, giải trí,\nchăm sóc sức khỏe đạt tiêu chuẩn phục vụ khách du lịch, đáp ứng tối thiểu 500.000",
+              "score": 0.5724526047706604,
+              "metadata": {
+                "source": "nghi-dinh-168-2017-nd-cp.md",
+                "title": "Nghị định 168/2017/NĐ-CP quy định chi tiết Luật Du lịch",
+                "doc_type": "legal",
+                "url": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-168-2017-nd-cp-26028/21615.htm",
+                "chunk_index": 27
+              },
+              "retrieval_method": "dense"
+            }
+          ],
+          "retrieval_source": "dense"
+        },
+        "scores": {
+          "faithfulness": 0.85,
+          "answer_relevance": 0.35,
+          "context_recall": 0.3,
+          "context_precision": 0.35
+        }
+      },
+      {
+        "number": 9,
+        "question": "Một người thích biển, thiên nhiên và hoạt động ngoài trời nên tìm thông tin ở đâu?",
+        "result": {
+          "answer": "Nên tìm thông tin tại mục **“Coast and Islands”** và **“Adventure Trails”** trên trang Vietnam Tourism, vì đây là các nội dung về biển, đảo, thiên nhiên và hoạt động ngoài trời. [news/article_03.md::chunk-18] [news/article_04.md::chunk-15]",
+          "sources": [
+            {
+              "id": "news/article_03.md::chunk-18",
+              "content": "* [ Coast and Islands](https://vietnam.travel/sites/default/files/2021-04/Coast_Islands_Vietnam.pdf)\n    * [View all trips](https://www.vietnam.travel/plan-your-trip/itineraries)\n    * [ ![](https://image.vietnam.travel/themes/custom/vietnamtourism/images/preload-image.gif) Adventure Trails ](https://vietnam.travel/sites/default/files/2021-04/Adventure_Trails_Vietnam.pdf)",
+              "score": 0.5363871455192566,
+              "metadata": {
+                "source": "article_03.md",
+                "title": "Vietnam Highlights | Vietnam Tourism",
+                "doc_type": "news",
+                "url": "https://www.vietnam.travel/node/156",
+                "chunk_index": 18
+              },
+              "retrieval_method": "dense"
+            },
+            {
+              "id": "legal/nghi-dinh-168-2017-nd-cp.md::chunk-21",
+              "content": "8 CÔNG BÁO/Số 429 + 430/Ngày 10-3-2018\nc) Có biển chỉ dẫn, thuyết minh về điểm du lịch;\nd) Có dịch vụ ăn uống, mua sắm.\n3. Đáp ứng điều kiện về an ninh, trật tự, an toàn xã hội, bảo vệ môi trường, bao gồm:\na) Có bộ phận bảo vệ trực 24 giờ mỗi ngày;\nb) Công khai số điện thoại, địa chỉ của tổ chức, cá nhân quản lý điểm du lịch;\nc) Có hình thức tiếp nhận và giải quyết kịp thời phản ánh, kiến nghị của khách\ndu lịch;\nd) Nhà vệ sinh công cộng sạch sẽ, được thông gió và đủ ánh sáng, được bố trí",
+              "score": 0.532389223575592,
+              "metadata": {
+                "source": "nghi-dinh-168-2017-nd-cp.md",
+                "title": "Nghị định 168/2017/NĐ-CP quy định chi tiết Luật Du lịch",
+                "doc_type": "legal",
+                "url": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-168-2017-nd-cp-26028/21615.htm",
+                "chunk_index": 21
+              },
+              "retrieval_method": "dense"
+            },
+            {
+              "id": "news/article_04.md::chunk-15",
+              "content": "[ITINERARIES](https://vietnam.travel/plan-your-trip/itineraries)\n[ITINERARIES](https://vietnam.travel/plan-your-trip/itineraries)\n    * [ Adventure Trails](https://vietnam.travel/sites/default/files/2021-04/Adventure_Trails_Vietnam.pdf)\n    * [ Best Heritage Sites](https://vietnam.travel/sites/default/files/2021-04/Heritage_Sites_Vietnam.pdf)\n    * [ Coast and Islands](https://vietnam.travel/sites/default/files/2021-04/Coast_Islands_Vietnam.pdf)",
+              "score": 0.5303128957748413,
+              "metadata": {
+                "source": "article_04.md",
+                "title": "Things to do | Vietnam Tourism",
+                "doc_type": "news",
+                "url": "https://vietnam.travel/things-to-do",
+                "chunk_index": 15
+              },
+              "retrieval_method": "dense"
+            },
+            {
+              "id": "news/article_05.md::chunk-15",
+              "content": "[ITINERARIES](https://vietnam.travel/plan-your-trip/itineraries)\n[ITINERARIES](https://vietnam.travel/plan-your-trip/itineraries)\n    * [ Adventure Trails](https://vietnam.travel/sites/default/files/2021-04/Adventure_Trails_Vietnam.pdf)\n    * [ Best Heritage Sites](https://vietnam.travel/sites/default/files/2021-04/Heritage_Sites_Vietnam.pdf)\n    * [ Coast and Islands](https://vietnam.travel/sites/default/files/2021-04/Coast_Islands_Vietnam.pdf)",
+              "score": 0.530312180519104,
+              "metadata": {
+                "source": "article_05.md",
+                "title": "Food | Vietnam Tourism",
+                "doc_type": "news",
+                "url": "https://vietnam.travel/things-to-do/food",
+                "chunk_index": 15
+              },
+              "retrieval_method": "dense"
+            },
+            {
+              "id": "news/article_01.md::chunk-15",
+              "content": "[ITINERARIES](https://vietnam.travel/plan-your-trip/itineraries)\n[ITINERARIES](https://vietnam.travel/plan-your-trip/itineraries)\n    * [ Adventure Trails](https://vietnam.travel/sites/default/files/2021-04/Adventure_Trails_Vietnam.pdf)\n    * [ Best Heritage Sites](https://vietnam.travel/sites/default/files/2021-04/Heritage_Sites_Vietnam.pdf)\n    * [ Coast and Islands](https://vietnam.travel/sites/default/files/2021-04/Coast_Islands_Vietnam.pdf)",
+              "score": 0.5303117632865906,
+              "metadata": {
+                "source": "article_01.md",
+                "title": "Vietnam Visa Requirements | Vietnam Tourism",
+                "doc_type": "news",
+                "url": "https://vietnam.travel/plan-your-trip/visa-requirements",
+                "chunk_index": 15
+              },
+              "retrieval_method": "dense"
+            }
+          ],
+          "retrieval_source": "dense"
+        },
+        "scores": {
+          "faithfulness": 0.95,
+          "answer_relevance": 0.72,
+          "context_recall": 0.2,
+          "context_precision": 0.55
+        }
+      },
+      {
+        "number": 10,
+        "question": "Muốn tìm món ăn theo vùng miền thay vì một nhà hàng cụ thể thì nên đọc nguồn nào?",
+        "result": {
+          "answer": "Nên đọc nguồn **“Food | Vietnam Tourism”**, vì đây là trang tổng hợp thông tin về ẩm thực Việt Nam theo chủ đề và vùng miền, không tập trung vào một nhà hàng cụ thể. [news/article_05.md::chunk-1]",
+          "sources": [
+            {
+              "id": "news/article_05.md::chunk-25",
+              "content": "[![](https://image.vietnam.travel/sites/default/files/styles/thing_to_do_thumb/public/2024-04/hagiangfood_0.jpg?itok=y-pksqBl)Local unpacked: One of a kind cuisine of Ha Giang karst plateau](https://vietnam.travel/things-to-do/local-unpacked-one-kind-cuisine-ha-giang-karst-plateau)",
+              "score": 0.5254269242286682,
+              "metadata": {
+                "source": "article_05.md",
+                "title": "Food | Vietnam Tourism",
+                "doc_type": "news",
+                "url": "https://vietnam.travel/things-to-do/food",
+                "chunk_index": 25
+              },
+              "retrieval_method": "dense"
+            },
+            {
+              "id": "news/article_05.md::chunk-29",
+              "content": "## INFOGRAPHICS\nLearn more about Vietnam\n  * [ ![](https://image.vietnam.travel/sites/default/files/styles/reference_thumbnail/public/2019-07/desserts%20of%20Vietnam.png?itok=NLKik1cc) ](https://vietnam.travel/things-to-do/food)\n[](https://vietnam.travel/things-to-do/food)\n![](https://image.vietnam.travel/sites/default/files/2019-07/DESSERT_INFOGRAPHIC_0.png)\n[DOWNLOAD](https://image.vietnam.travel/sites/default/files/2019-07/DESSERT_INFOGRAPHIC.png)",
+              "score": 0.5073995590209961,
+              "metadata": {
+                "source": "article_05.md",
+                "title": "Food | Vietnam Tourism",
+                "doc_type": "news",
+                "url": "https://vietnam.travel/things-to-do/food",
+                "chunk_index": 29
+              },
+              "retrieval_method": "dense"
+            },
+            {
+              "id": "news/article_05.md::chunk-26",
+              "content": "[![](https://image.vietnam.travel/sites/default/files/styles/thing_to_do_thumb/public/2024-02/banh-mi-ha-noi-14_1688279495%20%281%29.jpg?itok=J3VPL9eC)Explore delicious dishes in Ho Chi Minh City](https://vietnam.travel/things-to-do/explore-delicious-dishes-ho-chi-minh-city)",
+              "score": 0.5034067034721375,
+              "metadata": {
+                "source": "article_05.md",
+                "title": "Food | Vietnam Tourism",
+                "doc_type": "news",
+                "url": "https://vietnam.travel/things-to-do/food",
+                "chunk_index": 26
+              },
+              "retrieval_method": "dense"
+            },
+            {
+              "id": "news/article_05.md::chunk-30",
+              "content": "* [ ![](https://image.vietnam.travel/sites/default/files/styles/reference_thumbnail/public/2019-07/drinks%20of%20Vietnam.png?itok=KgUaKPIS) ](https://vietnam.travel/things-to-do/food)\n[](https://vietnam.travel/things-to-do/food)\n![](https://image.vietnam.travel/sites/default/files/2019-07/DRINK_INFOGRAPHIC_0.png)\n[DOWNLOAD](https://image.vietnam.travel/sites/default/files/2019-07/DRINK_INFOGRAPHIC.png)",
+              "score": 0.501259982585907,
+              "metadata": {
+                "source": "article_05.md",
+                "title": "Food | Vietnam Tourism",
+                "doc_type": "news",
+                "url": "https://vietnam.travel/things-to-do/food",
+                "chunk_index": 30
+              },
+              "retrieval_method": "dense"
+            },
+            {
+              "id": "news/article_05.md::chunk-1",
+              "content": "Food | Vietnam Tourism\n    * [日本語](https://vietnam.travel/jp/things-to-do/food \"日本語\")\n    * [简体中文](https://vietnam.travel/cn/taxonomy/term/49 \"简体中文\")\n    * [Français](https://vietnam.travel/fr/taxonomy/term/49 \"Français\")\n    * [Español](https://vietnam.travel/es/taxonomy/term/49 \"Español\")\n    * [हिन्दी](https://vietnam.travel/in/taxonomy/term/49 \"हिन्दी\")\n    * [Português](https://vietnam.travel/pt/taxonomy/term/49 \"Português\")",
+              "score": 0.49866485595703125,
+              "metadata": {
+                "source": "article_05.md",
+                "title": "Food | Vietnam Tourism",
+                "doc_type": "news",
+                "url": "https://vietnam.travel/things-to-do/food",
+                "chunk_index": 1
+              },
+              "retrieval_method": "dense"
+            }
+          ],
+          "retrieval_source": "dense"
+        },
+        "scores": {
+          "faithfulness": 0.85,
+          "answer_relevance": 0.95,
+          "context_recall": 0.45,
+          "context_precision": 0.65
+        }
+      },
+      {
+        "number": 11,
+        "question": "Quy định e-visa 90 ngày trong hai trang visa có mâu thuẫn nhau không?",
+        "result": {
+          "answer": "Không. Hai trang **không mâu thuẫn** về quy định e-visa 90 ngày:\n\n- Trang “Visa Requirements” nêu rằng từ **15/8/2023**, Việt Nam cấp e-visa cho công dân mọi quốc gia/vùng lãnh thổ, với **thời hạn lưu trú 90 ngày** và **được nhập cảnh nhiều lần**. [news/article_01.md::chunk-19] [news/article_01.md::chunk-22]\n- Trang hướng dẫn e-visa cũng nêu e-visa có **thời hạn 90 ngày** và **cho phép nhập cảnh nhiều lần**, áp dụng cho mọi quốc gia/vùng lãnh thổ từ cùng ngày. [news/article_02.md::chunk-20] [news/article_02.md::chunk-24]\n\nVì vậy, trong phạm vi thông tin được cung cấp, hai trang đang diễn đạt cùng một chính sách; khác biệt chỉ là một trang dùng cụm “90-day stay duration”, còn trang kia dùng “valid for 90 days”. [news/article_01.md::chunk-22] [news/article_02.md::chunk-24]",
+          "sources": [
+            {
+              "id": "news/article_02.md::chunk-24",
+              "content": "**What is Vietnam’s e-visa?**\nVietnam's e-visa is one of several visa types offered by the Vietnam Immigration Department to foreigners entering the country. The e-visa is valid for 90 days, and multiple entry. As of 15th August 2023, Vietnam's e-visa is available to all countries/territories around the world.\nTravellers can apply directly for e-visas at [Vietnam e-Visa Official Website](https://evisa.xuatnhapcanh.gov.vn/web/guest/trang-chu-ttdt)\n## read more",
+              "score": 0.6133893728256226,
+              "metadata": {
+                "source": "article_02.md",
+                "title": "An official guide to e-Visas in Vietnam | Vietnam Tourism",
+                "doc_type": "news",
+                "url": "https://vietnam.travel/plan-your-trip/official-vietnam-evisa-application",
+                "chunk_index": 24
+              },
+              "retrieval_method": "dense"
+            },
+            {
+              "id": "news/article_01.md::chunk-22",
+              "content": "### **VIETNAM ELECTRONIC VISA (E-VISA)**\nFrom 15th August 2023, Vietnam grants e-visas for citizens of all countries and territories with 90-day stay duration and valid for multiple entry.\n![Visa All](https://vietnam.travel/sites/default/files/inline-images/visaall_0.jpg)\nHere is the list of border gates that allowed foreigners enter and exit Vietnam by E-visa.",
+              "score": 0.6059519648551941,
+              "metadata": {
+                "source": "article_01.md",
+                "title": "Vietnam Visa Requirements | Vietnam Tourism",
+                "doc_type": "news",
+                "url": "https://vietnam.travel/plan-your-trip/visa-requirements",
+                "chunk_index": 22
+              },
+              "retrieval_method": "dense"
+            },
+            {
+              "id": "news/article_01.md::chunk-19",
+              "content": "Overview Vietnam visa exemption you may also like\n### **OVERVIEW**\n**New policies from 15th August 2023**\n  1. Vietnam grants e-visas for citizens of all countries and territories with 90-day stay duration and valid for multiple entry.\n  2. Citizens of 13 coutries enjoying unilateral visa exemption can stay in Vietnam up to 45 days.",
+              "score": 0.5968234539031982,
+              "metadata": {
+                "source": "article_01.md",
+                "title": "Vietnam Visa Requirements | Vietnam Tourism",
+                "doc_type": "news",
+                "url": "https://vietnam.travel/plan-your-trip/visa-requirements",
+                "chunk_index": 19
+              },
+              "retrieval_method": "dense"
+            },
+            {
+              "id": "news/article_02.md::chunk-20",
+              "content": "## **From 15th August 2023, citizens of all countries and territories around the world can apply for electronic visas (e-visas) entering Vietnam and enjoy the 90-day e-visa duration, valid for multiple entry.**\n* * *\n![evisa for all](https://vietnam.travel/sites/default/files/inline-images/visaall.jpg)\n* * *\n**Foreigners with e-visas are allowed to enter Vietnam via:**",
+              "score": 0.5793352127075195,
+              "metadata": {
+                "source": "article_02.md",
+                "title": "An official guide to e-Visas in Vietnam | Vietnam Tourism",
+                "doc_type": "news",
+                "url": "https://vietnam.travel/plan-your-trip/official-vietnam-evisa-application",
+                "chunk_index": 20
+              },
+              "retrieval_method": "dense"
+            },
+            {
+              "id": "news/article_01.md::chunk-20",
+              "content": "* * *\n## Vietnam visa exemption\nVietnam's new visa policy effective from 15th August 2023 extends stay duration for 13 countries enjoying unilateral visa exemption from 15 days to 45 days, regardless of passport type and entry purpose. The 13 coutries include: Germany, France, Italy, Spain, the UK, Russia, Japan, Republic of Korea, Denmark, Sweden, Norway, Finland and Belarus.\n![Vietnam Visa Exemptions](https://vietnam.travel/sites/default/files/inline-images/1345.jpg)",
+              "score": 0.5388031005859375,
+              "metadata": {
+                "source": "article_01.md",
+                "title": "Vietnam Visa Requirements | Vietnam Tourism",
+                "doc_type": "news",
+                "url": "https://vietnam.travel/plan-your-trip/visa-requirements",
+                "chunk_index": 20
+              },
+              "retrieval_method": "dense"
+            }
+          ],
+          "retrieval_source": "dense"
+        },
+        "scores": {
+          "faithfulness": 1.0,
+          "answer_relevance": 1.0,
+          "context_recall": 1.0,
+          "context_precision": 0.95
+        }
+      },
+      {
+        "number": 12,
+        "question": "Hội An thuộc câu hỏi về địa điểm, lịch trình hay ẩm thực?",
+        "result": {
+          "answer": "Không đủ bằng chứng trong context để xác định Hội An thuộc nhóm **địa điểm, lịch trình hay ẩm thực**. Context chỉ đề cập nội dung về ẩm thực và lịch trình ở các địa điểm khác, không nêu Hội An. [news/article_05.md::chunk-26] [news/article_06.md::chunk-147]",
+          "sources": [
+            {
+              "id": "news/article_05.md::chunk-26",
+              "content": "[![](https://image.vietnam.travel/sites/default/files/styles/thing_to_do_thumb/public/2024-02/banh-mi-ha-noi-14_1688279495%20%281%29.jpg?itok=J3VPL9eC)Explore delicious dishes in Ho Chi Minh City](https://vietnam.travel/things-to-do/explore-delicious-dishes-ho-chi-minh-city)",
+              "score": 0.5352773666381836,
+              "metadata": {
+                "source": "article_05.md",
+                "title": "Food | Vietnam Tourism",
+                "doc_type": "news",
+                "url": "https://vietnam.travel/things-to-do/food",
+                "chunk_index": 26
+              },
+              "retrieval_method": "dense"
+            },
+            {
+              "id": "news/article_06.md::chunk-147",
+              "content": "* [![](https://image.vietnam.travel/sites/default/files/styles/reference_thumbnail/public/2019-07/top%20things%20to%20do%20in%20hue.jpg?itok=5-xcOQWJ)3 days in Hue for culture seekers ](https://vietnam.travel/things-to-do/hue-itinerary)\n  * [![](https://image.vietnam.travel/sites/default/files/styles/reference_thumbnail/public/2018-12/saigon%20itinerary%20vietnam%20travel.jpg?itok=w-yj5v4Q)The perfect weekend in HCMC](https://vietnam.travel/things-to-do/ho-chi-minh-city-itinerary)",
+              "score": 0.5251379609107971,
+              "metadata": {
+                "source": "article_06.md",
+                "title": "Plan your trip | Vietnam Tourism",
+                "doc_type": "news",
+                "url": "https://vietnam.travel/plan-your-trip",
+                "chunk_index": 147
+              },
+              "retrieval_method": "dense"
+            },
+            {
+              "id": "news/article_05.md::chunk-28",
+              "content": "[![](https://image.vietnam.travel/sites/default/files/styles/thing_to_do_list/public/2023-06/_LAMmichelin_1.jpg?itok=O2TNI-fQ)Take a taste roller coaster with The MICHELIN Guide Hanoi & Ho Chi Minh City 2023 Full Selection](https://vietnam.travel/things-to-do/take-taste-roller-coaster-michelin-guide-hanoi-ho-chi-minh-city-2023-full-selection)\n[view more](https://vietnam.travel/things-to-do/food)\n[](https://vietnam.travel/things-to-do/food)\n## INFOGRAPHICS\nLearn more about Vietnam",
+              "score": 0.5228031277656555,
+              "metadata": {
+                "source": "article_05.md",
+                "title": "Food | Vietnam Tourism",
+                "doc_type": "news",
+                "url": "https://vietnam.travel/things-to-do/food",
+                "chunk_index": 28
+              },
+              "retrieval_method": "dense"
+            },
+            {
+              "id": "news/article_05.md::chunk-25",
+              "content": "[![](https://image.vietnam.travel/sites/default/files/styles/thing_to_do_thumb/public/2024-04/hagiangfood_0.jpg?itok=y-pksqBl)Local unpacked: One of a kind cuisine of Ha Giang karst plateau](https://vietnam.travel/things-to-do/local-unpacked-one-kind-cuisine-ha-giang-karst-plateau)",
+              "score": 0.5203476548194885,
+              "metadata": {
+                "source": "article_05.md",
+                "title": "Food | Vietnam Tourism",
+                "doc_type": "news",
+                "url": "https://vietnam.travel/things-to-do/food",
+                "chunk_index": 25
+              },
+              "retrieval_method": "dense"
+            },
+            {
+              "id": "news/article_05.md::chunk-23",
+              "content": "[![](https://image.vietnam.travel/sites/default/files/styles/thing_to_do_thumb/public/2026-03/Gemini_Generated_Image_fiybg9fiybg9fiyb.jpg?itok=pJouNCkY)Gia Lai Travel Guide: A Culinary Journey](https://vietnam.travel/things-to-do/gia-lai-travel-guide-culinary-journey)",
+              "score": 0.5164105892181396,
+              "metadata": {
+                "source": "article_05.md",
+                "title": "Food | Vietnam Tourism",
+                "doc_type": "news",
+                "url": "https://vietnam.travel/things-to-do/food",
+                "chunk_index": 23
+              },
+              "retrieval_method": "dense"
+            }
+          ],
+          "retrieval_source": "dense"
+        },
+        "scores": {
+          "faithfulness": 0.95,
+          "answer_relevance": 0.2,
+          "context_recall": 0.1,
+          "context_precision": 0.2
+        }
+      },
+      {
+        "number": 13,
+        "question": "Tết là quy định pháp lý bắt buộc hay chỉ là lưu ý lập kế hoạch?",
+        "result": {
+          "answer": "Theo context được cung cấp, **Tết được trình bày như một lưu ý để lập kế hoạch du lịch**, không phải là một quy định pháp lý bắt buộc: du khách được khuyến nghị lưu ý việc nhiều cơ sở đóng cửa, giao thông quá tải và nên xác nhận đặt phương tiện sớm. [news/article_06.md::chunk-35]\n\nCác trích đoạn Luật Du lịch 2017 được cung cấp chỉ đề cập đến quản lý, bảo vệ tài nguyên và quy hoạch du lịch, **không có quy định nào về việc bắt buộc du khách phải thực hiện các lưu ý trong dịp Tết**. [legal/luat-du-lich-2017.md::chunk-35] [legal/luat-du-lich-2017.md::chunk-47] [legal/luat-du-lich-2017.md::chunk-50]\n\nVì vậy, **dựa trên context này, Tết là lưu ý lập kế hoạch chứ không phải quy định pháp lý bắt buộc**. Tuy nhiên, không thể xác minh từ các trích đoạn hiện có liệu có quy định chuyên ngành khác liên quan đến Tết hay không.",
+          "sources": [
+            {
+              "id": "news/article_06.md::chunk-35",
+              "content": "Vietnamese Lunar New Year Festival (Tet) is the biggest holiday of the year, and takes place in late January or early February. Travellers should be aware that most businesses and restaurants shut down during this holiday, as Vietnamese travel home to be with their families. Public transport hubs are full to overflowing in the days leading up to Tet. Any transportation booked over the Tet period should be confirmed well in advance.",
+              "score": 0.5171309113502502,
+              "metadata": {
+                "source": "article_06.md",
+                "title": "Plan your trip | Vietnam Tourism",
+                "doc_type": "news",
+                "url": "https://vietnam.travel/plan-your-trip",
+                "chunk_index": 35
+              },
+              "retrieval_method": "dense"
+            },
+            {
+              "id": "legal/luat-du-lich-2017.md::chunk-0",
+              "content": "# Luật Du lịch số 09/2017/QH14\n\n**Source:** https://congbao.chinhphu.vn/van-ban/luat-so-09-2017-qh14-24241/18448.htm\n\n**Landing:** `luat-du-lich-2017.pdf`\n\n---\n\nCÔNG BÁO/Số 515 + 516/Ngày 25-7-2017\n\n43\n\nQUỐC HỘI\n\nLuật số: 09/2017/QH14\n\nCỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM\nĐộc lập - Tự do - Hạnh phúc\n\nLUẬT\nDU LỊCH\n\nCăn cứ Hiến pháp nước Cộng hòa xã hội chủ nghĩa Việt Nam;\n\nQuốc hội ban hành Luật Du lịch.\n\nChương I\nNHỮNG QUY ĐỊNH CHUNG\n\nĐiều 1. Phạm vi điều chỉnh",
+              "score": 0.5037701725959778,
+              "metadata": {
+                "source": "luat-du-lich-2017.md",
+                "title": "Luật Du lịch số 09/2017/QH14",
+                "doc_type": "legal",
+                "url": "https://congbao.chinhphu.vn/van-ban/luat-so-09-2017-qh14-24241/18448.htm",
+                "chunk_index": 0
+              },
+              "retrieval_method": "dense"
+            },
+            {
+              "id": "legal/luat-du-lich-2017.md::chunk-37",
+              "content": "CÔNG BÁO/Số 515 + 516/Ngày 25-7-2017\n\n51\n\nlịch để làm căn cứ lập quy hoạch về du lịch; quản lý, khai thác, phát huy giá trị tài\nnguyên du lịch và phát triển sản phẩm du lịch.\n\n2. Chính phủ quy định chi tiết Điều này.\n\nĐiều 17. Trách nhiệm quản lý, bảo vệ và khai thác tài nguyên du lịch\n\n1. Nhà nước có chính sách quản lý, bảo vệ, tôn tạo, khai thác hợp lý, phát huy giá\n\ntrị tài nguyên du lịch trong phạm vi cả nước để phát triển du lịch bền vững.",
+              "score": 0.5016729235649109,
+              "metadata": {
+                "source": "luat-du-lich-2017.md",
+                "title": "Luật Du lịch số 09/2017/QH14",
+                "doc_type": "legal",
+                "url": "https://congbao.chinhphu.vn/van-ban/luat-so-09-2017-qh14-24241/18448.htm",
+                "chunk_index": 37
+              },
+              "retrieval_method": "dense"
+            },
+            {
+              "id": "legal/luat-du-lich-2017.md::chunk-50",
+              "content": "dự án ưu tiên đầu tư, vốn đầu tư.\n\n7.  Định  hướng  bảo  vệ  tài  nguyên  du  lịch  và  môi  trường  theo  quy  định  của\n\npháp luật.\n\n8. Đề xuất chính sách, giải pháp quản lý, phát triển du lịch theo quy hoạch.\n\nĐiều 22. Lập, quản lý và thực hiện quy hoạch về du lịch\n\n1. Việc lập quy hoạch về du lịch phải tuân thủ nguyên tắc, nội dung lập quy\nhoạch về du lịch quy định tại Điều 20 và Điều 21 của Luật này và quy định khác\ncủa pháp luật có liên quan.",
+              "score": 0.4938507080078125,
+              "metadata": {
+                "source": "luat-du-lich-2017.md",
+                "title": "Luật Du lịch số 09/2017/QH14",
+                "doc_type": "legal",
+                "url": "https://congbao.chinhphu.vn/van-ban/luat-so-09-2017-qh14-24241/18448.htm",
+                "chunk_index": 50
+              },
+              "retrieval_method": "dense"
+            },
+            {
+              "id": "legal/luat-du-lich-2017.md::chunk-47",
+              "content": "4. Giảm thiểu các tác động tiêu cực do phát triển du lịch đến kinh tế - xã hội và\n\nmôi trường.\n\n5. Bảo đảm sự tham  gia của cơ quan, tổ chức, cộng đồng dân cư và cá nhân\ntrong quá trình lập quy hoạch; kết hợp hài hòa giữa lợi ích của Nhà nước và lợi ích\ncủa cộng đồng, giữa lợi ích của vùng và địa phương.\n\n\fCÔNG BÁO/Số 515 + 516/Ngày 25-7-2017\n\n53",
+              "score": 0.49132925271987915,
+              "metadata": {
+                "source": "luat-du-lich-2017.md",
+                "title": "Luật Du lịch số 09/2017/QH14",
+                "doc_type": "legal",
+                "url": "https://congbao.chinhphu.vn/van-ban/luat-so-09-2017-qh14-24241/18448.htm",
+                "chunk_index": 47
+              },
+              "retrieval_method": "dense"
+            }
+          ],
+          "retrieval_source": "dense"
+        },
+        "scores": {
+          "faithfulness": 0.98,
+          "answer_relevance": 0.99,
+          "context_recall": 0.96,
+          "context_precision": 0.88
+        }
+      },
+      {
+        "number": 14,
+        "question": "Nếu hỏi về mức ký quỹ kinh doanh lữ hành, nên dùng trang du lịch hay văn bản pháp luật nào?",
+        "result": {
+          "answer": "Nên dùng **văn bản pháp luật**, cụ thể là **Nghị định 94/2021/NĐ-CP**, vì nghị định này sửa đổi trực tiếp Điều 14 của Nghị định 168/2017/NĐ-CP về mức ký quỹ kinh doanh dịch vụ lữ hành. [legal/nghi-dinh-94-2021-nd-cp.md::chunk-1] [legal/nghi-dinh-94-2021-nd-cp.md::chunk-2]\n\nMức ký quỹ theo Nghị định 94/2021/NĐ-CP là:\n\n- Lữ hành nội địa: **20 triệu đồng**. [legal/nghi-dinh-94-2021-nd-cp.md::chunk-3]\n- Lữ hành quốc tế đưa khách vào Việt Nam: **50 triệu đồng**. [legal/nghi-dinh-94-2021-nd-cp.md::chunk-3]\n- Lữ hành quốc tế đưa khách ra nước ngoài: **100 triệu đồng**. [legal/nghi-dinh-94-2021-nd-cp.md::chunk-3]\n- Kinh doanh cả hai chiều: **100 triệu đồng**. [legal/nghi-dinh-94-2021-nd-cp.md::chunk-4]\n\nKhông nên chỉ dựa vào trang du lịch nếu cần xác định mức ký quỹ có giá trị pháp lý; nên tra cứu bản chính thức của nghị định trên **Cổng thông tin điện tử Chính phủ/Công báo**. Mức cũ tại Nghị định 168/2017 là 100 triệu đồng đối với lữ hành nội địa và 250 triệu đồng đối với khách quốc tế đến Việt Nam, nhưng đã được Nghị định 94/2021 sửa đổi. [legal/nghi-dinh-168-2017-nd-cp.md::chunk-30] [legal/nghi-dinh-94-2021-nd-cp.md::chunk-3]",
+          "sources": [
+            {
+              "id": "legal/nghi-dinh-168-2017-nd-cp.md::chunk-30",
+              "content": "10 CÔNG BÁO/Số 429 + 430/Ngày 10-3-2018\nChương V\nKINH DOANH DU LỊCH\nMục 1\nKÝ QUỸ KINH DOANH DỊCH VỤ LỮ HÀNH\nĐiều 14. Mức ký quỹ và phương thức ký quỹ\n1. Mức ký quỹ kinh doanh dịch vụ lữ hành nội địa: 100.000.000 (một trăm\ntriệu) đồng.\n2. Mức ký quỹ kinh doanh dịch vụ lữ hành quốc tế:\na) Kinh doanh dịch vụ lữ hành đối với khách du lịch quốc tế đến Việt Nam:\n250.000.000 (hai trăm năm mươi triệu) đồng;\nb) Kinh doanh dịch vụ lữ hành đối với khách du lịch ra nước ngoài:",
+              "score": 0.7471898794174194,
+              "metadata": {
+                "source": "nghi-dinh-168-2017-nd-cp.md",
+                "title": "Nghị định 168/2017/NĐ-CP quy định chi tiết Luật Du lịch",
+                "doc_type": "legal",
+                "url": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-168-2017-nd-cp-26028/21615.htm",
+                "chunk_index": 30
+              },
+              "retrieval_method": "dense"
+            },
+            {
+              "id": "legal/nghi-dinh-94-2021-nd-cp.md::chunk-2",
+              "content": "Căn cứ Luật Du lịch ngày 19 tháng 6 năm 2017;\n\nTheo đề nghị của Bộ trưởng Bộ Văn hóa, Thể thao và Du lịch;\n\nChính  phủ  ban  hành  Nghị  định  sửa  đổi,  bổ  sung  Điều  14  của  Nghị  định  số\n\n168/2017/NĐ-CP ngày 31 tháng 12 năm 2017 của Chính phủ quy định chi tiết một\n\nsố điều của Luật Du lịch về mức ký quỹ kinh doanh dịch vụ lữ hành.\n\nĐiều 1. Sửa đổi, bổ sung Điều 14 của Nghị định số 168/2017/NĐ-CP ngày 31\n\ntháng 12 năm 2017 của Chính phủ quy định chi tiết một số điều của Luật Du",
+              "score": 0.7402798533439636,
+              "metadata": {
+                "source": "nghi-dinh-94-2021-nd-cp.md",
+                "title": "Nghị định 94/2021/NĐ-CP sửa đổi mức ký quỹ lữ hành",
+                "doc_type": "legal",
+                "url": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-94-2021-nd-cp-34718.htm",
+                "chunk_index": 2
+              },
+              "retrieval_method": "dense"
+            },
+            {
+              "id": "legal/nghi-dinh-94-2021-nd-cp.md::chunk-1",
+              "content": "Hà Nội, ngày 28 tháng 10 năm 2021\n\nNGHỊ ĐỊNH\nSửa đổi, bổ sung Điều 14 của Nghị định số 168/2017/NĐ-CP\nngày 31 tháng 12 năm 2017 của Chính phủ quy định chi tiết một số điều\ncủa Luật Du lịch về mức ký quỹ kinh doanh dịch vụ lữ hành\n\nCăn cứ Luật Tổ chức Chính phủ ngày 19 tháng 6 năm 2015; Luật sửa đổi, bổ\n\nsung một số điều của Luật Tổ chức Chính phủ và Luật Tổ chức chính quyền địa\n\nphương ngày 22 tháng 11 năm 2019;\n\nCăn cứ Luật Du lịch ngày 19 tháng 6 năm 2017;",
+              "score": 0.712884783744812,
+              "metadata": {
+                "source": "nghi-dinh-94-2021-nd-cp.md",
+                "title": "Nghị định 94/2021/NĐ-CP sửa đổi mức ký quỹ lữ hành",
+                "doc_type": "legal",
+                "url": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-94-2021-nd-cp-34718.htm",
+                "chunk_index": 1
+              },
+              "retrieval_method": "dense"
+            },
+            {
+              "id": "legal/nghi-dinh-94-2021-nd-cp.md::chunk-4",
+              "content": "100.000.000 (một trăm triệu) đồng;\n\nc)  Kinh  doanh  dịch  vụ  lữ  hành  đối  với  khách  du  lịch  quốc  tế  đến  Việt  Nam  và\n\nkhách du lịch ra nước ngoài: 100.000.000 (một trăm triệu) đồng”.\n\n\fCÔNG BÁO/Số 931 + 932/Ngày 08-11-2021\n\n73\n\nĐiều 2. Tổ chức thực hiện\n\n1. Bộ Văn hóa, Thể thao và Du lịch chủ trì, phối hợp với các Bộ, ngành có liên\n\nquan hướng dẫn, tổ chức thi hành Nghị định này.\n\n2. Ngân hàng nhận ký quỹ kinh doanh dịch vụ lữ hành có trách nhiệm như sau:",
+              "score": 0.7025240063667297,
+              "metadata": {
+                "source": "nghi-dinh-94-2021-nd-cp.md",
+                "title": "Nghị định 94/2021/NĐ-CP sửa đổi mức ký quỹ lữ hành",
+                "doc_type": "legal",
+                "url": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-94-2021-nd-cp-34718.htm",
+                "chunk_index": 4
+              },
+              "retrieval_method": "dense"
+            },
+            {
+              "id": "legal/nghi-dinh-94-2021-nd-cp.md::chunk-3",
+              "content": "lịch về mức ký quỹ kinh doanh dịch vụ lữ hành\n\nSửa đổi, bổ sung khoản 1 và khoản 2 Điều 14 như sau:\n\n“1.  Mức  ký  quỹ  kinh  doanh  dịch  vụ  lữ  hành  nội  địa:  20.000.000  (hai  mươi\n\ntriệu) đồng.\n\n2. Mức ký quỹ kinh doanh dịch vụ lữ hành quốc tế:\n\na)  Kinh  doanh  dịch  vụ  lữ  hành  đối  với  khách  du  lịch  quốc  tế  đến  Việt  Nam:\n\n50.000.000 (năm mươi triệu) đồng;\n\nb)  Kinh  doanh  dịch  vụ  lữ  hành  đối  với  khách  du  lịch  ra  nước  ngoài:\n\n100.000.000 (một trăm triệu) đồng;",
+              "score": 0.7006019353866577,
+              "metadata": {
+                "source": "nghi-dinh-94-2021-nd-cp.md",
+                "title": "Nghị định 94/2021/NĐ-CP sửa đổi mức ký quỹ lữ hành",
+                "doc_type": "legal",
+                "url": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-94-2021-nd-cp-34718.htm",
+                "chunk_index": 3
+              },
+              "retrieval_method": "dense"
+            }
+          ],
+          "retrieval_source": "dense"
+        },
+        "scores": {
+          "faithfulness": 0.98,
+          "answer_relevance": 0.98,
+          "context_recall": 0.99,
+          "context_precision": 0.99
+        }
+      },
+      {
+        "number": 15,
+        "question": "Tôi cần một câu trả lời vừa có món ăn vừa có hoạt động; nguồn nào nên được ưu tiên?",
+        "result": {
+          "answer": "Nên ưu tiên **`news/article_05.md`** vì đây là trang chuyên về **ẩm thực Việt Nam**, đề cập từ món ăn gia đình, đồ ăn đường phố đến ẩm thực hiện đại. [news/article_05.md::chunk-18] [news/article_05.md::chunk-20]\n\nNếu cần bổ sung **hoạt động du lịch**, có thể tham khảo **`news/article_04.md`**, nhưng phần nội dung được cung cấp ở đây mới chỉ tập trung vào đặc điểm và sự đa dạng của ẩm thực, chưa nêu hoạt động cụ thể. [news/article_04.md::chunk-25]\n\nKhông nên ưu tiên **`legal/luat-du-lich-2017.md`** cho câu trả lời mang tính gợi ý trải nghiệm, vì nguồn này chủ yếu quy định việc phát triển nhà hàng, khu ẩm thực và lễ hội ẩm thực. [legal/luat-du-lich-2017.md::chunk-130]",
+          "sources": [
+            {
+              "id": "news/article_05.md::chunk-0",
+              "content": "# Food | Vietnam Tourism\n\n**Source:** https://vietnam.travel/things-to-do/food\n\n**Crawled:** 2026-09-20T07:48:37.248823+00:00\n\n**Landing:** `article_05.json`\n\n---",
+              "score": 0.5538645386695862,
+              "metadata": {
+                "source": "article_05.md",
+                "title": "Food | Vietnam Tourism",
+                "doc_type": "news",
+                "url": "https://vietnam.travel/things-to-do/food",
+                "chunk_index": 0
+              },
+              "retrieval_method": "dense"
+            },
+            {
+              "id": "legal/luat-du-lich-2017.md::chunk-130",
+              "content": "6. Dịch vụ liên quan khác phục vụ khách du lịch.\n\nĐiều 55. Phát triển các loại dịch vụ du lịch khác\n\nNhà nước khuyến khích tổ chức, cá nhân thực hiện các hoạt động sau đây:\n\n1. Đầu tư, xây dựng các chuỗi nhà hàng ăn uống, khu ẩm thực, lễ hội ẩm thực\nnhằm bảo tồn và phát huy các giá trị ẩm thực truyền thống, tiếp thu tinh hoa ẩm\nthực thế giới.",
+              "score": 0.5413999557495117,
+              "metadata": {
+                "source": "luat-du-lich-2017.md",
+                "title": "Luật Du lịch số 09/2017/QH14",
+                "doc_type": "legal",
+                "url": "https://congbao.chinhphu.vn/van-ban/luat-so-09-2017-qh14-24241/18448.htm",
+                "chunk_index": 130
+              },
+              "retrieval_method": "dense"
+            },
+            {
+              "id": "news/article_04.md::chunk-25",
+              "content": "## Fabulous Food\nIf there’s one characteristic that unites Vietnamese food, it’s freshness. Pass by any Vietnamese market, you'll be amazed by the abundance of the sea and soil: feathery herbs, plump vegetables and flapping-fresh proteins. Freshness is where the fun begins. Vietnamese cooks enhance beautiful ingredients with aromatic herbs and contrasting textures for maximum delight. Simply put, it's one of the world’s healthiest and most delicious cuisines.",
+              "score": 0.5364162921905518,
+              "metadata": {
+                "source": "article_04.md",
+                "title": "Things to do | Vietnam Tourism",
+                "doc_type": "news",
+                "url": "https://vietnam.travel/things-to-do",
+                "chunk_index": 25
+              },
+              "retrieval_method": "dense"
+            },
+            {
+              "id": "news/article_05.md::chunk-20",
+              "content": ". From simple home cooking to addictive street eats to modern Vietnamese dining, it would take a lifetime to eat your way through all this delicious diversity.",
+              "score": 0.5329821705818176,
+              "metadata": {
+                "source": "article_05.md",
+                "title": "Food | Vietnam Tourism",
+                "doc_type": "news",
+                "url": "https://vietnam.travel/things-to-do/food",
+                "chunk_index": 20
+              },
+              "retrieval_method": "dense"
+            },
+            {
+              "id": "news/article_05.md::chunk-18",
+              "content": "SEARCH\n  * ![](https://image.vietnam.travel/sites/default/files/styles/top_banner/public/2019-09/food.jpg?itok=uwmBli0H)\n#  Food\nFabulous Food",
+              "score": 0.5306668877601624,
+              "metadata": {
+                "source": "article_05.md",
+                "title": "Food | Vietnam Tourism",
+                "doc_type": "news",
+                "url": "https://vietnam.travel/things-to-do/food",
+                "chunk_index": 18
+              },
+              "retrieval_method": "dense"
+            }
+          ],
+          "retrieval_source": "dense"
+        },
+        "scores": {
+          "faithfulness": 0.95,
+          "answer_relevance": 0.72,
+          "context_recall": 0.45,
+          "context_precision": 0.82
+        }
+      },
+      {
+        "number": 16,
+        "question": "Luật Du lịch và các bài Vietnam Tourism khác nhau thế nào về loại thông tin?",
+        "result": {
+          "answer": "- **Luật Du lịch** là văn bản quy phạm pháp luật do Quốc hội ban hành, có tên chính thức là **Luật số 09/2017/QH14**, thuộc lĩnh vực pháp luật về du lịch. [legal/luat-du-lich-2017.md::chunk-0]\n\n- **Nghị định 168/2017/NĐ-CP** là văn bản của Chính phủ, có chức năng quy định chi tiết một số điều của Luật Du lịch. [legal/nghi-dinh-168-2017-nd-cp.md::chunk-1]\n\n- Các bài trên **Vietnam Tourism** là những trang thông tin du lịch với các chủ đề như **lập kế hoạch chuyến đi**, **ẩm thực** và **điểm nổi bật của Việt Nam**, thể hiện ngay trong tiêu đề nguồn. [news/article_06.md::chunk-155] [news/article_05.md::chunk-42] [news/article_03.md::chunk-49]\n\n- Vì vậy, khác biệt chính là: **Luật và nghị định cung cấp thông tin pháp lý, quy định và hướng dẫn thực hiện pháp luật về du lịch**; còn **các bài Vietnam Tourism cung cấp thông tin giới thiệu hoặc hướng dẫn du lịch theo chủ đề**. Phần nội dung chi tiết của các bài Vietnam Tourism không xuất hiện trong context được cung cấp, nên không thể xác minh thêm về phạm vi hoặc mức độ cụ thể của từng bài. [legal/luat-du-lich-2017.md::chunk-0] [legal/nghi-dinh-168-2017-nd-cp.md::chunk-1] [news/article_06.md::chunk-155] [news/article_05.md::chunk-42] [news/article_03.md::chunk-49]",
+          "sources": [
+            {
+              "id": "legal/luat-du-lich-2017.md::chunk-0",
+              "content": "# Luật Du lịch số 09/2017/QH14\n\n**Source:** https://congbao.chinhphu.vn/van-ban/luat-so-09-2017-qh14-24241/18448.htm\n\n**Landing:** `luat-du-lich-2017.pdf`\n\n---\n\nCÔNG BÁO/Số 515 + 516/Ngày 25-7-2017\n\n43\n\nQUỐC HỘI\n\nLuật số: 09/2017/QH14\n\nCỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM\nĐộc lập - Tự do - Hạnh phúc\n\nLUẬT\nDU LỊCH\n\nCăn cứ Hiến pháp nước Cộng hòa xã hội chủ nghĩa Việt Nam;\n\nQuốc hội ban hành Luật Du lịch.\n\nChương I\nNHỮNG QUY ĐỊNH CHUNG\n\nĐiều 1. Phạm vi điều chỉnh",
+              "score": 0.6038607358932495,
+              "metadata": {
+                "source": "luat-du-lich-2017.md",
+                "title": "Luật Du lịch số 09/2017/QH14",
+                "doc_type": "legal",
+                "url": "https://congbao.chinhphu.vn/van-ban/luat-so-09-2017-qh14-24241/18448.htm",
+                "chunk_index": 0
+              },
+              "retrieval_method": "dense"
+            },
+            {
+              "id": "legal/nghi-dinh-168-2017-nd-cp.md::chunk-1",
+              "content": "CÔNG BÁO/Số 429 + 430/Ngày 10-3-2018 3\nVĂN BẢN QUY PHẠM PHÁP LUẬT\nCHÍNH PHỦ\nCHÍNH PHỦ CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM\nĐộc lập - Tự do - Hạnh phúc\nSố: 168/2017/NĐ-CP Hà Nội, ngày 31 tháng 12 năm 2017\nNGHỊ ĐỊNH\nQuy định chi tiết một số điều của Luật Du lịch\nCăn cứ Luật tổ chức Chính phủ ngày 19 tháng 6 năm 2015;\nCăn cứ Luật Du lịch ngày 19 tháng 6 năm 2017;\nTheo đề nghị của Bộ trưởng Bộ Văn hóa, Thể thao và Du lịch;\nChính phủ ban hành Nghị định quy định chi tiết một số điều của Luật Du lịch.",
+              "score": 0.5978072285652161,
+              "metadata": {
+                "source": "nghi-dinh-168-2017-nd-cp.md",
+                "title": "Nghị định 168/2017/NĐ-CP quy định chi tiết Luật Du lịch",
+                "doc_type": "legal",
+                "url": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-168-2017-nd-cp-26028/21615.htm",
+                "chunk_index": 1
+              },
+              "retrieval_method": "dense"
+            },
+            {
+              "id": "news/article_06.md::chunk-155",
+              "content": "Translated languages are AI-generated from the English original. If you spot an error, please report it to contact@vietnam.travel Thank you! \n[Back to top![](https://image.vietnam.travel/themes/custom/vietnamtourism/images/icon-arrow-up.png)](https://vietnam.travel/plan-your-trip)\n  * © 2016 Official Website Vietnam Tourism\n  * Email: contact@vietnamtourism.gov.vn\n  * [Privacy Policy](https://vietnam.travel/privacy-policy \"Privacy Policy\")",
+              "score": 0.5895693302154541,
+              "metadata": {
+                "source": "article_06.md",
+                "title": "Plan your trip | Vietnam Tourism",
+                "doc_type": "news",
+                "url": "https://vietnam.travel/plan-your-trip",
+                "chunk_index": 155
+              },
+              "retrieval_method": "dense"
+            },
+            {
+              "id": "news/article_03.md::chunk-49",
+              "content": "Translated languages are AI-generated from the English original. If you spot an error, please report it to contact@vietnam.travel Thank you! \n[Back to top![](https://image.vietnam.travel/themes/custom/vietnamtourism/images/icon-arrow-up.png)](https://www.vietnam.travel/node/156)\n  * © 2016 Official Website Vietnam Tourism\n  * Email: contact@vietnamtourism.gov.vn\n  * [Privacy Policy](https://www.vietnam.travel/privacy-policy \"Privacy Policy\")",
+              "score": 0.5892821550369263,
+              "metadata": {
+                "source": "article_03.md",
+                "title": "Vietnam Highlights | Vietnam Tourism",
+                "doc_type": "news",
+                "url": "https://www.vietnam.travel/node/156",
+                "chunk_index": 49
+              },
+              "retrieval_method": "dense"
+            },
+            {
+              "id": "news/article_05.md::chunk-42",
+              "content": "Translated languages are AI-generated from the English original. If you spot an error, please report it to contact@vietnam.travel Thank you! \n[Back to top![](https://image.vietnam.travel/themes/custom/vietnamtourism/images/icon-arrow-up.png)](https://vietnam.travel/things-to-do/food)\n  * © 2016 Official Website Vietnam Tourism\n  * Email: contact@vietnamtourism.gov.vn\n  * [Privacy Policy](https://vietnam.travel/privacy-policy \"Privacy Policy\")",
+              "score": 0.5845220685005188,
+              "metadata": {
+                "source": "article_05.md",
+                "title": "Food | Vietnam Tourism",
+                "doc_type": "news",
+                "url": "https://vietnam.travel/things-to-do/food",
+                "chunk_index": 42
+              },
+              "retrieval_method": "dense"
+            }
+          ],
+          "retrieval_source": "dense"
+        },
+        "scores": {
+          "faithfulness": 0.9,
+          "answer_relevance": 0.78,
+          "context_recall": 0.62,
+          "context_precision": 0.72
+        }
+      }
+    ],
+    "hybrid_rrf": [
+      {
+        "number": 1,
+        "question": "E-visa Việt Nam có thời hạn bao lâu và có được nhập cảnh nhiều lần không?",
+        "result": {
+          "answer": "E-visa Việt Nam có thời hạn **90 ngày** và **được phép nhập cảnh nhiều lần**. [news/article_02.md::chunk-24]",
+          "sources": [
+            {
+              "id": "legal/luat-du-lich-2017.md::chunk-144",
+              "content": "thời hạn 05 năm.\n\n5. Phí thẩm định cấp thẻ hướng dẫn viên du lịch được thực hiện theo quy định\n\ncủa pháp luật về phí và lệ phí.\n\nĐiều 59. Điều kiện cấp thẻ hướng dẫn viên du lịch\n\n1. Điều kiện cấp thẻ hướng dẫn viên du lịch nội địa bao gồm:\n\n\f74\n\nCÔNG BÁO/Số 515 + 516/Ngày 25-7-2017\n\na) Có quốc tịch Việt Nam, thường trú tại Việt Nam;\n\nb) Có năng lực hành vi dân sự đầy đủ;\n\nc) Không mắc bệnh truyền nhiễm, không sử dụng chất ma túy;",
+              "score": 0.01639344262295082,
+              "metadata": {
+                "source": "luat-du-lich-2017.md",
+                "title": "Luật Du lịch số 09/2017/QH14",
+                "doc_type": "legal",
+                "url": "https://congbao.chinhphu.vn/van-ban/luat-so-09-2017-qh14-24241/18448.htm",
+                "chunk_index": 144
+              },
+              "retrieval_method": "hybrid"
+            },
+            {
+              "id": "news/article_01.md::chunk-22",
+              "content": "### **VIETNAM ELECTRONIC VISA (E-VISA)**\nFrom 15th August 2023, Vietnam grants e-visas for citizens of all countries and territories with 90-day stay duration and valid for multiple entry.\n![Visa All](https://vietnam.travel/sites/default/files/inline-images/visaall_0.jpg)\nHere is the list of border gates that allowed foreigners enter and exit Vietnam by E-visa.",
+              "score": 0.01639344262295082,
+              "metadata": {
+                "source": "article_01.md",
+                "title": "Vietnam Visa Requirements | Vietnam Tourism",
+                "doc_type": "news",
+                "url": "https://vietnam.travel/plan-your-trip/visa-requirements",
+                "chunk_index": 22
+              },
+              "retrieval_method": "hybrid"
+            },
+            {
+              "id": "legal/luat-du-lich-2017.md::chunk-28",
+              "content": "3. Được tạo điều kiện thuận lợi về xuất cảnh, nhập cảnh, quá cảnh, hải quan,\nlưu  cư trú, đi  lại  trên  lãnh thổ  Việt  Nam  phù hợp  với quy  định  của  pháp luật và\nđiều ước quốc tế mà nước Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên.\n\n4. Được bảo đảm quyền và lợi ích hợp pháp theo hợp đồng đã giao kết với tổ\n\nchức, cá nhân kinh doanh, cung cấp dịch vụ du lịch.",
+              "score": 0.016129032258064516,
+              "metadata": {
+                "source": "luat-du-lich-2017.md",
+                "title": "Luật Du lịch số 09/2017/QH14",
+                "doc_type": "legal",
+                "url": "https://congbao.chinhphu.vn/van-ban/luat-so-09-2017-qh14-24241/18448.htm",
+                "chunk_index": 28
+              },
+              "retrieval_method": "hybrid"
+            },
+            {
+              "id": "news/article_02.md::chunk-24",
+              "content": "**What is Vietnam’s e-visa?**\nVietnam's e-visa is one of several visa types offered by the Vietnam Immigration Department to foreigners entering the country. The e-visa is valid for 90 days, and multiple entry. As of 15th August 2023, Vietnam's e-visa is available to all countries/territories around the world.\nTravellers can apply directly for e-visas at [Vietnam e-Visa Official Website](https://evisa.xuatnhapcanh.gov.vn/web/guest/trang-chu-ttdt)\n## read more",
+              "score": 0.016129032258064516,
+              "metadata": {
+                "source": "article_02.md",
+                "title": "An official guide to e-Visas in Vietnam | Vietnam Tourism",
+                "doc_type": "news",
+                "url": "https://vietnam.travel/plan-your-trip/official-vietnam-evisa-application",
+                "chunk_index": 24
+              },
+              "retrieval_method": "hybrid"
+            },
+            {
+              "id": "legal/nghi-dinh-168-2017-nd-cp.md::chunk-64",
+              "content": "ngân sách hàng năm từ nguồn thu phí cấp thị thực và các giấy tờ có liên quan đến\nxuất cảnh, nhập cảnh Việt Nam cho người nước ngoài và 5% tổng số thu ngân sách\nhàng năm từ nguồn thu phí tham quan khu du lịch, điểm du lịch;\nc) Nguồn tài trợ, đóng góp tự nguyện, hợp pháp của doanh nghiệp, tổ chức, cá\nnhân trong nước và nước ngoài;",
+              "score": 0.015873015873015872,
+              "metadata": {
+                "source": "nghi-dinh-168-2017-nd-cp.md",
+                "title": "Nghị định 168/2017/NĐ-CP quy định chi tiết Luật Du lịch",
+                "doc_type": "legal",
+                "url": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-168-2017-nd-cp-26028/21615.htm",
+                "chunk_index": 64
+              },
+              "retrieval_method": "hybrid"
+            }
+          ],
+          "retrieval_source": "hybrid"
+        },
+        "scores": {
+          "faithfulness": 1.0,
+          "answer_relevance": 1.0,
+          "context_recall": 1.0,
+          "context_precision": 0.4
+        }
+      },
+      {
+        "number": 2,
+        "question": "Những nhóm hoạt động nào được Vietnam Tourism gợi ý cho du khách?",
+        "result": {
+          "answer": "Không thể xác minh đầy đủ các nhóm hoạt động mà Vietnam Tourism gợi ý vì context chỉ cho thấy trang **“Things to do”** và một mục **“Food”**, không cung cấp danh sách các nhóm hoạt động khác. [news/article_04.md::chunk-0] [news/article_05.md::chunk-28]",
+          "sources": [
+            {
+              "id": "legal/nghi-dinh-168-2017-nd-cp.md::chunk-11",
+              "content": "BIỆN PHÁP BẢO ĐẢM AN TOÀN CHO KHÁCH DU LỊCH\nĐỐI VỚI NHỮNG SẢN PHẨM DU LỊCH CÓ NGUY CƠ ẢNH HƯỞNG\nĐẾN TÍNH MẠNG, SỨC KHỎE CỦA KHÁCH DU LỊCH\nĐiều 8. Sản phẩm du lịch có nguy cơ ảnh hưởng đến tính mạng, sức khỏe\ncủa khách du lịch\nSản phẩm du lịch có nguy cơ ảnh hưởng đến tính mạng, sức khỏe của khách du\nlịch khi có một hoặc một số hoạt động sau đây:\n1. Bay dù lượn, khinh khí cầu; nhảy dù; đu dây mạo hiểm hành trình trên cao.",
+              "score": 0.01639344262295082,
+              "metadata": {
+                "source": "nghi-dinh-168-2017-nd-cp.md",
+                "title": "Nghị định 168/2017/NĐ-CP quy định chi tiết Luật Du lịch",
+                "doc_type": "legal",
+                "url": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-168-2017-nd-cp-26028/21615.htm",
+                "chunk_index": 11
+              },
+              "retrieval_method": "hybrid"
+            },
+            {
+              "id": "news/article_05.md::chunk-28",
+              "content": "[![](https://image.vietnam.travel/sites/default/files/styles/thing_to_do_list/public/2023-06/_LAMmichelin_1.jpg?itok=O2TNI-fQ)Take a taste roller coaster with The MICHELIN Guide Hanoi & Ho Chi Minh City 2023 Full Selection](https://vietnam.travel/things-to-do/take-taste-roller-coaster-michelin-guide-hanoi-ho-chi-minh-city-2023-full-selection)\n[view more](https://vietnam.travel/things-to-do/food)\n[](https://vietnam.travel/things-to-do/food)\n## INFOGRAPHICS\nLearn more about Vietnam",
+              "score": 0.01639344262295082,
+              "metadata": {
+                "source": "article_05.md",
+                "title": "Food | Vietnam Tourism",
+                "doc_type": "news",
+                "url": "https://vietnam.travel/things-to-do/food",
+                "chunk_index": 28
+              },
+              "retrieval_method": "hybrid"
+            },
+            {
+              "id": "legal/luat-du-lich-2017.md::chunk-6",
+              "content": "khách du lịch.\n\n8. Chương trình du lịch là văn bản thể hiện lịch trình, dịch vụ và giá bán được\nđịnh trước cho chuyến đi của khách du lịch từ điểm xuất phát đến điểm kết thúc\nchuyến đi.\n\n9. Kinh doanh dịch vụ lữ hành là việc xây dựng, bán và tổ chức thực hiện một\n\nphần hoặc toàn bộ chương trình du lịch cho khách du lịch.\n\n10.  Hướng  dẫn  du  lịch  là  hoạt  động  cung  cấp  thông  tin,  kết  nối  dịch  vụ,  dẫn",
+              "score": 0.016129032258064516,
+              "metadata": {
+                "source": "luat-du-lich-2017.md",
+                "title": "Luật Du lịch số 09/2017/QH14",
+                "doc_type": "legal",
+                "url": "https://congbao.chinhphu.vn/van-ban/luat-so-09-2017-qh14-24241/18448.htm",
+                "chunk_index": 6
+              },
+              "retrieval_method": "hybrid"
+            },
+            {
+              "id": "news/article_04.md::chunk-0",
+              "content": "# Things to do | Vietnam Tourism\n\n**Source:** https://vietnam.travel/things-to-do\n\n**Crawled:** 2026-09-20T07:48:29.908149+00:00\n\n**Landing:** `article_04.json`\n\n---",
+              "score": 0.016129032258064516,
+              "metadata": {
+                "source": "article_04.md",
+                "title": "Things to do | Vietnam Tourism",
+                "doc_type": "news",
+                "url": "https://vietnam.travel/things-to-do",
+                "chunk_index": 0
+              },
+              "retrieval_method": "hybrid"
+            },
+            {
+              "id": "legal/nghi-dinh-168-2017-nd-cp.md::chunk-51",
+              "content": "khách du lịch.\n6. Nhà ở có phòng cho khách du lịch thuê: Nhà ở có khu vực được bố trí trang\nthiết bị, tiện nghi cho khách du lịch thuê lưu trú; khách cùng sinh hoạt với gia đình\nchủ nhà.\n7. Bãi cắm trại du lịch: Khu vực được quy hoạch ở nơi có cảnh quan thiên\nnhiên đẹp, có kết cấu hạ tầng, có cơ sở vật chất và dịch vụ cần thiết phục vụ khách\ncắm trại.",
+              "score": 0.015873015873015872,
+              "metadata": {
+                "source": "nghi-dinh-168-2017-nd-cp.md",
+                "title": "Nghị định 168/2017/NĐ-CP quy định chi tiết Luật Du lịch",
+                "doc_type": "legal",
+                "url": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-168-2017-nd-cp-26028/21615.htm",
+                "chunk_index": 51
+              },
+              "retrieval_method": "hybrid"
+            }
+          ],
+          "retrieval_source": "hybrid"
+        },
+        "scores": {
+          "faithfulness": 0.95,
+          "answer_relevance": 0.1,
+          "context_recall": 0.1,
+          "context_precision": 0.2
+        }
+      },
+      {
+        "number": 3,
+        "question": "Ở Hà Nội, Huế và Hội An nên thử món ăn nào?",
+        "result": {
+          "answer": "- **Hà Nội:** bún chả.  \n- **Huế:** bún bò Huế.  \n- **Hội An:** cao lầu.  \n\n[news/article_05.md::chunk-19]",
+          "sources": [
+            {
+              "id": "news/article_05.md::chunk-19",
+              "content": "## Travel around Vietnam, and you'll find that tastes and dishes vary from North to South. In the capital, locals may lunch on bún chả with slices of pork belly, while the Saigonese wolf down bánh xèo (crispy pancakes) rolled with greens and dipped in sweet-and-sour fish sauce. In the former Imperial City, meaty bún bò Huế is a breakfast favourite, while in Hội An, you can’t beat a bowl of toothsome cao lầu noodles for a quick snack",
+              "score": 0.03278688524590164,
+              "metadata": {
+                "source": "article_05.md",
+                "title": "Food | Vietnam Tourism",
+                "doc_type": "news",
+                "url": "https://vietnam.travel/things-to-do/food",
+                "chunk_index": 19
+              },
+              "retrieval_method": "hybrid"
+            },
+            {
+              "id": "legal/nghi-dinh-94-2021-nd-cp.md::chunk-0",
+              "content": "# Nghị định 94/2021/NĐ-CP sửa đổi mức ký quỹ lữ hành\n\n**Source:** https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-94-2021-nd-cp-34718.htm\n\n**Landing:** `nghi-dinh-94-2021-nd-cp.pdf`\n\n---\n\n72\n\nCÔNG BÁO/Số 931 + 932/Ngày 08-11-2021\n\nCHÍNH PHỦ\n\nCỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM\nĐộc lập - Tự do - Hạnh phúc\n\nSố: 94/2021/NĐ-CP\n\nHà Nội, ngày 28 tháng 10 năm 2021",
+              "score": 0.016129032258064516,
+              "metadata": {
+                "source": "nghi-dinh-94-2021-nd-cp.md",
+                "title": "Nghị định 94/2021/NĐ-CP sửa đổi mức ký quỹ lữ hành",
+                "doc_type": "legal",
+                "url": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-94-2021-nd-cp-34718.htm",
+                "chunk_index": 0
+              },
+              "retrieval_method": "hybrid"
+            },
+            {
+              "id": "news/article_05.md::chunk-27",
+              "content": "[![](https://image.vietnam.travel/sites/default/files/styles/thing_to_do_list/public/2023-08/bun-ca-ha-noi-3_1686916683_1.jpg?itok=PyIwcaUz)Ha Noi Food Guide: The best street food dishes to sample](https://vietnam.travel/things-to-do/ha-noi-food-guide-best-street-food-dishes-sample)\n[![](https://image.vietnam.travel/sites/default/files/styles/thing_to_do_list/public/2023-08/pho%20bo_1.jpg?itok=LEqE1qJq)Must-try noodles in Vietnam](https://vietnam.travel/things-to-do/must-try-noodles-vietnam)",
+              "score": 0.016129032258064516,
+              "metadata": {
+                "source": "article_05.md",
+                "title": "Food | Vietnam Tourism",
+                "doc_type": "news",
+                "url": "https://vietnam.travel/things-to-do/food",
+                "chunk_index": 27
+              },
+              "retrieval_method": "hybrid"
+            },
+            {
+              "id": "legal/luat-du-lich-2017.md::chunk-11",
+              "content": "3. Bảo đảm chủ quyền quốc gia, quốc phòng, an ninh, trật tự, an toàn xã hội, mở\nrộng  quan  hệ  đối  ngoại  và  hội  nhập  quốc  tế,  quảng  bá  hình  ảnh  đất  nước,  con\nngười Việt Nam.\n\n4. Bảo đảm lợi ích quốc gia, lợi ích cộng đồng, quyền và lợi ích hợp pháp của\n\nkhách du lịch, tổ chức, cá nhân kinh doanh du lịch.\n\n5. Phát triển đồng thời du lịch nội địa và du lịch quốc tế; tôn trọng và đối xử\n\nbình đẳng đối với khách du lịch.\n\nĐiều 5. Chính sách phát triển du lịch",
+              "score": 0.015873015873015872,
+              "metadata": {
+                "source": "luat-du-lich-2017.md",
+                "title": "Luật Du lịch số 09/2017/QH14",
+                "doc_type": "legal",
+                "url": "https://congbao.chinhphu.vn/van-ban/luat-so-09-2017-qh14-24241/18448.htm",
+                "chunk_index": 11
+              },
+              "retrieval_method": "hybrid"
+            },
+            {
+              "id": "news/article_05.md::chunk-26",
+              "content": "[![](https://image.vietnam.travel/sites/default/files/styles/thing_to_do_thumb/public/2024-02/banh-mi-ha-noi-14_1688279495%20%281%29.jpg?itok=J3VPL9eC)Explore delicious dishes in Ho Chi Minh City](https://vietnam.travel/things-to-do/explore-delicious-dishes-ho-chi-minh-city)",
+              "score": 0.015873015873015872,
+              "metadata": {
+                "source": "article_05.md",
+                "title": "Food | Vietnam Tourism",
+                "doc_type": "news",
+                "url": "https://vietnam.travel/things-to-do/food",
+                "chunk_index": 26
+              },
+              "retrieval_method": "hybrid"
+            }
+          ],
+          "retrieval_source": "hybrid"
+        },
+        "scores": {
+          "faithfulness": 1.0,
+          "answer_relevance": 1.0,
+          "context_recall": 1.0,
+          "context_precision": 0.25
+        }
+      },
+      {
+        "number": 4,
+        "question": "Tết ảnh hưởng thế nào đến việc đi du lịch Việt Nam?",
+        "result": {
+          "answer": "Tết là kỳ nghỉ lớn nhất trong năm ở Việt Nam, thường diễn ra vào cuối tháng 1 hoặc đầu tháng 2. Trong thời gian này, nhiều doanh nghiệp và nhà hàng đóng cửa; các bến giao thông thường rất đông trước Tết. Vì vậy, du khách nên xác nhận sớm các phương tiện đã đặt trong dịp Tết. [news/article_06.md::chunk-35]",
+          "sources": [
+            {
+              "id": "legal/luat-du-lich-2017.md::chunk-26",
+              "content": "Nam và khách du lịch ra nước ngoài.\n\n2. Khách du lịch nội địa là công dân Việt Nam, người nước ngoài cư trú ở Việt\n\nNam đi du lịch trong lãnh thổ Việt Nam.\n\n3. Khách du lịch quốc tế đến Việt Nam là người nước ngoài, người Việt Nam\n\nđịnh cư ở nước ngoài vào Việt Nam du lịch.\n\n4. Khách du lịch ra nước ngoài là công dân Việt Nam và người nước ngoài cư\n\ntrú ở Việt Nam đi du lịch nước ngoài.\n\nĐiều 11. Quyền của khách du lịch",
+              "score": 0.032266458495966696,
+              "metadata": {
+                "source": "luat-du-lich-2017.md",
+                "title": "Luật Du lịch số 09/2017/QH14",
+                "doc_type": "legal",
+                "url": "https://congbao.chinhphu.vn/van-ban/luat-so-09-2017-qh14-24241/18448.htm",
+                "chunk_index": 26
+              },
+              "retrieval_method": "hybrid"
+            },
+            {
+              "id": "news/article_06.md::chunk-35",
+              "content": "Vietnamese Lunar New Year Festival (Tet) is the biggest holiday of the year, and takes place in late January or early February. Travellers should be aware that most businesses and restaurants shut down during this holiday, as Vietnamese travel home to be with their families. Public transport hubs are full to overflowing in the days leading up to Tet. Any transportation booked over the Tet period should be confirmed well in advance.",
+              "score": 0.01639344262295082,
+              "metadata": {
+                "source": "article_06.md",
+                "title": "Plan your trip | Vietnam Tourism",
+                "doc_type": "news",
+                "url": "https://vietnam.travel/plan-your-trip",
+                "chunk_index": 35
+              },
+              "retrieval_method": "hybrid"
+            },
+            {
+              "id": "legal/nghi-dinh-168-2017-nd-cp.md::chunk-11",
+              "content": "BIỆN PHÁP BẢO ĐẢM AN TOÀN CHO KHÁCH DU LỊCH\nĐỐI VỚI NHỮNG SẢN PHẨM DU LỊCH CÓ NGUY CƠ ẢNH HƯỞNG\nĐẾN TÍNH MẠNG, SỨC KHỎE CỦA KHÁCH DU LỊCH\nĐiều 8. Sản phẩm du lịch có nguy cơ ảnh hưởng đến tính mạng, sức khỏe\ncủa khách du lịch\nSản phẩm du lịch có nguy cơ ảnh hưởng đến tính mạng, sức khỏe của khách du\nlịch khi có một hoặc một số hoạt động sau đây:\n1. Bay dù lượn, khinh khí cầu; nhảy dù; đu dây mạo hiểm hành trình trên cao.",
+              "score": 0.016129032258064516,
+              "metadata": {
+                "source": "nghi-dinh-168-2017-nd-cp.md",
+                "title": "Nghị định 168/2017/NĐ-CP quy định chi tiết Luật Du lịch",
+                "doc_type": "legal",
+                "url": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-168-2017-nd-cp-26028/21615.htm",
+                "chunk_index": 11
+              },
+              "retrieval_method": "hybrid"
+            },
+            {
+              "id": "news/article_06.md::chunk-33",
+              "content": "[ ![public holidays in vietnam](https://image.vietnam.travel/sites/default/files/styles/essential_information_thumbnail/public/2019-07/vietnam%20tourism-7_0.jpg?itok=-4Be9m7X) Public holidays ![](https://vietnam.travel/plan-your-trip) Vietnamese Lunar New Year Festival (Tet) is the biggest holiday of the year, and takes place in ...  ](https://vietnam.travel/plan-your-trip)",
+              "score": 0.016129032258064516,
+              "metadata": {
+                "source": "article_06.md",
+                "title": "Plan your trip | Vietnam Tourism",
+                "doc_type": "news",
+                "url": "https://vietnam.travel/plan-your-trip",
+                "chunk_index": 33
+              },
+              "retrieval_method": "hybrid"
+            },
+            {
+              "id": "legal/nghi-dinh-168-2017-nd-cp.md::chunk-12",
+              "content": "6 CÔNG BÁO/Số 429 + 430/Ngày 10-3-2018\n2. Đi xe đạp, mô tô, ô tô địa hình trên núi, trên đồi cát; đi trên dây; leo núi,\nvách đá; đu dây vượt thác.\n3. Lặn dưới nước; chèo thuyền vượt ghềnh thác; đi mô tô nước; lướt ván; ca nô\nkéo dù bay.\n4. Thám hiểm hang động, rừng, núi.\nĐiều 9. Biện pháp bảo đảm an toàn khi kinh doanh các sản phẩm du lịch\ncó nguy cơ ảnh hưởng đến tính mạng, sức khỏe của khách du lịch\n1. Có cảnh báo, chỉ dẫn về điều kiện khí hậu, thời tiết, sức khỏe và các yếu tố",
+              "score": 0.015873015873015872,
+              "metadata": {
+                "source": "nghi-dinh-168-2017-nd-cp.md",
+                "title": "Nghị định 168/2017/NĐ-CP quy định chi tiết Luật Du lịch",
+                "doc_type": "legal",
+                "url": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-168-2017-nd-cp-26028/21615.htm",
+                "chunk_index": 12
+              },
+              "retrieval_method": "hybrid"
+            }
+          ],
+          "retrieval_source": "hybrid"
+        },
+        "scores": {
+          "faithfulness": 0.98,
+          "answer_relevance": 0.98,
+          "context_recall": 0.98,
+          "context_precision": 0.45
+        }
+      },
+      {
+        "number": 5,
+        "question": "Luật Du lịch 2017 điều chỉnh những vấn đề gì?",
+        "result": {
+          "answer": "Chưa đủ thông tin trong context để xác minh **Luật Du lịch 2017 điều chỉnh những vấn đề gì**. Context chỉ cung cấp tiêu đề **Điều 1. Phạm vi điều chỉnh** mà chưa có nội dung điều khoản này. [legal/luat-du-lich-2017.md::chunk-0]",
+          "sources": [
+            {
+              "id": "legal/luat-du-lich-2017.md::chunk-0",
+              "content": "# Luật Du lịch số 09/2017/QH14\n\n**Source:** https://congbao.chinhphu.vn/van-ban/luat-so-09-2017-qh14-24241/18448.htm\n\n**Landing:** `luat-du-lich-2017.pdf`\n\n---\n\nCÔNG BÁO/Số 515 + 516/Ngày 25-7-2017\n\n43\n\nQUỐC HỘI\n\nLuật số: 09/2017/QH14\n\nCỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM\nĐộc lập - Tự do - Hạnh phúc\n\nLUẬT\nDU LỊCH\n\nCăn cứ Hiến pháp nước Cộng hòa xã hội chủ nghĩa Việt Nam;\n\nQuốc hội ban hành Luật Du lịch.\n\nChương I\nNHỮNG QUY ĐỊNH CHUNG\n\nĐiều 1. Phạm vi điều chỉnh",
+              "score": 0.03278688524590164,
+              "metadata": {
+                "source": "luat-du-lich-2017.md",
+                "title": "Luật Du lịch số 09/2017/QH14",
+                "doc_type": "legal",
+                "url": "https://congbao.chinhphu.vn/van-ban/luat-so-09-2017-qh14-24241/18448.htm",
+                "chunk_index": 0
+              },
+              "retrieval_method": "hybrid"
+            },
+            {
+              "id": "legal/nghi-dinh-94-2021-nd-cp.md::chunk-2",
+              "content": "Căn cứ Luật Du lịch ngày 19 tháng 6 năm 2017;\n\nTheo đề nghị của Bộ trưởng Bộ Văn hóa, Thể thao và Du lịch;\n\nChính  phủ  ban  hành  Nghị  định  sửa  đổi,  bổ  sung  Điều  14  của  Nghị  định  số\n\n168/2017/NĐ-CP ngày 31 tháng 12 năm 2017 của Chính phủ quy định chi tiết một\n\nsố điều của Luật Du lịch về mức ký quỹ kinh doanh dịch vụ lữ hành.\n\nĐiều 1. Sửa đổi, bổ sung Điều 14 của Nghị định số 168/2017/NĐ-CP ngày 31\n\ntháng 12 năm 2017 của Chính phủ quy định chi tiết một số điều của Luật Du",
+              "score": 0.03200204813108039,
+              "metadata": {
+                "source": "nghi-dinh-94-2021-nd-cp.md",
+                "title": "Nghị định 94/2021/NĐ-CP sửa đổi mức ký quỹ lữ hành",
+                "doc_type": "legal",
+                "url": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-94-2021-nd-cp-34718.htm",
+                "chunk_index": 2
+              },
+              "retrieval_method": "hybrid"
+            },
+            {
+              "id": "legal/nghi-dinh-168-2017-nd-cp.md::chunk-1",
+              "content": "CÔNG BÁO/Số 429 + 430/Ngày 10-3-2018 3\nVĂN BẢN QUY PHẠM PHÁP LUẬT\nCHÍNH PHỦ\nCHÍNH PHỦ CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM\nĐộc lập - Tự do - Hạnh phúc\nSố: 168/2017/NĐ-CP Hà Nội, ngày 31 tháng 12 năm 2017\nNGHỊ ĐỊNH\nQuy định chi tiết một số điều của Luật Du lịch\nCăn cứ Luật tổ chức Chính phủ ngày 19 tháng 6 năm 2015;\nCăn cứ Luật Du lịch ngày 19 tháng 6 năm 2017;\nTheo đề nghị của Bộ trưởng Bộ Văn hóa, Thể thao và Du lịch;\nChính phủ ban hành Nghị định quy định chi tiết một số điều của Luật Du lịch.",
+              "score": 0.03149801587301587,
+              "metadata": {
+                "source": "nghi-dinh-168-2017-nd-cp.md",
+                "title": "Nghị định 168/2017/NĐ-CP quy định chi tiết Luật Du lịch",
+                "doc_type": "legal",
+                "url": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-168-2017-nd-cp-26028/21615.htm",
+                "chunk_index": 1
+              },
+              "retrieval_method": "hybrid"
+            },
+            {
+              "id": "legal/nghi-dinh-168-2017-nd-cp.md::chunk-2",
+              "content": "Chương I\nNHỮNG QUY ĐỊNH CHUNG\nĐiều 1. Phạm vi điều chỉnh\nNghị định này quy định chi tiết một số điều của Luật Du lịch về điều tra, đánh\ngiá, phân loại tài nguyên du lịch; biện pháp bảo đảm an toàn cho khách du lịch đối\nvới những sản phẩm du lịch có nguy cơ ảnh hưởng đến tính mạng, sức khỏe của\nkhách du lịch; điều kiện công nhận điểm du lịch, khu du lịch; ký quỹ kinh doanh\ndịch vụ lữ hành; cấp, cấp đổi, cấp lại, thu hồi biển hiệu phương tiện vận tải khách",
+              "score": 0.030834914611005692,
+              "metadata": {
+                "source": "nghi-dinh-168-2017-nd-cp.md",
+                "title": "Nghị định 168/2017/NĐ-CP quy định chi tiết Luật Du lịch",
+                "doc_type": "legal",
+                "url": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-168-2017-nd-cp-26028/21615.htm",
+                "chunk_index": 2
+              },
+              "retrieval_method": "hybrid"
+            },
+            {
+              "id": "legal/nghi-dinh-94-2021-nd-cp.md::chunk-1",
+              "content": "Hà Nội, ngày 28 tháng 10 năm 2021\n\nNGHỊ ĐỊNH\nSửa đổi, bổ sung Điều 14 của Nghị định số 168/2017/NĐ-CP\nngày 31 tháng 12 năm 2017 của Chính phủ quy định chi tiết một số điều\ncủa Luật Du lịch về mức ký quỹ kinh doanh dịch vụ lữ hành\n\nCăn cứ Luật Tổ chức Chính phủ ngày 19 tháng 6 năm 2015; Luật sửa đổi, bổ\n\nsung một số điều của Luật Tổ chức Chính phủ và Luật Tổ chức chính quyền địa\n\nphương ngày 22 tháng 11 năm 2019;\n\nCăn cứ Luật Du lịch ngày 19 tháng 6 năm 2017;",
+              "score": 0.029877369007803793,
+              "metadata": {
+                "source": "nghi-dinh-94-2021-nd-cp.md",
+                "title": "Nghị định 94/2021/NĐ-CP sửa đổi mức ký quỹ lữ hành",
+                "doc_type": "legal",
+                "url": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-94-2021-nd-cp-34718.htm",
+                "chunk_index": 1
+              },
+              "retrieval_method": "hybrid"
+            }
+          ],
+          "retrieval_source": "hybrid"
+        },
+        "scores": {
+          "faithfulness": 0.95,
+          "answer_relevance": 0.05,
+          "context_recall": 0.2,
+          "context_precision": 0.85
+        }
+      },
+      {
+        "number": 6,
+        "question": "Tôi muốn đi xuyên Việt nhưng chỉ có một tuần; corpus gợi ý tuyến điểm nào?",
+        "result": {
+          "answer": "Corpus chỉ gợi ý rõ một tuyến **10 ngày**, không phải một tuần: **Hà Nội → Hạ Long → Đà Nẵng/Hội An → Mỹ Sơn → Huế → TP. Hồ Chí Minh → địa đạo Củ Chi → Đồng bằng sông Cửu Long → TP. Hồ Chí Minh**. [news/article_03.md::chunk-23]\n\nVì vậy, **chưa đủ evidence trong corpus để xác minh một tuyến xuyên Việt cụ thể cho đúng 7 ngày**. Tuyến trên có thể được xem là khung tham khảo, nhưng việc rút gọn còn một tuần không được corpus nêu rõ. [news/article_03.md::chunk-23]",
+          "sources": [
+            {
+              "id": "legal/luat-du-lich-2017.md::chunk-3",
+              "content": "1. Du lịch là các hoạt động có liên quan đến chuyến đi của con người ngoài nơi\ncư trú thường xuyên trong thời gian không quá 01 năm liên tục nhằm đáp ứng nhu\ncầu tham quan, nghỉ dưỡng, giải trí, tìm hiểu, khám phá tài nguyên du lịch hoặc kết\nhợp với mục đích hợp pháp khác.\n\n2. Khách du lịch là người đi du lịch hoặc kết hợp đi du lịch, trừ trường hợp đi\n\nhọc, làm việc để nhận thu nhập ở nơi đến.\n\n\f44\n\nCÔNG BÁO/Số 515 + 516/Ngày 25-7-2017",
+              "score": 0.01639344262295082,
+              "metadata": {
+                "source": "luat-du-lich-2017.md",
+                "title": "Luật Du lịch số 09/2017/QH14",
+                "doc_type": "legal",
+                "url": "https://congbao.chinhphu.vn/van-ban/luat-so-09-2017-qh14-24241/18448.htm",
+                "chunk_index": 3
+              },
+              "retrieval_method": "hybrid"
+            },
+            {
+              "id": "news/article_03.md::chunk-23",
+              "content": "Overview day 1 day 2 day 3 day 4 day 5 day 6 day 7 day 8 day 9 day 10\n  *     * 10days\n### Route\nTo\n    * ### HIGHLIGHTS\n**Day 1** : Hanoi Arrival\n**Day 2** : Hanoi\n**Day 3:** Hanoi – Ha Long Bay\n**Day 4:** Ha Long Bay – Da Nang – Hoi An\n**Day 5:** My Son & Hoi An\n**Day 6:** Hoi An – Hue\n**Day 7:** Hue – Ho Chi Minh City\n**Day 8** : Cu Chi Tunnels & Ho Chi Minh City\n**Day 9:** Ho Chi Minh City – Mekong Delta – Ho Chi Minh City\n**Day 10** : Ho Chi Minh City Departure",
+              "score": 0.01639344262295082,
+              "metadata": {
+                "source": "article_03.md",
+                "title": "Vietnam Highlights | Vietnam Tourism",
+                "doc_type": "news",
+                "url": "https://www.vietnam.travel/node/156",
+                "chunk_index": 23
+              },
+              "retrieval_method": "hybrid"
+            },
+            {
+              "id": "legal/luat-du-lich-2017.md::chunk-6",
+              "content": "khách du lịch.\n\n8. Chương trình du lịch là văn bản thể hiện lịch trình, dịch vụ và giá bán được\nđịnh trước cho chuyến đi của khách du lịch từ điểm xuất phát đến điểm kết thúc\nchuyến đi.\n\n9. Kinh doanh dịch vụ lữ hành là việc xây dựng, bán và tổ chức thực hiện một\n\nphần hoặc toàn bộ chương trình du lịch cho khách du lịch.\n\n10.  Hướng  dẫn  du  lịch  là  hoạt  động  cung  cấp  thông  tin,  kết  nối  dịch  vụ,  dẫn",
+              "score": 0.016129032258064516,
+              "metadata": {
+                "source": "luat-du-lich-2017.md",
+                "title": "Luật Du lịch số 09/2017/QH14",
+                "doc_type": "legal",
+                "url": "https://congbao.chinhphu.vn/van-ban/luat-so-09-2017-qh14-24241/18448.htm",
+                "chunk_index": 6
+              },
+              "retrieval_method": "hybrid"
+            },
+            {
+              "id": "news/article_06.md::chunk-147",
+              "content": "* [![](https://image.vietnam.travel/sites/default/files/styles/reference_thumbnail/public/2019-07/top%20things%20to%20do%20in%20hue.jpg?itok=5-xcOQWJ)3 days in Hue for culture seekers ](https://vietnam.travel/things-to-do/hue-itinerary)\n  * [![](https://image.vietnam.travel/sites/default/files/styles/reference_thumbnail/public/2018-12/saigon%20itinerary%20vietnam%20travel.jpg?itok=w-yj5v4Q)The perfect weekend in HCMC](https://vietnam.travel/things-to-do/ho-chi-minh-city-itinerary)",
+              "score": 0.016129032258064516,
+              "metadata": {
+                "source": "article_06.md",
+                "title": "Plan your trip | Vietnam Tourism",
+                "doc_type": "news",
+                "url": "https://vietnam.travel/plan-your-trip",
+                "chunk_index": 147
+              },
+              "retrieval_method": "hybrid"
+            },
+            {
+              "id": "legal/luat-du-lich-2017.md::chunk-26",
+              "content": "Nam và khách du lịch ra nước ngoài.\n\n2. Khách du lịch nội địa là công dân Việt Nam, người nước ngoài cư trú ở Việt\n\nNam đi du lịch trong lãnh thổ Việt Nam.\n\n3. Khách du lịch quốc tế đến Việt Nam là người nước ngoài, người Việt Nam\n\nđịnh cư ở nước ngoài vào Việt Nam du lịch.\n\n4. Khách du lịch ra nước ngoài là công dân Việt Nam và người nước ngoài cư\n\ntrú ở Việt Nam đi du lịch nước ngoài.\n\nĐiều 11. Quyền của khách du lịch",
+              "score": 0.015873015873015872,
+              "metadata": {
+                "source": "luat-du-lich-2017.md",
+                "title": "Luật Du lịch số 09/2017/QH14",
+                "doc_type": "legal",
+                "url": "https://congbao.chinhphu.vn/van-ban/luat-so-09-2017-qh14-24241/18448.htm",
+                "chunk_index": 26
+              },
+              "retrieval_method": "hybrid"
+            }
+          ],
+          "retrieval_source": "hybrid"
+        },
+        "scores": {
+          "faithfulness": 0.98,
+          "answer_relevance": 0.82,
+          "context_recall": 0.98,
+          "context_precision": 0.3
+        }
+      },
+      {
+        "number": 7,
+        "question": "Nếu thích kiến trúc và di sản, nên kết hợp những điểm nào ở miền Trung?",
+        "result": {
+          "answer": "Từ thông tin được cung cấp, điểm phù hợp nhất là **phố cổ Hội An**, nơi có các tuyến phố cổ, nhà của thương nhân Trung Hoa, nhà gỗ được chuyển thành nhà hàng, quán cà phê và không gian thủ công; đồng thời có **Chùa Cầu Nhật Bản thế kỷ XVI** và sự giao thoa kiến trúc Trung Hoa, Nhật Bản, Việt Nam. [news/article_03.md::chunk-30]\n\nVì vậy, có thể kết hợp tham quan **phố cổ Hội An – Chùa Cầu Nhật Bản – các công trình kiến trúc Trung Hoa, Nhật Bản và Việt Nam trong khu phố cổ**. [news/article_03.md::chunk-30]\n\nContext hiện không cung cấp đủ thông tin để xác minh thêm các điểm khác ở miền Trung.",
+          "sources": [
+            {
+              "id": "legal/luat-du-lich-2017.md::chunk-46",
+              "content": "2. Khai thác, sử dụng hợp lý, hiệu quả tài nguyên du lịch và bảo tồn các di tích\nlịch sử - văn hóa, di sản thiên nhiên hướng tới mục tiêu phát triển bền vững gắn\nvới bảo vệ môi trường và ứng phó với biến đổi khí hậu.\n\n3. Bảo đảm tính liên kết giữa các địa phương trong vùng, giữa các vùng trong cả\nnước; khai thác, sử dụng tối đa kết cấu hạ tầng hiện có; phát huy tối ưu tiềm năng,\nlợi thế của từng vùng, từng địa phương để phát triển sản phẩm du lịch.",
+              "score": 0.03225806451612903,
+              "metadata": {
+                "source": "luat-du-lich-2017.md",
+                "title": "Luật Du lịch số 09/2017/QH14",
+                "doc_type": "legal",
+                "url": "https://congbao.chinhphu.vn/van-ban/luat-so-09-2017-qh14-24241/18448.htm",
+                "chunk_index": 46
+              },
+              "retrieval_method": "hybrid"
+            },
+            {
+              "id": "legal/luat-du-lich-2017.md::chunk-36",
+              "content": "2. Tài nguyên du lịch văn hóa bao gồm di tích lịch sử - văn hóa, di tích cách\nmạng, khảo cổ, kiến trúc; giá trị văn hóa truyền thống, lễ hội, văn nghệ dân gian và\ncác giá trị văn hóa khác; công trình lao động sáng tạo của con người có thể được\nsử dụng cho mục đích du lịch.\n\nĐiều 16. Điều tra tài nguyên du lịch\n\n1. Bộ Văn hóa, Thể thao và Du lịch chủ trì, phối hợp với Ủy ban nhân dân cấp\ntỉnh và cơ quan nhà nước có liên quan điều tra, đánh giá, phân loại tài nguyên du",
+              "score": 0.01639344262295082,
+              "metadata": {
+                "source": "luat-du-lich-2017.md",
+                "title": "Luật Du lịch số 09/2017/QH14",
+                "doc_type": "legal",
+                "url": "https://congbao.chinhphu.vn/van-ban/luat-so-09-2017-qh14-24241/18448.htm",
+                "chunk_index": 36
+              },
+              "retrieval_method": "hybrid"
+            },
+            {
+              "id": "news/article_03.md::chunk-30",
+              "content": "Return to**Hoi An** in the afternoon and spend the remainder of the day walking the ancient streets lined with Chinese traders’ homes and wooden houses reincarnated as restaurants, cafés, and outlets for local artists, craftsmen and tailors. Explore the beautiful 16th century Japanese Bridge. Hoi An's unique fusion of Chinese, Japanese and Vietnamese architecture is well displayed here, in what is arguably Vietnam's most tourist-friendly town",
+              "score": 0.01639344262295082,
+              "metadata": {
+                "source": "article_03.md",
+                "title": "Vietnam Highlights | Vietnam Tourism",
+                "doc_type": "news",
+                "url": "https://www.vietnam.travel/node/156",
+                "chunk_index": 30
+              },
+              "retrieval_method": "hybrid"
+            },
+            {
+              "id": "legal/luat-du-lich-2017.md::chunk-10",
+              "content": "các hoạt động du lịch.\n\nĐiều 4. Nguyên tắc phát triển du lịch\n\n1. Phát triển du lịch bền vững, theo chiến lược, quy hoạch, kế hoạch, có trọng\n\ntâm, trọng điểm.\n\n2. Phát triển du lịch gắn với bảo tồn và phát huy giá trị di sản văn hóa dân tộc,\ntài nguyên thiên nhiên, khai thác lợi thế của từng địa phương và tăng cường liên\nkết vùng.",
+              "score": 0.015873015873015872,
+              "metadata": {
+                "source": "luat-du-lich-2017.md",
+                "title": "Luật Du lịch số 09/2017/QH14",
+                "doc_type": "legal",
+                "url": "https://congbao.chinhphu.vn/van-ban/luat-so-09-2017-qh14-24241/18448.htm",
+                "chunk_index": 10
+              },
+              "retrieval_method": "hybrid"
+            },
+            {
+              "id": "legal/luat-du-lich-2017.md::chunk-132",
+              "content": "4. Xây dựng và tổ chức các chương trình nghệ thuật biểu diễn truyền thống và\nđương đại; kết nối hệ thống bảo tàng, nhà hát với hoạt động du lịch; khai thác trò\nchơi dân gian, lễ hội truyền thống hấp dẫn khách du lịch; xây dựng các công viên\nchủ đề, trung tâm giải trí.\n\n5. Cung cấp các dịch vụ y tế, chăm sóc sức khỏe, chăm sóc sắc đẹp trên cơ sở\n\nkhai thác giá trị y học cổ truyền, y học hiện đại.\n\n6. Cung cấp các dịch vụ có liên quan khác theo nhu cầu của khách du lịch và",
+              "score": 0.015873015873015872,
+              "metadata": {
+                "source": "luat-du-lich-2017.md",
+                "title": "Luật Du lịch số 09/2017/QH14",
+                "doc_type": "legal",
+                "url": "https://congbao.chinhphu.vn/van-ban/luat-so-09-2017-qh14-24241/18448.htm",
+                "chunk_index": 132
+              },
+              "retrieval_method": "hybrid"
+            }
+          ],
+          "retrieval_source": "hybrid"
+        },
+        "scores": {
+          "faithfulness": 0.95,
+          "answer_relevance": 0.45,
+          "context_recall": 0.33,
+          "context_precision": 0.2
+        }
+      },
+      {
+        "number": 8,
+        "question": "Du khách cần chuẩn bị những tiện ích thực tế nào trước chuyến đi Việt Nam?",
+        "result": {
+          "answer": "Context được cung cấp chưa nêu cụ thể các tiện ích cần chuẩn bị trước chuyến đi Việt Nam; chỉ có mục “practicalities – Get ready for your visit”. [news/article_06.md::chunk-22]\n\nCó thể xác nhận rằng du khách được tạo điều kiện về xuất cảnh, nhập cảnh, quá cảnh, hải quan, lưu trú và đi lại theo pháp luật Việt Nam và điều ước quốc tế liên quan. [legal/luat-du-lich-2017.md::chunk-28]\n\nVì vậy, tôi không thể xác minh từ context hiện có các tiện ích cụ thể như tiền tệ, thanh toán, internet, điện, y tế hoặc phương tiện đi lại.",
+          "sources": [
+            {
+              "id": "legal/luat-du-lich-2017.md::chunk-28",
+              "content": "3. Được tạo điều kiện thuận lợi về xuất cảnh, nhập cảnh, quá cảnh, hải quan,\nlưu  cư trú, đi  lại  trên  lãnh thổ  Việt  Nam  phù hợp  với quy  định  của  pháp luật và\nđiều ước quốc tế mà nước Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên.\n\n4. Được bảo đảm quyền và lợi ích hợp pháp theo hợp đồng đã giao kết với tổ\n\nchức, cá nhân kinh doanh, cung cấp dịch vụ du lịch.",
+              "score": 0.03149801587301587,
+              "metadata": {
+                "source": "luat-du-lich-2017.md",
+                "title": "Luật Du lịch số 09/2017/QH14",
+                "doc_type": "legal",
+                "url": "https://congbao.chinhphu.vn/van-ban/luat-so-09-2017-qh14-24241/18448.htm",
+                "chunk_index": 28
+              },
+              "retrieval_method": "hybrid"
+            },
+            {
+              "id": "legal/luat-du-lich-2017.md::chunk-11",
+              "content": "3. Bảo đảm chủ quyền quốc gia, quốc phòng, an ninh, trật tự, an toàn xã hội, mở\nrộng  quan  hệ  đối  ngoại  và  hội  nhập  quốc  tế,  quảng  bá  hình  ảnh  đất  nước,  con\nngười Việt Nam.\n\n4. Bảo đảm lợi ích quốc gia, lợi ích cộng đồng, quyền và lợi ích hợp pháp của\n\nkhách du lịch, tổ chức, cá nhân kinh doanh du lịch.\n\n5. Phát triển đồng thời du lịch nội địa và du lịch quốc tế; tôn trọng và đối xử\n\nbình đẳng đối với khách du lịch.\n\nĐiều 5. Chính sách phát triển du lịch",
+              "score": 0.02967032967032967,
+              "metadata": {
+                "source": "luat-du-lich-2017.md",
+                "title": "Luật Du lịch số 09/2017/QH14",
+                "doc_type": "legal",
+                "url": "https://congbao.chinhphu.vn/van-ban/luat-so-09-2017-qh14-24241/18448.htm",
+                "chunk_index": 11
+              },
+              "retrieval_method": "hybrid"
+            },
+            {
+              "id": "legal/luat-du-lich-2017.md::chunk-6",
+              "content": "khách du lịch.\n\n8. Chương trình du lịch là văn bản thể hiện lịch trình, dịch vụ và giá bán được\nđịnh trước cho chuyến đi của khách du lịch từ điểm xuất phát đến điểm kết thúc\nchuyến đi.\n\n9. Kinh doanh dịch vụ lữ hành là việc xây dựng, bán và tổ chức thực hiện một\n\nphần hoặc toàn bộ chương trình du lịch cho khách du lịch.\n\n10.  Hướng  dẫn  du  lịch  là  hoạt  động  cung  cấp  thông  tin,  kết  nối  dịch  vụ,  dẫn",
+              "score": 0.01639344262295082,
+              "metadata": {
+                "source": "luat-du-lich-2017.md",
+                "title": "Luật Du lịch số 09/2017/QH14",
+                "doc_type": "legal",
+                "url": "https://congbao.chinhphu.vn/van-ban/luat-so-09-2017-qh14-24241/18448.htm",
+                "chunk_index": 6
+              },
+              "retrieval_method": "hybrid"
+            },
+            {
+              "id": "news/article_06.md::chunk-22",
+              "content": "[ ![](https://image.vietnam.travel/sites/default/files/2019-11/Culture%20non%20la%20white.jpg) Etiquette ](https://vietnam.travel/things-to-do/vietnamese-etiquette-travellers)\n[ ![](https://image.vietnam.travel/sites/default/files/2019-11/Our%20Partners.jpg) Payments ](https://vietnam.travel/things-to-do/currency-and-payments-vietnam)\n## practicalities\nGet ready for your visit",
+              "score": 0.01639344262295082,
+              "metadata": {
+                "source": "article_06.md",
+                "title": "Plan your trip | Vietnam Tourism",
+                "doc_type": "news",
+                "url": "https://vietnam.travel/plan-your-trip",
+                "chunk_index": 22
+              },
+              "retrieval_method": "hybrid"
+            },
+            {
+              "id": "legal/luat-du-lich-2017.md::chunk-26",
+              "content": "Nam và khách du lịch ra nước ngoài.\n\n2. Khách du lịch nội địa là công dân Việt Nam, người nước ngoài cư trú ở Việt\n\nNam đi du lịch trong lãnh thổ Việt Nam.\n\n3. Khách du lịch quốc tế đến Việt Nam là người nước ngoài, người Việt Nam\n\nđịnh cư ở nước ngoài vào Việt Nam du lịch.\n\n4. Khách du lịch ra nước ngoài là công dân Việt Nam và người nước ngoài cư\n\ntrú ở Việt Nam đi du lịch nước ngoài.\n\nĐiều 11. Quyền của khách du lịch",
+              "score": 0.016129032258064516,
+              "metadata": {
+                "source": "luat-du-lich-2017.md",
+                "title": "Luật Du lịch số 09/2017/QH14",
+                "doc_type": "legal",
+                "url": "https://congbao.chinhphu.vn/van-ban/luat-so-09-2017-qh14-24241/18448.htm",
+                "chunk_index": 26
+              },
+              "retrieval_method": "hybrid"
+            }
+          ],
+          "retrieval_source": "hybrid"
+        },
+        "scores": {
+          "faithfulness": 0.85,
+          "answer_relevance": 0.1,
+          "context_recall": 0.2,
+          "context_precision": 0.2
+        }
+      },
+      {
+        "number": 9,
+        "question": "Một người thích biển, thiên nhiên và hoạt động ngoài trời nên tìm thông tin ở đâu?",
+        "result": {
+          "answer": "Bạn nên tìm thông tin trên trang **Vietnam Tourism**, cụ thể ở các mục:\n\n- **Coast and Islands**: phù hợp với sở thích biển và đảo. [news/article_03.md::chunk-18]\n- **Adventure Trails**: phù hợp với các hoạt động ngoài trời và khám phá thiên nhiên. [news/article_03.md::chunk-18]",
+          "sources": [
+            {
+              "id": "legal/luat-du-lich-2017.md::chunk-2",
+              "content": "Nam và ở nước ngoài.\n\n2. Tổ chức, cá nhân nước ngoài hoạt động du lịch trên lãnh thổ Việt Nam.\n\n3. Cơ quan quản lý nhà nước về du lịch, cơ quan khác, tổ chức, cá nhân, cộng\n\nđồng dân cư có hoạt động liên quan đến du lịch.\n\nĐiều 3. Giải thích từ ngữ\n\nTrong Luật này, các từ ngữ dưới đây được hiểu như sau:",
+              "score": 0.01639344262295082,
+              "metadata": {
+                "source": "luat-du-lich-2017.md",
+                "title": "Luật Du lịch số 09/2017/QH14",
+                "doc_type": "legal",
+                "url": "https://congbao.chinhphu.vn/van-ban/luat-so-09-2017-qh14-24241/18448.htm",
+                "chunk_index": 2
+              },
+              "retrieval_method": "hybrid"
+            },
+            {
+              "id": "news/article_03.md::chunk-18",
+              "content": "* [ Coast and Islands](https://vietnam.travel/sites/default/files/2021-04/Coast_Islands_Vietnam.pdf)\n    * [View all trips](https://www.vietnam.travel/plan-your-trip/itineraries)\n    * [ ![](https://image.vietnam.travel/themes/custom/vietnamtourism/images/preload-image.gif) Adventure Trails ](https://vietnam.travel/sites/default/files/2021-04/Adventure_Trails_Vietnam.pdf)",
+              "score": 0.01639344262295082,
+              "metadata": {
+                "source": "article_03.md",
+                "title": "Vietnam Highlights | Vietnam Tourism",
+                "doc_type": "news",
+                "url": "https://www.vietnam.travel/node/156",
+                "chunk_index": 18
+              },
+              "retrieval_method": "hybrid"
+            },
+            {
+              "id": "legal/luat-du-lich-2017.md::chunk-3",
+              "content": "1. Du lịch là các hoạt động có liên quan đến chuyến đi của con người ngoài nơi\ncư trú thường xuyên trong thời gian không quá 01 năm liên tục nhằm đáp ứng nhu\ncầu tham quan, nghỉ dưỡng, giải trí, tìm hiểu, khám phá tài nguyên du lịch hoặc kết\nhợp với mục đích hợp pháp khác.\n\n2. Khách du lịch là người đi du lịch hoặc kết hợp đi du lịch, trừ trường hợp đi\n\nhọc, làm việc để nhận thu nhập ở nơi đến.\n\n\f44\n\nCÔNG BÁO/Số 515 + 516/Ngày 25-7-2017",
+              "score": 0.016129032258064516,
+              "metadata": {
+                "source": "luat-du-lich-2017.md",
+                "title": "Luật Du lịch số 09/2017/QH14",
+                "doc_type": "legal",
+                "url": "https://congbao.chinhphu.vn/van-ban/luat-so-09-2017-qh14-24241/18448.htm",
+                "chunk_index": 3
+              },
+              "retrieval_method": "hybrid"
+            },
+            {
+              "id": "legal/nghi-dinh-168-2017-nd-cp.md::chunk-21",
+              "content": "8 CÔNG BÁO/Số 429 + 430/Ngày 10-3-2018\nc) Có biển chỉ dẫn, thuyết minh về điểm du lịch;\nd) Có dịch vụ ăn uống, mua sắm.\n3. Đáp ứng điều kiện về an ninh, trật tự, an toàn xã hội, bảo vệ môi trường, bao gồm:\na) Có bộ phận bảo vệ trực 24 giờ mỗi ngày;\nb) Công khai số điện thoại, địa chỉ của tổ chức, cá nhân quản lý điểm du lịch;\nc) Có hình thức tiếp nhận và giải quyết kịp thời phản ánh, kiến nghị của khách\ndu lịch;\nd) Nhà vệ sinh công cộng sạch sẽ, được thông gió và đủ ánh sáng, được bố trí",
+              "score": 0.016129032258064516,
+              "metadata": {
+                "source": "nghi-dinh-168-2017-nd-cp.md",
+                "title": "Nghị định 168/2017/NĐ-CP quy định chi tiết Luật Du lịch",
+                "doc_type": "legal",
+                "url": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-168-2017-nd-cp-26028/21615.htm",
+                "chunk_index": 21
+              },
+              "retrieval_method": "hybrid"
+            },
+            {
+              "id": "legal/luat-du-lich-2017.md::chunk-26",
+              "content": "Nam và khách du lịch ra nước ngoài.\n\n2. Khách du lịch nội địa là công dân Việt Nam, người nước ngoài cư trú ở Việt\n\nNam đi du lịch trong lãnh thổ Việt Nam.\n\n3. Khách du lịch quốc tế đến Việt Nam là người nước ngoài, người Việt Nam\n\nđịnh cư ở nước ngoài vào Việt Nam du lịch.\n\n4. Khách du lịch ra nước ngoài là công dân Việt Nam và người nước ngoài cư\n\ntrú ở Việt Nam đi du lịch nước ngoài.\n\nĐiều 11. Quyền của khách du lịch",
+              "score": 0.015873015873015872,
+              "metadata": {
+                "source": "luat-du-lich-2017.md",
+                "title": "Luật Du lịch số 09/2017/QH14",
+                "doc_type": "legal",
+                "url": "https://congbao.chinhphu.vn/van-ban/luat-so-09-2017-qh14-24241/18448.htm",
+                "chunk_index": 26
+              },
+              "retrieval_method": "hybrid"
+            }
+          ],
+          "retrieval_source": "hybrid"
+        },
+        "scores": {
+          "faithfulness": 0.95,
+          "answer_relevance": 0.85,
+          "context_recall": 0.35,
+          "context_precision": 0.25
+        }
+      },
+      {
+        "number": 10,
+        "question": "Muốn tìm món ăn theo vùng miền thay vì một nhà hàng cụ thể thì nên đọc nguồn nào?",
+        "result": {
+          "answer": "Nên đọc nguồn **“Food | Vietnam Tourism”**, vì nguồn này cung cấp thông tin về ẩm thực Việt Nam theo chủ đề và vùng miền, chẳng hạn có bài về **ẩm thực cao nguyên đá Hà Giang**, thay vì chỉ giới thiệu một nhà hàng cụ thể. [news/article_05.md::chunk-25]",
+          "sources": [
+            {
+              "id": "legal/luat-du-lich-2017.md::chunk-176",
+              "content": "a) Vốn điều lệ do ngân sách nhà nước cấp;\n\nb)  Ngân  sách  nhà  nước  bổ  sung  hàng  năm  một  phần  trích  từ  nguồn  thu  phí\ntham quan, phí cấp thị thực và các giấy tờ có liên quan đến xuất cảnh, nhập cảnh\nViệt Nam cho người nước ngoài;\n\nc) Nguồn tài trợ, đóng góp tự nguyện, hợp pháp của doanh nghiệp, tổ chức, cá\n\nnhân trong nước và nước ngoài;\n\nd) Các nguồn thu hợp pháp khác theo quy định của pháp luật.\n\n4. Chính phủ quy định chi tiết khoản 3 Điều này.",
+              "score": 0.01639344262295082,
+              "metadata": {
+                "source": "luat-du-lich-2017.md",
+                "title": "Luật Du lịch số 09/2017/QH14",
+                "doc_type": "legal",
+                "url": "https://congbao.chinhphu.vn/van-ban/luat-so-09-2017-qh14-24241/18448.htm",
+                "chunk_index": 176
+              },
+              "retrieval_method": "hybrid"
+            },
+            {
+              "id": "news/article_05.md::chunk-25",
+              "content": "[![](https://image.vietnam.travel/sites/default/files/styles/thing_to_do_thumb/public/2024-04/hagiangfood_0.jpg?itok=y-pksqBl)Local unpacked: One of a kind cuisine of Ha Giang karst plateau](https://vietnam.travel/things-to-do/local-unpacked-one-kind-cuisine-ha-giang-karst-plateau)",
+              "score": 0.01639344262295082,
+              "metadata": {
+                "source": "article_05.md",
+                "title": "Food | Vietnam Tourism",
+                "doc_type": "news",
+                "url": "https://vietnam.travel/things-to-do/food",
+                "chunk_index": 25
+              },
+              "retrieval_method": "hybrid"
+            },
+            {
+              "id": "legal/luat-du-lich-2017.md::chunk-169",
+              "content": "4. Vận động, tìm kiếm cơ hội, tập trung nguồn lực đầu tư phát triển kết cấu hạ\ntầng, cơ sở vật chất kỹ thuật du lịch; đa dạng hóa và nâng cao chất lượng dịch vụ\ndu lịch.\n\nĐiều 68. Hoạt động xúc tiến du lịch\n\n1. Bộ Văn hóa, Thể thao và Du lịch xây dựng và tổ chức thực hiện chiến lược,\nkế hoạch, chương trình xúc tiến du lịch quốc gia; điều phối các hoạt động xúc tiến\ndu lịch liên vùng, liên tỉnh.",
+              "score": 0.016129032258064516,
+              "metadata": {
+                "source": "luat-du-lich-2017.md",
+                "title": "Luật Du lịch số 09/2017/QH14",
+                "doc_type": "legal",
+                "url": "https://congbao.chinhphu.vn/van-ban/luat-so-09-2017-qh14-24241/18448.htm",
+                "chunk_index": 169
+              },
+              "retrieval_method": "hybrid"
+            },
+            {
+              "id": "news/article_05.md::chunk-29",
+              "content": "## INFOGRAPHICS\nLearn more about Vietnam\n  * [ ![](https://image.vietnam.travel/sites/default/files/styles/reference_thumbnail/public/2019-07/desserts%20of%20Vietnam.png?itok=NLKik1cc) ](https://vietnam.travel/things-to-do/food)\n[](https://vietnam.travel/things-to-do/food)\n![](https://image.vietnam.travel/sites/default/files/2019-07/DESSERT_INFOGRAPHIC_0.png)\n[DOWNLOAD](https://image.vietnam.travel/sites/default/files/2019-07/DESSERT_INFOGRAPHIC.png)",
+              "score": 0.016129032258064516,
+              "metadata": {
+                "source": "article_05.md",
+                "title": "Food | Vietnam Tourism",
+                "doc_type": "news",
+                "url": "https://vietnam.travel/things-to-do/food",
+                "chunk_index": 29
+              },
+              "retrieval_method": "hybrid"
+            },
+            {
+              "id": "legal/luat-du-lich-2017.md::chunk-186",
+              "content": "CÔNG BÁO/Số 515 + 516/Ngày 25-7-2017\n\n83\n\n4. Bộ Công Thương chủ trì, phối hợp với Bộ Văn hóa, Thể thao và Du lịch, cơ\nquan nhà nước có liên quan ban hành hoặc trình cơ quan nhà nước có thẩm quyền\nban hành chính sách khuyến khích sản xuất, cung cấp hàng hóa, đồ lưu niệm, hàng\nthủ công, dịch vụ chất lượng cao để phát triển du lịch, xây dựng hệ thống cửa hàng\nmiễn thuế phục vụ khách du lịch tại một số địa bàn du lịch trọng điểm; lồng ghép\nxúc tiến du lịch trong xúc tiến thương mại.",
+              "score": 0.015873015873015872,
+              "metadata": {
+                "source": "luat-du-lich-2017.md",
+                "title": "Luật Du lịch số 09/2017/QH14",
+                "doc_type": "legal",
+                "url": "https://congbao.chinhphu.vn/van-ban/luat-so-09-2017-qh14-24241/18448.htm",
+                "chunk_index": 186
+              },
+              "retrieval_method": "hybrid"
+            }
+          ],
+          "retrieval_source": "hybrid"
+        },
+        "scores": {
+          "faithfulness": 0.82,
+          "answer_relevance": 0.9,
+          "context_recall": 0.55,
+          "context_precision": 0.4
+        }
+      },
+      {
+        "number": 11,
+        "question": "Quy định e-visa 90 ngày trong hai trang visa có mâu thuẫn nhau không?",
+        "result": {
+          "answer": "Không, **hai trang không mâu thuẫn nhau** về quy định e-visa 90 ngày.\n\n- Cả hai đều nêu rằng từ **15/8/2023**, công dân của **tất cả quốc gia và vùng lãnh thổ** có thể xin e-visa Việt Nam với thời hạn **90 ngày** và được **nhập cảnh nhiều lần**. [news/article_01.md::chunk-19] [news/article_02.md::chunk-20]\n- Trang “An official guide to e-Visas in Vietnam” diễn đạt là e-visa **“valid for 90 days, and multiple entry”**, còn trang “Vietnam Visa Requirements” diễn đạt là **“90-day stay duration and valid for multiple entry”**. Hai cách diễn đạt này đều chỉ thời hạn e-visa là 90 ngày và cho phép nhập cảnh nhiều lần. [news/article_02.md::chunk-24] [news/article_01.md::chunk-22]\n\nVì vậy, xét theo thông tin được cung cấp, đây là **khác biệt về cách diễn đạt**, không phải mâu thuẫn về quy định.",
+          "sources": [
+            {
+              "id": "news/article_02.md::chunk-24",
+              "content": "**What is Vietnam’s e-visa?**\nVietnam's e-visa is one of several visa types offered by the Vietnam Immigration Department to foreigners entering the country. The e-visa is valid for 90 days, and multiple entry. As of 15th August 2023, Vietnam's e-visa is available to all countries/territories around the world.\nTravellers can apply directly for e-visas at [Vietnam e-Visa Official Website](https://evisa.xuatnhapcanh.gov.vn/web/guest/trang-chu-ttdt)\n## read more",
+              "score": 0.03278688524590164,
+              "metadata": {
+                "source": "article_02.md",
+                "title": "An official guide to e-Visas in Vietnam | Vietnam Tourism",
+                "doc_type": "news",
+                "url": "https://vietnam.travel/plan-your-trip/official-vietnam-evisa-application",
+                "chunk_index": 24
+              },
+              "retrieval_method": "hybrid"
+            },
+            {
+              "id": "news/article_01.md::chunk-22",
+              "content": "### **VIETNAM ELECTRONIC VISA (E-VISA)**\nFrom 15th August 2023, Vietnam grants e-visas for citizens of all countries and territories with 90-day stay duration and valid for multiple entry.\n![Visa All](https://vietnam.travel/sites/default/files/inline-images/visaall_0.jpg)\nHere is the list of border gates that allowed foreigners enter and exit Vietnam by E-visa.",
+              "score": 0.03225806451612903,
+              "metadata": {
+                "source": "article_01.md",
+                "title": "Vietnam Visa Requirements | Vietnam Tourism",
+                "doc_type": "news",
+                "url": "https://vietnam.travel/plan-your-trip/visa-requirements",
+                "chunk_index": 22
+              },
+              "retrieval_method": "hybrid"
+            },
+            {
+              "id": "news/article_01.md::chunk-19",
+              "content": "Overview Vietnam visa exemption you may also like\n### **OVERVIEW**\n**New policies from 15th August 2023**\n  1. Vietnam grants e-visas for citizens of all countries and territories with 90-day stay duration and valid for multiple entry.\n  2. Citizens of 13 coutries enjoying unilateral visa exemption can stay in Vietnam up to 45 days.",
+              "score": 0.03149801587301587,
+              "metadata": {
+                "source": "article_01.md",
+                "title": "Vietnam Visa Requirements | Vietnam Tourism",
+                "doc_type": "news",
+                "url": "https://vietnam.travel/plan-your-trip/visa-requirements",
+                "chunk_index": 19
+              },
+              "retrieval_method": "hybrid"
+            },
+            {
+              "id": "news/article_02.md::chunk-20",
+              "content": "## **From 15th August 2023, citizens of all countries and territories around the world can apply for electronic visas (e-visas) entering Vietnam and enjoy the 90-day e-visa duration, valid for multiple entry.**\n* * *\n![evisa for all](https://vietnam.travel/sites/default/files/inline-images/visaall.jpg)\n* * *\n**Foreigners with e-visas are allowed to enter Vietnam via:**",
+              "score": 0.031009615384615385,
+              "metadata": {
+                "source": "article_02.md",
+                "title": "An official guide to e-Visas in Vietnam | Vietnam Tourism",
+                "doc_type": "news",
+                "url": "https://vietnam.travel/plan-your-trip/official-vietnam-evisa-application",
+                "chunk_index": 20
+              },
+              "retrieval_method": "hybrid"
+            },
+            {
+              "id": "news/article_01.md::chunk-21",
+              "content": "**Below is the full list of 25 countries +Kazakhstan that are exempted from visa requirement:**\nBrunei, Myanmar, Belarus, Denmark, Finland, France, Germany, Italy, Japan, Norway, Russia, South Korea, Spain, Sweden, The UK, The Philippines, Cambodia, Indonesia, Kyrgyzstan, Laos, Malaysia, Singapore, Thailand, Chile, Panama.\n### **VIETNAM ELECTRONIC VISA (E-VISA)**",
+              "score": 0.030303030303030304,
+              "metadata": {
+                "source": "article_01.md",
+                "title": "Vietnam Visa Requirements | Vietnam Tourism",
+                "doc_type": "news",
+                "url": "https://vietnam.travel/plan-your-trip/visa-requirements",
+                "chunk_index": 21
+              },
+              "retrieval_method": "hybrid"
+            }
+          ],
+          "retrieval_source": "hybrid"
+        },
+        "scores": {
+          "faithfulness": 0.99,
+          "answer_relevance": 0.99,
+          "context_recall": 1.0,
+          "context_precision": 0.94
+        }
+      },
+      {
+        "number": 12,
+        "question": "Hội An thuộc câu hỏi về địa điểm, lịch trình hay ẩm thực?",
+        "result": {
+          "answer": "Không đủ thông tin trong context để xác định Hội An thuộc nhóm **địa điểm, lịch trình hay ẩm thực**.",
+          "sources": [
+            {
+              "id": "legal/luat-du-lich-2017.md::chunk-130",
+              "content": "6. Dịch vụ liên quan khác phục vụ khách du lịch.\n\nĐiều 55. Phát triển các loại dịch vụ du lịch khác\n\nNhà nước khuyến khích tổ chức, cá nhân thực hiện các hoạt động sau đây:\n\n1. Đầu tư, xây dựng các chuỗi nhà hàng ăn uống, khu ẩm thực, lễ hội ẩm thực\nnhằm bảo tồn và phát huy các giá trị ẩm thực truyền thống, tiếp thu tinh hoa ẩm\nthực thế giới.",
+              "score": 0.01639344262295082,
+              "metadata": {
+                "source": "luat-du-lich-2017.md",
+                "title": "Luật Du lịch số 09/2017/QH14",
+                "doc_type": "legal",
+                "url": "https://congbao.chinhphu.vn/van-ban/luat-so-09-2017-qh14-24241/18448.htm",
+                "chunk_index": 130
+              },
+              "retrieval_method": "hybrid"
+            },
+            {
+              "id": "news/article_05.md::chunk-26",
+              "content": "[![](https://image.vietnam.travel/sites/default/files/styles/thing_to_do_thumb/public/2024-02/banh-mi-ha-noi-14_1688279495%20%281%29.jpg?itok=J3VPL9eC)Explore delicious dishes in Ho Chi Minh City](https://vietnam.travel/things-to-do/explore-delicious-dishes-ho-chi-minh-city)",
+              "score": 0.01639344262295082,
+              "metadata": {
+                "source": "article_05.md",
+                "title": "Food | Vietnam Tourism",
+                "doc_type": "news",
+                "url": "https://vietnam.travel/things-to-do/food",
+                "chunk_index": 26
+              },
+              "retrieval_method": "hybrid"
+            },
+            {
+              "id": "legal/luat-du-lich-2017.md::chunk-189",
+              "content": "a) Ban hành hoặc trình cơ quan nhà nước có thẩm quyền ban hành các chính\nsách  ưu  đãi,  thu  hút  đầu  tư  để  khai  thác  tiềm  năng,  thế  mạnh  về  du  lịch  của  địa\nphương; hỗ trợ phát triển du lịch cộng đồng;\n\nb) Quản lý tài nguyên du lịch, khu du lịch, điểm du lịch, hoạt động kinh doanh\n\ndu lịch và hướng dẫn du lịch trên địa bàn;\n\nc) Bảo đảm an ninh, trật tự, an toàn xã hội, môi trường, an toàn thực phẩm tại\n\nkhu du lịch, điểm du lịch, nơi tập trung nhiều khách du lịch;",
+              "score": 0.016129032258064516,
+              "metadata": {
+                "source": "luat-du-lich-2017.md",
+                "title": "Luật Du lịch số 09/2017/QH14",
+                "doc_type": "legal",
+                "url": "https://congbao.chinhphu.vn/van-ban/luat-so-09-2017-qh14-24241/18448.htm",
+                "chunk_index": 189
+              },
+              "retrieval_method": "hybrid"
+            },
+            {
+              "id": "news/article_06.md::chunk-147",
+              "content": "* [![](https://image.vietnam.travel/sites/default/files/styles/reference_thumbnail/public/2019-07/top%20things%20to%20do%20in%20hue.jpg?itok=5-xcOQWJ)3 days in Hue for culture seekers ](https://vietnam.travel/things-to-do/hue-itinerary)\n  * [![](https://image.vietnam.travel/sites/default/files/styles/reference_thumbnail/public/2018-12/saigon%20itinerary%20vietnam%20travel.jpg?itok=w-yj5v4Q)The perfect weekend in HCMC](https://vietnam.travel/things-to-do/ho-chi-minh-city-itinerary)",
+              "score": 0.016129032258064516,
+              "metadata": {
+                "source": "article_06.md",
+                "title": "Plan your trip | Vietnam Tourism",
+                "doc_type": "news",
+                "url": "https://vietnam.travel/plan-your-trip",
+                "chunk_index": 147
+              },
+              "retrieval_method": "hybrid"
+            },
+            {
+              "id": "legal/luat-du-lich-2017.md::chunk-106",
+              "content": "3. Hướng dẫn, cung cấp cho bên nhận đại lý lữ hành thông tin liên quan đến\n\nchương trình du lịch.\n\nĐiều 43. Trách nhiệm của đại lý lữ hành\n\n1. Thông báo cho cơ quan chuyên môn về du lịch cấp tỉnh thời điểm bắt đầu\nhoạt động kinh doanh, địa điểm kinh doanh, thông tin về doanh nghiệp giao đại lý\nlữ hành.\n\n2. Thực hiện việc bán chương trình du lịch đúng nội dung và đúng giá như hợp\n\nđồng đại lý; không được tổ chức thực hiện chương trình du lịch.",
+              "score": 0.015873015873015872,
+              "metadata": {
+                "source": "luat-du-lich-2017.md",
+                "title": "Luật Du lịch số 09/2017/QH14",
+                "doc_type": "legal",
+                "url": "https://congbao.chinhphu.vn/van-ban/luat-so-09-2017-qh14-24241/18448.htm",
+                "chunk_index": 106
+              },
+              "retrieval_method": "hybrid"
+            }
+          ],
+          "retrieval_source": "hybrid"
+        },
+        "scores": {
+          "faithfulness": 1.0,
+          "answer_relevance": 0.3,
+          "context_recall": 0.0,
+          "context_precision": 0.15
+        }
+      },
+      {
+        "number": 13,
+        "question": "Tết là quy định pháp lý bắt buộc hay chỉ là lưu ý lập kế hoạch?",
+        "result": {
+          "answer": "Theo context được cung cấp, **Tết chỉ được nêu như một lưu ý khi lập kế hoạch du lịch**, không phải quy định pháp lý bắt buộc. Trang Vietnam Tourism khuyến cáo rằng vào dịp Tết, nhiều doanh nghiệp và nhà hàng đóng cửa, các đầu mối giao thông đông đúc, và việc đặt phương tiện nên được xác nhận sớm. [news/article_06.md::chunk-35]\n\nCác trích đoạn của Luật Du lịch được cung cấp không có quy định nào về việc Tết là nghĩa vụ pháp lý bắt buộc đối với du khách hoặc doanh nghiệp. Vì vậy, **không đủ evidence để xác minh Tết là quy định pháp lý bắt buộc**. [legal/luat-du-lich-2017.md::chunk-50] [legal/luat-du-lich-2017.md::chunk-69] [legal/luat-du-lich-2017.md::chunk-95]",
+          "sources": [
+            {
+              "id": "legal/luat-du-lich-2017.md::chunk-50",
+              "content": "dự án ưu tiên đầu tư, vốn đầu tư.\n\n7.  Định  hướng  bảo  vệ  tài  nguyên  du  lịch  và  môi  trường  theo  quy  định  của\n\npháp luật.\n\n8. Đề xuất chính sách, giải pháp quản lý, phát triển du lịch theo quy hoạch.\n\nĐiều 22. Lập, quản lý và thực hiện quy hoạch về du lịch\n\n1. Việc lập quy hoạch về du lịch phải tuân thủ nguyên tắc, nội dung lập quy\nhoạch về du lịch quy định tại Điều 20 và Điều 21 của Luật này và quy định khác\ncủa pháp luật có liên quan.",
+              "score": 0.032018442622950824,
+              "metadata": {
+                "source": "luat-du-lich-2017.md",
+                "title": "Luật Du lịch số 09/2017/QH14",
+                "doc_type": "legal",
+                "url": "https://congbao.chinhphu.vn/van-ban/luat-so-09-2017-qh14-24241/18448.htm",
+                "chunk_index": 50
+              },
+              "retrieval_method": "hybrid"
+            },
+            {
+              "id": "legal/luat-du-lich-2017.md::chunk-95",
+              "content": "g) Chấp hành, phổ biến, hướng dẫn khách du lịch tuân thủ pháp luật, quy định\ncủa nơi đến du lịch; ứng xử văn minh, tôn trọng bản sắc văn hóa, phong tục, tập\nquán  của  Việt  Nam  và nơi đến du lịch; phối hợp  với  cơ  quan  nhà  nước có thẩm\nquyền xử lý kịp thời các hành vi vi phạm pháp luật của khách du lịch trong thời\ngian tham gia chương trình du lịch;\n\nh) Thực hiện chế độ báo cáo, thống kê, kế toán, lưu giữ hồ sơ theo quy định\n\ncủa pháp luật;",
+              "score": 0.029857397504456328,
+              "metadata": {
+                "source": "luat-du-lich-2017.md",
+                "title": "Luật Du lịch số 09/2017/QH14",
+                "doc_type": "legal",
+                "url": "https://congbao.chinhphu.vn/van-ban/luat-so-09-2017-qh14-24241/18448.htm",
+                "chunk_index": 95
+              },
+              "retrieval_method": "hybrid"
+            },
+            {
+              "id": "news/article_06.md::chunk-35",
+              "content": "Vietnamese Lunar New Year Festival (Tet) is the biggest holiday of the year, and takes place in late January or early February. Travellers should be aware that most businesses and restaurants shut down during this holiday, as Vietnamese travel home to be with their families. Public transport hubs are full to overflowing in the days leading up to Tet. Any transportation booked over the Tet period should be confirmed well in advance.",
+              "score": 0.01639344262295082,
+              "metadata": {
+                "source": "article_06.md",
+                "title": "Plan your trip | Vietnam Tourism",
+                "doc_type": "news",
+                "url": "https://vietnam.travel/plan-your-trip",
+                "chunk_index": 35
+              },
+              "retrieval_method": "hybrid"
+            },
+            {
+              "id": "legal/luat-du-lich-2017.md::chunk-0",
+              "content": "# Luật Du lịch số 09/2017/QH14\n\n**Source:** https://congbao.chinhphu.vn/van-ban/luat-so-09-2017-qh14-24241/18448.htm\n\n**Landing:** `luat-du-lich-2017.pdf`\n\n---\n\nCÔNG BÁO/Số 515 + 516/Ngày 25-7-2017\n\n43\n\nQUỐC HỘI\n\nLuật số: 09/2017/QH14\n\nCỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM\nĐộc lập - Tự do - Hạnh phúc\n\nLUẬT\nDU LỊCH\n\nCăn cứ Hiến pháp nước Cộng hòa xã hội chủ nghĩa Việt Nam;\n\nQuốc hội ban hành Luật Du lịch.\n\nChương I\nNHỮNG QUY ĐỊNH CHUNG\n\nĐiều 1. Phạm vi điều chỉnh",
+              "score": 0.016129032258064516,
+              "metadata": {
+                "source": "luat-du-lich-2017.md",
+                "title": "Luật Du lịch số 09/2017/QH14",
+                "doc_type": "legal",
+                "url": "https://congbao.chinhphu.vn/van-ban/luat-so-09-2017-qh14-24241/18448.htm",
+                "chunk_index": 0
+              },
+              "retrieval_method": "hybrid"
+            },
+            {
+              "id": "legal/luat-du-lich-2017.md::chunk-69",
+              "content": "4. Doanh nghiệp có vốn đầu tư nước ngoài chỉ được kinh doanh dịch vụ lữ hành\nquốc tế phục vụ khách du lịch quốc tế đến Việt Nam, trừ trường hợp điều ước quốc\ntế mà nước Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên có quy định khác.\n\nĐiều 31. Điều kiện kinh doanh dịch vụ lữ hành\n\n1. Điều kiện kinh doanh dịch vụ lữ hành nội địa bao gồm:\n\na) Là doanh nghiệp được thành lập theo quy định của pháp luật về doanh nghiệp;\n\nb) Ký quỹ kinh doanh dịch vụ lữ hành nội địa tại ngân hàng;",
+              "score": 0.016129032258064516,
+              "metadata": {
+                "source": "luat-du-lich-2017.md",
+                "title": "Luật Du lịch số 09/2017/QH14",
+                "doc_type": "legal",
+                "url": "https://congbao.chinhphu.vn/van-ban/luat-so-09-2017-qh14-24241/18448.htm",
+                "chunk_index": 69
+              },
+              "retrieval_method": "hybrid"
+            }
+          ],
+          "retrieval_source": "hybrid"
+        },
+        "scores": {
+          "faithfulness": 1.0,
+          "answer_relevance": 1.0,
+          "context_recall": 1.0,
+          "context_precision": 1.0
+        }
+      },
+      {
+        "number": 14,
+        "question": "Nếu hỏi về mức ký quỹ kinh doanh lữ hành, nên dùng trang du lịch hay văn bản pháp luật nào?",
+        "result": {
+          "answer": "Nên dùng **văn bản pháp luật**, cụ thể là **Nghị định 94/2021/NĐ-CP**, vì văn bản này sửa đổi trực tiếp Điều 14 của Nghị định 168/2017/NĐ-CP về mức ký quỹ kinh doanh dịch vụ lữ hành. [legal/nghi-dinh-94-2021-nd-cp.md::chunk-1] [legal/nghi-dinh-94-2021-nd-cp.md::chunk-2]\n\nTheo nội dung được cung cấp, mức ký quỹ là:\n\n- **Lữ hành nội địa:** 20 triệu đồng. [legal/nghi-dinh-94-2021-nd-cp.md::chunk-3]\n- **Lữ hành quốc tế đón khách vào Việt Nam:** 50 triệu đồng. [legal/nghi-dinh-94-2021-nd-cp.md::chunk-3]\n- **Lữ hành quốc tế đưa khách ra nước ngoài:** 100 triệu đồng. [legal/nghi-dinh-94-2021-nd-cp.md::chunk-3]\n\nTrang du lịch chỉ nên dùng để tham khảo hoặc giải thích; khi trả lời câu hỏi về **mức ký quỹ có giá trị pháp lý**, nên dẫn **Nghị định 94/2021/NĐ-CP** và, khi cần, nêu đây là văn bản sửa đổi Điều 14 của **Nghị định 168/2017/NĐ-CP**. [legal/nghi-dinh-94-2021-nd-cp.md::chunk-2]",
+          "sources": [
+            {
+              "id": "legal/nghi-dinh-168-2017-nd-cp.md::chunk-30",
+              "content": "10 CÔNG BÁO/Số 429 + 430/Ngày 10-3-2018\nChương V\nKINH DOANH DU LỊCH\nMục 1\nKÝ QUỸ KINH DOANH DỊCH VỤ LỮ HÀNH\nĐiều 14. Mức ký quỹ và phương thức ký quỹ\n1. Mức ký quỹ kinh doanh dịch vụ lữ hành nội địa: 100.000.000 (một trăm\ntriệu) đồng.\n2. Mức ký quỹ kinh doanh dịch vụ lữ hành quốc tế:\na) Kinh doanh dịch vụ lữ hành đối với khách du lịch quốc tế đến Việt Nam:\n250.000.000 (hai trăm năm mươi triệu) đồng;\nb) Kinh doanh dịch vụ lữ hành đối với khách du lịch ra nước ngoài:",
+              "score": 0.03278688524590164,
+              "metadata": {
+                "source": "nghi-dinh-168-2017-nd-cp.md",
+                "title": "Nghị định 168/2017/NĐ-CP quy định chi tiết Luật Du lịch",
+                "doc_type": "legal",
+                "url": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-168-2017-nd-cp-26028/21615.htm",
+                "chunk_index": 30
+              },
+              "retrieval_method": "hybrid"
+            },
+            {
+              "id": "legal/nghi-dinh-94-2021-nd-cp.md::chunk-3",
+              "content": "lịch về mức ký quỹ kinh doanh dịch vụ lữ hành\n\nSửa đổi, bổ sung khoản 1 và khoản 2 Điều 14 như sau:\n\n“1.  Mức  ký  quỹ  kinh  doanh  dịch  vụ  lữ  hành  nội  địa:  20.000.000  (hai  mươi\n\ntriệu) đồng.\n\n2. Mức ký quỹ kinh doanh dịch vụ lữ hành quốc tế:\n\na)  Kinh  doanh  dịch  vụ  lữ  hành  đối  với  khách  du  lịch  quốc  tế  đến  Việt  Nam:\n\n50.000.000 (năm mươi triệu) đồng;\n\nb)  Kinh  doanh  dịch  vụ  lữ  hành  đối  với  khách  du  lịch  ra  nước  ngoài:\n\n100.000.000 (một trăm triệu) đồng;",
+              "score": 0.0315136476426799,
+              "metadata": {
+                "source": "nghi-dinh-94-2021-nd-cp.md",
+                "title": "Nghị định 94/2021/NĐ-CP sửa đổi mức ký quỹ lữ hành",
+                "doc_type": "legal",
+                "url": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-94-2021-nd-cp-34718.htm",
+                "chunk_index": 3
+              },
+              "retrieval_method": "hybrid"
+            },
+            {
+              "id": "legal/nghi-dinh-168-2017-nd-cp.md::chunk-36",
+              "content": "doanh nghiệp kinh doanh dịch vụ lữ hành có trách nhiệm bổ sung số tiền ký quỹ đã\nsử dụng để bảo đảm mức ký quỹ theo quy định tại Điều 14 Nghị định này. Trường\nhợp doanh nghiệp không thực hiện, ngân hàng gửi văn bản thông báo cho cơ quan\ncấp phép để có biện pháp xử lý theo quy định của pháp luật.\n3. Doanh nghiệp gửi văn bản đề nghị hoàn trả tiền ký quỹ đến ngân hàng trong\nnhững trường hợp sau đây:\na) Có thông báo bằng văn bản của cơ quan cấp giấy phép kinh doanh dịch vụ",
+              "score": 0.030158730158730156,
+              "metadata": {
+                "source": "nghi-dinh-168-2017-nd-cp.md",
+                "title": "Nghị định 168/2017/NĐ-CP quy định chi tiết Luật Du lịch",
+                "doc_type": "legal",
+                "url": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-168-2017-nd-cp-26028/21615.htm",
+                "chunk_index": 36
+              },
+              "retrieval_method": "hybrid"
+            },
+            {
+              "id": "legal/nghi-dinh-94-2021-nd-cp.md::chunk-2",
+              "content": "Căn cứ Luật Du lịch ngày 19 tháng 6 năm 2017;\n\nTheo đề nghị của Bộ trưởng Bộ Văn hóa, Thể thao và Du lịch;\n\nChính  phủ  ban  hành  Nghị  định  sửa  đổi,  bổ  sung  Điều  14  của  Nghị  định  số\n\n168/2017/NĐ-CP ngày 31 tháng 12 năm 2017 của Chính phủ quy định chi tiết một\n\nsố điều của Luật Du lịch về mức ký quỹ kinh doanh dịch vụ lữ hành.\n\nĐiều 1. Sửa đổi, bổ sung Điều 14 của Nghị định số 168/2017/NĐ-CP ngày 31\n\ntháng 12 năm 2017 của Chính phủ quy định chi tiết một số điều của Luật Du",
+              "score": 0.016129032258064516,
+              "metadata": {
+                "source": "nghi-dinh-94-2021-nd-cp.md",
+                "title": "Nghị định 94/2021/NĐ-CP sửa đổi mức ký quỹ lữ hành",
+                "doc_type": "legal",
+                "url": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-94-2021-nd-cp-34718.htm",
+                "chunk_index": 2
+              },
+              "retrieval_method": "hybrid"
+            },
+            {
+              "id": "legal/nghi-dinh-94-2021-nd-cp.md::chunk-1",
+              "content": "Hà Nội, ngày 28 tháng 10 năm 2021\n\nNGHỊ ĐỊNH\nSửa đổi, bổ sung Điều 14 của Nghị định số 168/2017/NĐ-CP\nngày 31 tháng 12 năm 2017 của Chính phủ quy định chi tiết một số điều\ncủa Luật Du lịch về mức ký quỹ kinh doanh dịch vụ lữ hành\n\nCăn cứ Luật Tổ chức Chính phủ ngày 19 tháng 6 năm 2015; Luật sửa đổi, bổ\n\nsung một số điều của Luật Tổ chức Chính phủ và Luật Tổ chức chính quyền địa\n\nphương ngày 22 tháng 11 năm 2019;\n\nCăn cứ Luật Du lịch ngày 19 tháng 6 năm 2017;",
+              "score": 0.015873015873015872,
+              "metadata": {
+                "source": "nghi-dinh-94-2021-nd-cp.md",
+                "title": "Nghị định 94/2021/NĐ-CP sửa đổi mức ký quỹ lữ hành",
+                "doc_type": "legal",
+                "url": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-94-2021-nd-cp-34718.htm",
+                "chunk_index": 1
+              },
+              "retrieval_method": "hybrid"
+            }
+          ],
+          "retrieval_source": "hybrid"
+        },
+        "scores": {
+          "faithfulness": 0.99,
+          "answer_relevance": 0.95,
+          "context_recall": 1.0,
+          "context_precision": 0.82
+        }
+      },
+      {
+        "number": 15,
+        "question": "Tôi cần một câu trả lời vừa có món ăn vừa có hoạt động; nguồn nào nên được ưu tiên?",
+        "result": {
+          "answer": "Nên ưu tiên **Vietnam Tourism – “Food”** vì đây là nguồn trực tiếp về chủ đề ẩm thực, phù hợp để trả lời phần **món ăn**. [news/article_05.md::chunk-0]\n\nNếu phần **hoạt động** liên quan đến ẩm thực như xây dựng chuỗi nhà hàng, khu ẩm thực hoặc lễ hội ẩm thực, có thể bổ sung **Luật Du lịch 2017**, vì luật khuyến khích các hoạt động này. [legal/luat-du-lich-2017.md::chunk-130]\n\nTuy nhiên, context hiện có không cung cấp nội dung chi tiết của trang “Food”, nên chưa thể xác minh cụ thể tên món ăn hoặc hoạt động nào từ nguồn đó. [news/article_05.md::chunk-0]",
+          "sources": [
+            {
+              "id": "legal/luat-du-lich-2017.md::chunk-12",
+              "content": "Điều 5. Chính sách phát triển du lịch\n\n1. Nhà nước có chính sách huy động mọi nguồn lực cho phát triển du lịch để\n\nbảo đảm du lịch trở thành ngành kinh tế mũi nhọn của đất nước.\n\n2. Tổ chức, cá nhân kinh doanh du lịch được hưởng mức ưu đãi, hỗ trợ đầu\ntư cao nhất khi Nhà nước ban hành, áp dụng các chính sách về ưu đãi và hỗ trợ\nđầu tư.\n\n3. Nhà nước ưu tiên bố trí kinh phí cho các hoạt động sau đây:\n\na) Điều tra, đánh giá, bảo vệ, tôn tạo, phát triển giá trị tài nguyên du lịch;",
+              "score": 0.01639344262295082,
+              "metadata": {
+                "source": "luat-du-lich-2017.md",
+                "title": "Luật Du lịch số 09/2017/QH14",
+                "doc_type": "legal",
+                "url": "https://congbao.chinhphu.vn/van-ban/luat-so-09-2017-qh14-24241/18448.htm",
+                "chunk_index": 12
+              },
+              "retrieval_method": "hybrid"
+            },
+            {
+              "id": "news/article_05.md::chunk-0",
+              "content": "# Food | Vietnam Tourism\n\n**Source:** https://vietnam.travel/things-to-do/food\n\n**Crawled:** 2026-09-20T07:48:37.248823+00:00\n\n**Landing:** `article_05.json`\n\n---",
+              "score": 0.01639344262295082,
+              "metadata": {
+                "source": "article_05.md",
+                "title": "Food | Vietnam Tourism",
+                "doc_type": "news",
+                "url": "https://vietnam.travel/things-to-do/food",
+                "chunk_index": 0
+              },
+              "retrieval_method": "hybrid"
+            },
+            {
+              "id": "legal/luat-du-lich-2017.md::chunk-112",
+              "content": "2.  Phương  tiện  vận  tải  khách  du  lịch  có  biển  hiệu  được  vận  tải  hành  khách\ntheo hợp đồng và được ưu tiên bố trí nơi neo đậu, dừng, đỗ để đón, trả khách du\nlịch tại sân bay, bến cảng, nhà ga, bến xe, trong khu du lịch, gần điểm du lịch, cơ\nsở lưu trú du lịch và được hoạt động không hạn chế thời gian trên các tuyến giao\nthông dẫn tới các điểm tham quan du lịch, cơ sở lưu trú du lịch, điểm cung ứng\ndịch vụ du lịch theo quy định của chính quyền địa phương.",
+              "score": 0.016129032258064516,
+              "metadata": {
+                "source": "luat-du-lich-2017.md",
+                "title": "Luật Du lịch số 09/2017/QH14",
+                "doc_type": "legal",
+                "url": "https://congbao.chinhphu.vn/van-ban/luat-so-09-2017-qh14-24241/18448.htm",
+                "chunk_index": 112
+              },
+              "retrieval_method": "hybrid"
+            },
+            {
+              "id": "legal/luat-du-lich-2017.md::chunk-130",
+              "content": "6. Dịch vụ liên quan khác phục vụ khách du lịch.\n\nĐiều 55. Phát triển các loại dịch vụ du lịch khác\n\nNhà nước khuyến khích tổ chức, cá nhân thực hiện các hoạt động sau đây:\n\n1. Đầu tư, xây dựng các chuỗi nhà hàng ăn uống, khu ẩm thực, lễ hội ẩm thực\nnhằm bảo tồn và phát huy các giá trị ẩm thực truyền thống, tiếp thu tinh hoa ẩm\nthực thế giới.",
+              "score": 0.016129032258064516,
+              "metadata": {
+                "source": "luat-du-lich-2017.md",
+                "title": "Luật Du lịch số 09/2017/QH14",
+                "doc_type": "legal",
+                "url": "https://congbao.chinhphu.vn/van-ban/luat-so-09-2017-qh14-24241/18448.htm",
+                "chunk_index": 130
+              },
+              "retrieval_method": "hybrid"
+            },
+            {
+              "id": "legal/nghi-dinh-168-2017-nd-cp.md::chunk-51",
+              "content": "khách du lịch.\n6. Nhà ở có phòng cho khách du lịch thuê: Nhà ở có khu vực được bố trí trang\nthiết bị, tiện nghi cho khách du lịch thuê lưu trú; khách cùng sinh hoạt với gia đình\nchủ nhà.\n7. Bãi cắm trại du lịch: Khu vực được quy hoạch ở nơi có cảnh quan thiên\nnhiên đẹp, có kết cấu hạ tầng, có cơ sở vật chất và dịch vụ cần thiết phục vụ khách\ncắm trại.",
+              "score": 0.015873015873015872,
+              "metadata": {
+                "source": "nghi-dinh-168-2017-nd-cp.md",
+                "title": "Nghị định 168/2017/NĐ-CP quy định chi tiết Luật Du lịch",
+                "doc_type": "legal",
+                "url": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-168-2017-nd-cp-26028/21615.htm",
+                "chunk_index": 51
+              },
+              "retrieval_method": "hybrid"
+            }
+          ],
+          "retrieval_source": "hybrid"
+        },
+        "scores": {
+          "faithfulness": 0.88,
+          "answer_relevance": 0.55,
+          "context_recall": 0.3,
+          "context_precision": 0.45
+        }
+      },
+      {
+        "number": 16,
+        "question": "Luật Du lịch và các bài Vietnam Tourism khác nhau thế nào về loại thông tin?",
+        "result": {
+          "answer": "Dựa trên context, có thể xác định:\n\n- **Luật Du lịch** là văn bản quy phạm pháp luật do Quốc hội ban hành, quy định các vấn đề pháp lý trong lĩnh vực du lịch; văn bản có các chương, điều và quy định về hành vi bị nghiêm cấm, khách du lịch, dịch vụ du lịch… [legal/luat-du-lich-2017.md::chunk-0] [legal/luat-du-lich-2017.md::chunk-25] [legal/luat-du-lich-2017.md::chunk-130]\n- **Nghị định 168/2017/NĐ-CP** là văn bản quy định chi tiết một số điều của Luật Du lịch, chẳng hạn yêu cầu cơ sở lưu trú gửi thông báo và cam kết đủ điều kiện kinh doanh dịch vụ lưu trú. [legal/nghi-dinh-168-2017-nd-cp.md::chunk-1] [legal/nghi-dinh-168-2017-nd-cp.md::chunk-59]\n- **Các bài “Vietnam Tourism”** không được cung cấp trong context, nên chưa đủ thông tin để xác minh chúng khác Luật Du lịch về loại thông tin như thế nào.",
+          "sources": [
+            {
+              "id": "legal/luat-du-lich-2017.md::chunk-25",
+              "content": "7. Hành nghề hướng dẫn du lịch khi không đủ điều kiện hành nghề.\n\n8. Quảng cáo không đúng loại, hạng cơ sở lưu trú du lịch đã được cơ quan nhà\nnước có thẩm quyền công nhận; quảng cáo về loại, hạng cơ sở lưu trú du lịch khi\nchưa được cơ quan nhà nước có thẩm quyền công nhận.\n\n9. Các hành vi bị nghiêm cấm khác theo quy định của luật khác có liên quan.\n\nChương II\nKHÁCH DU LỊCH\n\nĐiều 10. Các loại khách du lịch\n\n1. Khách du lịch bao gồm khách du lịch nội địa, khách du lịch quốc tế đến Việt",
+              "score": 0.03036576949620428,
+              "metadata": {
+                "source": "luat-du-lich-2017.md",
+                "title": "Luật Du lịch số 09/2017/QH14",
+                "doc_type": "legal",
+                "url": "https://congbao.chinhphu.vn/van-ban/luat-so-09-2017-qh14-24241/18448.htm",
+                "chunk_index": 25
+              },
+              "retrieval_method": "hybrid"
+            },
+            {
+              "id": "legal/luat-du-lich-2017.md::chunk-0",
+              "content": "# Luật Du lịch số 09/2017/QH14\n\n**Source:** https://congbao.chinhphu.vn/van-ban/luat-so-09-2017-qh14-24241/18448.htm\n\n**Landing:** `luat-du-lich-2017.pdf`\n\n---\n\nCÔNG BÁO/Số 515 + 516/Ngày 25-7-2017\n\n43\n\nQUỐC HỘI\n\nLuật số: 09/2017/QH14\n\nCỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM\nĐộc lập - Tự do - Hạnh phúc\n\nLUẬT\nDU LỊCH\n\nCăn cứ Hiến pháp nước Cộng hòa xã hội chủ nghĩa Việt Nam;\n\nQuốc hội ban hành Luật Du lịch.\n\nChương I\nNHỮNG QUY ĐỊNH CHUNG\n\nĐiều 1. Phạm vi điều chỉnh",
+              "score": 0.01639344262295082,
+              "metadata": {
+                "source": "luat-du-lich-2017.md",
+                "title": "Luật Du lịch số 09/2017/QH14",
+                "doc_type": "legal",
+                "url": "https://congbao.chinhphu.vn/van-ban/luat-so-09-2017-qh14-24241/18448.htm",
+                "chunk_index": 0
+              },
+              "retrieval_method": "hybrid"
+            },
+            {
+              "id": "legal/nghi-dinh-168-2017-nd-cp.md::chunk-59",
+              "content": "trách nhiệm gửi thông báo bằng văn bản tới Sở Du lịch, Sở Văn hóa, Thể thao và\nDu lịch nơi có cơ sở lưu trú du lịch về những nội dung sau:\na) Tên, loại hình, quy mô cơ sở lưu trú du lịch;\nb) Địa chỉ cơ sở lưu trú du lịch, thông tin về người đại diện theo pháp luật;\nc) Cam kết đủ điều kiện kinh doanh dịch vụ lưu trú du lịch quy định tại Điều 49\nLuật Du lịch và Nghị định này.",
+              "score": 0.01639344262295082,
+              "metadata": {
+                "source": "nghi-dinh-168-2017-nd-cp.md",
+                "title": "Nghị định 168/2017/NĐ-CP quy định chi tiết Luật Du lịch",
+                "doc_type": "legal",
+                "url": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-168-2017-nd-cp-26028/21615.htm",
+                "chunk_index": 59
+              },
+              "retrieval_method": "hybrid"
+            },
+            {
+              "id": "legal/luat-du-lich-2017.md::chunk-130",
+              "content": "6. Dịch vụ liên quan khác phục vụ khách du lịch.\n\nĐiều 55. Phát triển các loại dịch vụ du lịch khác\n\nNhà nước khuyến khích tổ chức, cá nhân thực hiện các hoạt động sau đây:\n\n1. Đầu tư, xây dựng các chuỗi nhà hàng ăn uống, khu ẩm thực, lễ hội ẩm thực\nnhằm bảo tồn và phát huy các giá trị ẩm thực truyền thống, tiếp thu tinh hoa ẩm\nthực thế giới.",
+              "score": 0.016129032258064516,
+              "metadata": {
+                "source": "luat-du-lich-2017.md",
+                "title": "Luật Du lịch số 09/2017/QH14",
+                "doc_type": "legal",
+                "url": "https://congbao.chinhphu.vn/van-ban/luat-so-09-2017-qh14-24241/18448.htm",
+                "chunk_index": 130
+              },
+              "retrieval_method": "hybrid"
+            },
+            {
+              "id": "legal/nghi-dinh-168-2017-nd-cp.md::chunk-1",
+              "content": "CÔNG BÁO/Số 429 + 430/Ngày 10-3-2018 3\nVĂN BẢN QUY PHẠM PHÁP LUẬT\nCHÍNH PHỦ\nCHÍNH PHỦ CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM\nĐộc lập - Tự do - Hạnh phúc\nSố: 168/2017/NĐ-CP Hà Nội, ngày 31 tháng 12 năm 2017\nNGHỊ ĐỊNH\nQuy định chi tiết một số điều của Luật Du lịch\nCăn cứ Luật tổ chức Chính phủ ngày 19 tháng 6 năm 2015;\nCăn cứ Luật Du lịch ngày 19 tháng 6 năm 2017;\nTheo đề nghị của Bộ trưởng Bộ Văn hóa, Thể thao và Du lịch;\nChính phủ ban hành Nghị định quy định chi tiết một số điều của Luật Du lịch.",
+              "score": 0.016129032258064516,
+              "metadata": {
+                "source": "nghi-dinh-168-2017-nd-cp.md",
+                "title": "Nghị định 168/2017/NĐ-CP quy định chi tiết Luật Du lịch",
+                "doc_type": "legal",
+                "url": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-168-2017-nd-cp-26028/21615.htm",
+                "chunk_index": 1
+              },
+              "retrieval_method": "hybrid"
+            }
+          ],
+          "retrieval_source": "hybrid"
+        },
+        "scores": {
+          "faithfulness": 0.85,
+          "answer_relevance": 0.4,
+          "context_recall": 0.2,
+          "context_precision": 0.7
+        }
+      }
+    ]
+  }
+}

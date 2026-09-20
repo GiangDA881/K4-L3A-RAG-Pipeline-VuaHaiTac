@@ -14,6 +14,7 @@ Chủ đề nhóm **VuaHaiTac**: Du lịch Việt Nam — lịch trình, địa 
   - Repo nhóm này: `K4-L3A-RAG-Pipeline-VuaHaiTac`
 - **Báo cáo cá nhân:** `<MSV> - <Ho Va Ten>.md` trong `group_project/ịndividual/`
   - Đã nộp: [2A202602446 - Nguyễn Xuân Trường Giang.md](group_project/ịndividual/2A202602446%20-%20Nguyễn%20Xuân%20Trường%20Giang.md)
+]
   - Template: `group_project/ịndividual/INDIVIDUAL_REPORT.md` (không giữ tên template khi nộp).
 
 ## Sản phẩm phải nộp
@@ -70,6 +71,28 @@ pytest -q
 # 3. Chạy sản phẩm
 streamlit run app.py
 ```
+
+PageIndex là fallback tùy chọn. Để bật fallback thật, điền `PAGEINDEX_API_KEY` và
+tạo `pageindex_doc_ids.json` ở thư mục gốc theo dạng:
+
+```json
+{
+  "documents": [
+    {
+      "doc_id": "pageindex-document-id",
+      "metadata": {
+        "source": "article_01.md",
+        "title": "Vietnam Visa Requirements",
+        "doc_type": "news",
+        "url": "https://vietnam.travel/plan-your-trip/visa-requirements"
+      }
+    }
+  ]
+}
+```
+
+Nếu PageIndex không được cấu hình hoặc provider lỗi, retrieval pipeline giữ kết quả
+hybrid và UI không bị crash.
 
 ## Lộ trình 3 giờ
 

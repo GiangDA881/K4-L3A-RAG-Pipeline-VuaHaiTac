@@ -31,7 +31,7 @@ Các nhóm có thể chọn thư viện khác nhau, nhưng input/output giữa c
 {
     "answer": str,
     "sources": list[SearchResult],
-    "retrieval_source": "hybrid" | "pageindex" | "none"
+    "retrieval_source": "hybrid" | "pageindex" | "dense" | "none"
 }
 ```
 
