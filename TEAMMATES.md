@@ -5,7 +5,8 @@ Nhóm **VuaHaiTac** — repo `K4-L3A-RAG-Pipeline-VuaHaiTac`
 Báo cáo cá nhân đặt tên `MSV - Ho Va Ten.md`, nộp trong `group_project/ịndividual/`.
 
 - Giang đã nộp: [2A202602446 - Nguyễn Xuân Trường Giang.md](group_project/ịndividual/2A202602446%20-%20Nguyễn%20Xuân%20Trường%20Giang.md)
-- Sâm đã nộp: [2A202602672 - NguyenNhanSam.md](group_project/ịndividual/2A202602672%20-%20NguyenNhanSam.md)
+- Hoàn đã nộp: [2A202602954 - Phan Trọng Hoàn.md](group_project/ịndividual/2A202602954%20-%20Phan%20Trọng%20Hoàn.md)
+- Sâm đã nộp: [2A202602672 - Nguyễn Nhân Sâm.md](group_project/ịndividual/2A202602672%20-%20Nguyễn%20Nhân%20Sâm.md)
 
 | Họ và tên | Mã học viên | Vai trò | Nhánh | Phần việc |
 | --- | --- | --- | --- | --- |

@@ -7,8 +7,6 @@
 - Nhóm: VuaHaiTac
 - Repository/branch: `GiangDA881/K4-L3A-RAG-Pipeline-VuaHaiTac` (`main`; làm việc qua các PR #1–#4, #6–#7)
 
-Báo cáo này chỉ ghi ba mốc đã xong trên dashboard: (1) chuẩn bị repository, (2) thu thập và chuẩn hóa corpus, (3) tạo chunk và embedding.
-
 ## Phần việc đã thực hiện
 
 | Module/deliverable | Việc tôi trực tiếp làm | File/commit/PR | Trạng thái |
@@ -29,16 +27,14 @@ Báo cáo này chỉ ghi ba mốc đã xong trên dashboard: (1) chuẩn bị re
 
 ## Kiểm thử và kết quả
 
-- `python -m src.task1_collect_legal_docs` / `task2_crawl_news` / `task3_convert_markdown`
-- `python -m src.task4_chunking_indexing` → 709 chunks / 9 documents; chạy lại vẫn 709
-- `python -m src.task5_semantic_search` và `python -m src.task6_lexical_search`
-- `pytest tests/test_acceptance.py::test_corpus_*` và test standardized: 3 passed
-- `pytest tests/test_contracts.py -q`: chunk / dense / BM25 pass (10 passed tại thời điểm xong mốc 3; các fail còn lại thuộc RRF/retrieve/generation)
+- Test hoặc query tôi đã dùng: `python -m src.task1_collect_legal_docs` / `task2_crawl_news` / `task3_convert_markdown`; `python -m src.task4_chunking_indexing`; `python -m src.task5_semantic_search` và `python -m src.task6_lexical_search`; `pytest tests/test_acceptance.py::test_corpus_*`; `pytest tests/test_contracts.py -q`.
+- Kết quả trước/sau nếu có: 709 chunks / 9 documents, chạy lại vẫn 709; 3 test dữ liệu acceptance passed; tại mốc 3 thì chunk / dense / BM25 pass (10 passed).
+- Lỗi đã phát hiện và cách xử lý: các fail còn lại thuộc RRF/retrieve/generation nên để teammate phụ trách các module đó; Okapi IDF=0 khi N=2 nên chuyển BM25+.
 
 ## Điều còn hạn chế
 
-- Chunk tin tức còn boilerplate menu; chưa lọc main content.
-- Nếu có thêm thời gian: tách collection theo chiến thuật chunk của từng thành viên và chạy A/B 4 metric trên cùng golden set.
+- Một hạn chế cụ thể của phần tôi làm: chunk tin tức còn boilerplate menu; chưa lọc main content.
+- Nếu có thêm thời gian, thay đổi đầu tiên tôi sẽ thực hiện: tách collection theo chiến thuật chunk của từng thành viên và chạy A/B 4 metric trên cùng golden set.
 
 ## Xác nhận đóng góp
 
