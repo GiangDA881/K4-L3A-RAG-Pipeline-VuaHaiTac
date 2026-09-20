@@ -9,7 +9,7 @@
 | Evaluator model | Same configured xKiro model used as judge |
 | Generator model | xKiro `qwen/qwen3.8-omni-flash:free` (configured) |
 | Embedding model | `BAAI/bge-m3` (configured) |
-| Corpus version/commit | Working tree; commit hash chưa được cung cấp |
+| Corpus version/commit | `1837f3c` (`hoan thien lap08`; chứa corpus, golden dataset và `ab_scores.json`) |
 | Golden dataset size | 16 cases: 5 keyword, 5 semantic, 6 ambiguous |
 | `top_k` | 5 |
 | Fallback threshold and calibration | `0.3`; cần calibrate bằng query in-domain/out-of-domain |
