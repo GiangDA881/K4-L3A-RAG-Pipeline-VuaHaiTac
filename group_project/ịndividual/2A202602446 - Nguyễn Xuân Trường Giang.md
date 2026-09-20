@@ -3,7 +3,7 @@
 ## Thông tin
 
 - Họ và tên: Nguyễn Xuân Trường Giang
-- Mã học viên: *chưa khai trên TEAMMATES — đổi tên file thành `MSV - Nguyễn Xuân Trường Giang.md` khi có mã*
+- Mã học viên: 2A202602446
 - Nhóm: VuaHaiTac
 - Repository/branch: `GiangDA881/K4-L3A-RAG-Pipeline-VuaHaiTac` (`main`; làm việc qua các PR #1–#4, #6–#7)
 
@@ -37,7 +37,6 @@ Báo cáo này chỉ ghi ba mốc đã xong trên dashboard: (1) chuẩn bị re
 
 ## Điều còn hạn chế
 
-- Mã học viên chưa điền nên tên file nộp chưa đủ dạng `MSV - Ho Va Ten.md`.
 - Chunk tin tức còn boilerplate menu; chưa lọc main content.
 - Nếu có thêm thời gian: tách collection theo chiến thuật chunk của từng thành viên và chạy A/B 4 metric trên cùng golden set.
 
