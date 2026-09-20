@@ -37,6 +37,24 @@ cp .env.example .env
 
 Điền API key cần dùng trong `.env`; không commit file này.
 
+Mặc định generation dùng **xKiro** (OpenAI-compatible, model free):
+
+```bash
+# .env
+LLM_PROVIDER=xkiro
+LLM_MODEL=qwen/qwen3.8-omni-flash:free
+XKIRO_API_KEY=sk-xt-...          # tạo tại https://xkiro.com/dashboard
+XKIRO_BASE_URL=https://api.xkiro.com/v1
+```
+
+Catalog live (lọc `access_tier=free`):
+
+```bash
+python -m src.xkiro_models
+```
+
+Model ID phải đủ `vendor/model` — ví dụ `qwen/qwen3.8-omni-flash:free`, không rút thành `qwen3.8-omni-flash`.
+
 ```bash
 # 1. Thu thập và chuẩn hoá
 python -m src.task1_collect_legal_docs

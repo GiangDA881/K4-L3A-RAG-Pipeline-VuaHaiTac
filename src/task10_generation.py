@@ -24,8 +24,8 @@ TOP_K = 5
 TOP_P = 0.9
 TEMPERATURE = 0.3
 
-LLM_PROVIDER = os.getenv("LLM_PROVIDER", "openai")
-LLM_MODEL = os.getenv("LLM_MODEL", "")
+LLM_PROVIDER = os.getenv("LLM_PROVIDER", "xkiro")
+LLM_MODEL = os.getenv("LLM_MODEL", "qwen/qwen3.8-omni-flash:free")
 
 SYSTEM_PROMPT = """Trả lời chỉ từ context được cung cấp.
 Mỗi khẳng định phải có citation. Nếu thiếu evidence, hãy từ chối xác minh."""
@@ -59,15 +59,10 @@ def format_context(chunks: list[dict]) -> str:
 
 
 def call_llm(system_prompt: str, user_message: str) -> str:
-    """Gọi OpenAI, Gemini hoặc Anthropic theo cấu hình."""
-    # TODO: Dispatch theo LLM_PROVIDER.
-    #
-    # - openai    -> OPENAI_API_KEY
-    # - gemini    -> GEMINI_API_KEY
-    # - anthropic -> ANTHROPIC_API_KEY
-    #
-    # Dùng LLM_MODEL và trả về text thuần cho cả ba nhánh.
-    raise NotImplementedError("Implement call_llm")
+    """Gọi xKiro (OpenAI-compatible), OpenAI, Gemini hoặc Anthropic theo .env."""
+    from .llm_client import chat_completion
+
+    return chat_completion(system_prompt, user_message)
 
 
 def generate_with_citation(query: str, top_k: int = TOP_K) -> dict:

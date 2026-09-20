@@ -37,5 +37,8 @@ dev = ["pytest>=7.0.0"]
 [tool.setuptools]
 packages = ["src"]
 
+[tool.setuptools.package-data]
+src = ["*.json"]
+
 [tool.pytest.ini_options]
 testpaths = ["tests"]
