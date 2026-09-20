@@ -1,5 +1,20 @@
 # RAG evaluation results
 
+## Indexing configuration
+
+Giá trị dùng cho corpus Du lịch Việt Nam (ghi lại để lần evaluation sau dùng cùng cấu hình):
+
+| Field | Value |
+| --- | --- |
+| `CHUNKING_METHOD` | recursive |
+| `CHUNK_SIZE` | 500 |
+| `CHUNK_OVERLAP` | 50 |
+| Embedding | `BAAI/bge-m3` (1024-d, cosine, `embed_texts()` dùng chung Task 4 và 5) |
+| Lexical | BM25+ trên cùng chunk corpus |
+| Indexed chunks | 709 từ 9 documents |
+
+500/50 giữ đủ một điều luật hoặc đoạn tin, overlap tránh mất câu ở biên. BM25+ thay Okapi vì corpus nhỏ làm IDF của Okapi về 0.
+
 ## Run information
 
 | Field                              | Value |
