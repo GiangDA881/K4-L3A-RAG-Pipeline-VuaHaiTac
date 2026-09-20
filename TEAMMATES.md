@@ -4,9 +4,11 @@ Nhóm **VuaHaiTac** — repo `K4-L3A-RAG-Pipeline-VuaHaiTac`
 
 Báo cáo cá nhân đặt tên `MSV - Ho Va Ten.md`, nộp trong `group_project/ịndividual/`.
 
+- Giang đã nộp: [2A202602446 - Nguyễn Xuân Trường Giang.md](group_project/ịndividual/2A202602446%20-%20Nguyễn%20Xuân%20Trường%20Giang.md)
+
 | Họ và tên | Mã học viên | Vai trò | Nhánh | Phần việc |
 | --- | --- | --- | --- | --- |
-| Nguyễn Xuân Trường Giang | *cần bổ sung MSV* | Nhóm trưởng — Generation, LLM, UI | `giang/generation-ui` | Task 10 generation có citation; cấu hình LLM (xKiro); `app.py` Streamlit; điều phối repo, `.env.example`, demo |
+| Nguyễn Xuân Trường Giang | `2A202602446` | Nhóm trưởng — Generation, LLM, UI | `giang/generation-ui` | Task 10 generation có citation; cấu hình LLM (xKiro); `app.py` Streamlit; điều phối repo, `.env.example`, demo |
 | Phan Trọng Hoàn | `2A202602954` | Data & Indexing | `hoan/data-index` | Task 1 thu thập tài liệu chính sách; Task 2 crawl tin; Task 3 chuẩn hoá Markdown; Task 4 chunk, embedding, ChromaDB |
 | Nguyễn Nhân Sâm | `2A202602672` | Retrieval & Evaluation | `sam/retrieval-eval` | Task 5 dense search; Task 6 BM25; Task 7 RRF; Task 8 PageIndex fallback; Task 9 retrieval pipeline; golden dataset và `group_project/evaluation/RESULT.md` |
 
