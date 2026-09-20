@@ -4,6 +4,8 @@ Nhóm **VuaHaiTac** — repo `K4-L3A-RAG-Pipeline-VuaHaiTac`
 
 Báo cáo cá nhân đặt tên `MSV - Ho Va Ten.md`, nộp trong `group_project/ịndividual/`.
 
+- Giang đã nộp: [2A202602446 - Nguyễn Xuân Trường Giang.md](group_project/ịndividual/2A202602446%20-%20Nguyễn%20Xuân%20Trường%20Giang.md)
+
 | Họ và tên | Mã học viên | Vai trò | Nhánh | Phần việc |
 | --- | --- | --- | --- | --- |
 | Nguyễn Xuân Trường Giang | `2A202602446` | Nhóm trưởng — Generation, LLM, UI | `giang/generation-ui` | Task 10 generation có citation; cấu hình LLM (xKiro); `app.py` Streamlit; điều phối repo, `.env.example`, demo |

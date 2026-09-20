@@ -12,9 +12,9 @@ Chủ đề nhóm **VuaHaiTac**: Du lịch Việt Nam — lịch trình, địa 
 
 - **Repository:** `K4-L3A-RAG-Pipeline-<TenNhom>`
   - Repo nhóm này: `K4-L3A-RAG-Pipeline-VuaHaiTac`
-- **Báo cáo cá nhân:** `<MSV> - <Ho Va Ten>.md`
-  - Ví dụ: `HE173456 - Nguyen Van An.md`
-  - Copy từ template `group_project/ịndividual/INDIVIDUAL_REPORT.md`, không giữ tên `INDIVIDUAL_REPORT.md` khi nộp.
+- **Báo cáo cá nhân:** `<MSV> - <Ho Va Ten>.md` trong `group_project/ịndividual/`
+  - Đã nộp: [2A202602446 - Nguyễn Xuân Trường Giang.md](group_project/ịndividual/2A202602446%20-%20Nguyễn%20Xuân%20Trường%20Giang.md)
+  - Template: `group_project/ịndividual/INDIVIDUAL_REPORT.md` (không giữ tên template khi nộp).
 
 ## Sản phẩm phải nộp
 
@@ -96,7 +96,8 @@ streamlit run app.py
 - [Module contracts](docs/MODULE_CONTRACTS.md): schema, interface và invariant mà code/test nên tuân theo.
 - [Step-by-step guide](docs/STEP_BY_STEP.md): thứ tự triển khai và tiêu chí hoàn thành từng bước.
 - [Grading rubric](docs/GRADING_RUBRIC.md): Rubric thang điểm.
-- [Individual report](group_project/ịndividual/INDIVIDUAL_REPORT.md): template báo cáo cá nhân; file nộp đặt tên `MSV - Ho Va Ten.md`.
+- [Báo cáo cá nhân Giang](group_project/ịndividual/2A202602446%20-%20Nguyễn%20Xuân%20Trường%20Giang.md): `2A202602446 - Nguyễn Xuân Trường Giang.md` trong `group_project/ịndividual/`.
+- [Template individual report](group_project/ịndividual/INDIVIDUAL_REPORT.md): copy thành `MSV - Ho Va Ten.md`, không nộp file còn tên template.
 - [Suggested topics](docs/SUGGESTED_TOPICS.md): danh sách chủ đề tham khảo, không bắt buộc.
 
 ## Kiểm tra
