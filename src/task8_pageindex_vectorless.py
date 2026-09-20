@@ -33,6 +33,10 @@ def upload_documents() -> None:
 
 def pageindex_search(query: str, top_k: int = 5) -> list[dict]:
     """Trả về pageindex SearchResult."""
+    if not query.strip() or top_k <= 0:
+        return []
+    if not PAGEINDEX_API_KEY:
+        raise RuntimeError("PageIndex is not configured: PAGEINDEX_API_KEY is missing")
     # TODO: Query các document IDs và parse retrieved nodes.
     #
     # Mỗi result cần: id, content, score, metadata, retrieval_method.

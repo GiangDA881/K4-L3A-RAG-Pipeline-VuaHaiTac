@@ -11,14 +11,20 @@ Luồng xử lý:
 Không so sánh threshold với RRF score vì hai thang đo khác nhau.
 """
 
+import logging
+
+from .contracts import validate_search_results
 from .task5_semantic_search import semantic_search
 from .task6_lexical_search import lexical_search
 from .task7_reranking import rerank_rrf
 from .task8_pageindex_vectorless import pageindex_search
 
 
+# Provisional BGE-M3 default; see RESULT.md for model-specific calibration.
+# Pass score_threshold explicitly when evaluating another model/corpus.
 SCORE_THRESHOLD = 0.3
 DEFAULT_TOP_K = 5
+logger = logging.getLogger(__name__)
 
 
 def retrieve(
@@ -28,25 +34,25 @@ def retrieve(
     use_reranking: bool = True,
 ) -> list[dict]:
     """Trả về hybrid hoặc pageindex SearchResult."""
-    # TODO: Implement full retrieval pipeline.
-    #
-    # dense = semantic_search(query, top_k=top_k * 2)
-    # sparse = lexical_search(query, top_k=top_k * 2)
-    # hybrid = (
-    #     rerank_rrf([dense, sparse], top_k=top_k)
-    #     if use_reranking else dense[:top_k]
-    # )
-    #
-    # best_dense_score = dense[0]["score"] if dense else 0.0
-    # if best_dense_score < score_threshold:
-    #     try:
-    #         fallback = pageindex_search(query, top_k=top_k)
-    #         if fallback:
-    #             return fallback
-    #     except Exception:
-    #         pass
-    # return hybrid[:top_k]
-    raise NotImplementedError("Implement retrieve")
+    if not query.strip() or top_k <= 0:
+        return []
+    dense = semantic_search(query, top_k=top_k * 2)
+    sparse = lexical_search(query, top_k=top_k * 2)
+    best_dense_score = max((item["score"] for item in dense), default=0.0)
+    # Keep the public dense-only switch for baseline A/B evaluation.
+    hybrid = (
+        rerank_rrf([dense, sparse], top_k=top_k)
+        if use_reranking else dense[:top_k]
+    )
+    if best_dense_score < score_threshold:
+        try:
+            fallback = pageindex_search(query, top_k=top_k)
+            validate_search_results(fallback, top_k=top_k, expected_method="pageindex")
+            if fallback:
+                return fallback
+        except Exception as exc:
+            logger.warning("PageIndex fallback failed (%s); keeping retrieval results", type(exc).__name__)
+    return hybrid[:top_k]
 
 
 if __name__ == "__main__":

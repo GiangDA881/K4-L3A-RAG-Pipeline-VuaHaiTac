@@ -17,6 +17,39 @@ Giá trị dùng cho corpus Du lịch Việt Nam (ghi lại để lần evaluati
 
 ## Run information
 
+### Retrieval phase: RRF and fallback (2026-09-20)
+
+- RRF dùng `k=60`, rank bắt đầu từ 1; ID xuất hiện ở rank 2 của dense và rank 1 của BM25 nhận `1/62 + 1/61 = 0.03252247488101534`. Item được copy trước khi đổi score/method. ID trùng trong cùng một ranked list bị báo lỗi để sửa upstream.
+- Task 9 fuse đúng một lần ở đường hybrid; quyết định fallback lấy `max(score)` từ dense gốc. Điều kiện là `< score_threshold`, nên score bằng threshold vẫn giữ hybrid. `use_reranking=False` giữ baseline dense-only.
+- Fallback rỗng, timeout, exception hoặc dữ liệu sai contract đều giữ kết quả retrieval hiện có. Khi cả hai retriever không có evidence và fallback lỗi, trả `[]` cho tầng generation xử lý.
+- PageIndex chưa được bật vì môi trường không có `PAGEINDEX_API_KEY`. Upload/cache/timeout/parsing API thật của Task 8 vẫn chưa triển khai; test provider lỗi dùng mock, không phải kiểm chứng dịch vụ thật.
+- `python -m src.task7_reranking`: chunk `b` đứng đầu với score `0.03252247488101534`.
+- `.venv\Scripts\python.exe -m pytest tests/test_contracts.py tests/test_retrieval_pipeline.py -q`: **27 passed**. Bổ sung hai helper `reorder_for_llm` và `format_context` của Task 10 để contract test hiện có chạy được; generation end-to-end vẫn ngoài phạm vi pha này.
+
+#### Threshold calibration
+
+Chroma chính ban đầu có 0 chunks; BGE-M3 chưa được tải. Thử nghiệm dùng model `sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2` và index riêng trong `chroma_db/calibration/`, không thay cấu hình BGE-M3 hay index chính.
+
+Hai query hiệu chỉnh:
+
+1. Trong domain: “Điều kiện kinh doanh dịch vụ lữ hành quốc tế tại Việt Nam là gì?”
+2. Ngoài domain: “Làm thế nào để huấn luyện mạng nơ-ron tích chập phân loại ảnh mèo và chó?”
+
+Chạy lại: `python -m src.calibrate_retrieval --model sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2`. Nếu dùng cache của workspace, đặt `HF_HOME` tới `.cache/huggingface` trước khi chạy. Script lưu model, dimension, hash corpus, hai dense ranked lists và kết quả RRF trong `reports/retrieval_calibration.json`.
+
+`SCORE_THRESHOLD=0.3` trong Task 9 hiện là giá trị mặc định chưa hiệu chỉnh cho BGE-M3. Threshold từ MiniLM phải truyền qua tham số `score_threshold` khi dùng đúng model/index thử nghiệm; không áp dụng tự động sang BGE-M3. Hai query chỉ là sanity check ban đầu, chưa đủ để tối ưu ngưỡng cho mọi query hay mọi corpus.
+
+Kết quả đo thật: **9 documents, 709 chunks**, recursive 500/50, MiniLM 384 chiều, cosine; dense/BM25 lấy 10 candidates, RRF `k=60`, trả `top_k=5`.
+
+| Query | Best dense cosine | So với threshold `0.4967` | Nhánh quyết định |
+| --- | ---: | --- | --- |
+| Điều kiện kinh doanh dịch vụ lữ hành quốc tế tại Việt Nam là gì? | 0.8157963753 | Cao hơn | Giữ hybrid |
+| Làm thế nào để huấn luyện mạng nơ-ron tích chập phân loại ảnh mèo và chó? | 0.1776284575 | Thấp hơn | Thử PageIndex; giữ hybrid nếu provider chưa cấu hình/lỗi |
+
+**Chọn ngưỡng thử nghiệm `0.4967`**, làm tròn trung điểm hai cosine score `(0.8157963753 + 0.1776284575) / 2`. Query trong domain tìm được chunk về phạm vi kinh doanh lữ hành quốc tế trong Luật Du lịch; query ngoài domain có top dense là một đoạn bảng xe trong Nghị định 168, không chứa evidence về mạng nơ-ron. Đây chỉ là lựa chọn ban đầu cho cấu hình MiniLM/corpus trên, không phải ngưỡng đã được tối ưu hoặc dùng chung cho BGE-M3. Query ngoài domain vẫn có thể nhận hybrid chunks khi fallback không khả dụng; có kết quả retrieval không đồng nghĩa đủ evidence để trả lời. Cần tầng generation kiểm tra evidence và safe refusal.
+
+Đã gọi `retrieve(..., score_threshold=0.4967)` thật với cùng model/index cho cả hai query: mỗi query trả 5 hybrid results; query ngoài domain ghi log `PageIndex fallback failed (RuntimeError); keeping retrieval results` do thiếu API key và pipeline không dừng. Kết quả lưu ở `pipeline_results` trong JSON evidence.
+
 | Field                              | Value |
 | ---------------------------------- | ----- |
 | Evaluation date                    | TODO  |
@@ -27,7 +60,7 @@ Giá trị dùng cho corpus Du lịch Việt Nam (ghi lại để lần evaluati
 | Corpus version/commit              | TODO  |
 | Golden dataset size                | TODO  |
 | `top_k`                            | TODO  |
-| Fallback threshold and calibration | TODO  |
+| Fallback threshold and calibration | MiniLM thử nghiệm: `0.4967`; BGE-M3 mặc định `0.3` chưa hiệu chỉnh; xem phần trên |
 
 ## Configurations
 

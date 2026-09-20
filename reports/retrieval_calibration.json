@@ -1,0 +1,566 @@
+{
+  "date": "2026-09-20T08:43:13.158592+00:00",
+  "embedding_model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+  "embedding_dimension": 384,
+  "documents": 9,
+  "chunks": 709,
+  "corpus_sha256": "571bd143ccbf81de2382ca0e63a0cff033d51eb6573b7f72296b33427b79a42a",
+  "chunk_size": 500,
+  "chunk_overlap": 50,
+  "top_k": 5,
+  "rrf_k": 60,
+  "suggested_threshold": 0.4967,
+  "limitation": "Two probes only; threshold applies only to this model and corpus. No live PageIndex call.",
+  "probes": [
+    {
+      "domain": "in_domain",
+      "query": "Điều kiện kinh doanh dịch vụ lữ hành quốc tế tại Việt Nam là gì?",
+      "best_dense_score": 0.8157963752746582,
+      "dense": [
+        {
+          "id": "legal/luat-du-lich-2017.md::chunk-68",
+          "content": "Điều 30. Phạm vi kinh doanh dịch vụ lữ hành\n\n1. Kinh doanh dịch vụ lữ hành nội địa phục vụ khách du lịch nội địa.\n\n2. Kinh doanh dịch vụ lữ hành quốc tế phục vụ khách du lịch quốc tế đến Việt\n\nNam và khách du lịch ra nước ngoài.\n\n\f58\n\nCÔNG BÁO/Số 515 + 516/Ngày 25-7-2017\n\n3. Doanh nghiệp kinh doanh dịch vụ lữ hành quốc tế được kinh doanh dịch vụ\nlữ hành quốc tế và dịch vụ lữ hành nội địa, trừ trường hợp quy định tại khoản 4\nĐiều này.",
+          "score": 0.8157963752746582,
+          "metadata": {
+            "source": "luat-du-lich-2017.md",
+            "title": "Luật Du lịch số 09/2017/QH14",
+            "doc_type": "legal",
+            "url": "https://congbao.chinhphu.vn/van-ban/luat-so-09-2017-qh14-24241/18448.htm",
+            "chunk_index": 68
+          },
+          "retrieval_method": "dense"
+        },
+        {
+          "id": "legal/luat-du-lich-2017.md::chunk-99",
+          "content": "64\n\nCÔNG BÁO/Số 515 + 516/Ngày 25-7-2017\n\nĐiều  38.  Doanh  nghiệp  có  vốn  đầu  tư  nước  ngoài  kinh  doanh  dịch  vụ\n\nlữ hành\n\n1.  Nhà  đầu  tư  nước  ngoài  được  góp  vốn  với  đối  tác  Việt  Nam  để  thành  lập\ndoanh  nghiệp  kinh  doanh  dịch  vụ  lữ  hành  theo  pháp  luật  Việt  Nam  và  điều  ước\nquốc tế mà nước Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên.",
+          "score": 0.7783089876174927,
+          "metadata": {
+            "source": "luat-du-lich-2017.md",
+            "title": "Luật Du lịch số 09/2017/QH14",
+            "doc_type": "legal",
+            "url": "https://congbao.chinhphu.vn/van-ban/luat-so-09-2017-qh14-24241/18448.htm",
+            "chunk_index": 99
+          },
+          "retrieval_method": "dense"
+        },
+        {
+          "id": "legal/luat-du-lich-2017.md::chunk-69",
+          "content": "4. Doanh nghiệp có vốn đầu tư nước ngoài chỉ được kinh doanh dịch vụ lữ hành\nquốc tế phục vụ khách du lịch quốc tế đến Việt Nam, trừ trường hợp điều ước quốc\ntế mà nước Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên có quy định khác.\n\nĐiều 31. Điều kiện kinh doanh dịch vụ lữ hành\n\n1. Điều kiện kinh doanh dịch vụ lữ hành nội địa bao gồm:\n\na) Là doanh nghiệp được thành lập theo quy định của pháp luật về doanh nghiệp;\n\nb) Ký quỹ kinh doanh dịch vụ lữ hành nội địa tại ngân hàng;",
+          "score": 0.7604217529296875,
+          "metadata": {
+            "source": "luat-du-lich-2017.md",
+            "title": "Luật Du lịch số 09/2017/QH14",
+            "doc_type": "legal",
+            "url": "https://congbao.chinhphu.vn/van-ban/luat-so-09-2017-qh14-24241/18448.htm",
+            "chunk_index": 69
+          },
+          "retrieval_method": "dense"
+        },
+        {
+          "id": "legal/luat-du-lich-2017.md::chunk-107",
+          "content": "3. Lập và lưu giữ hồ sơ về chương trình du lịch đã bán cho khách du lịch theo\n\nquy định của pháp luật.\n\n4. Treo biển đại lý lữ hành ở vị trí dễ nhận biết tại trụ sở đại lý.\n\n\f66\n\nCÔNG BÁO/Số 515 + 516/Ngày 25-7-2017\n\nĐiều 44. Văn phòng đại diện tại Việt Nam của doanh nghiệp kinh doanh\n\ndịch vụ lữ hành nước ngoài\n\n1.  Việc  thành  lập  văn  phòng  đại  diện  tại  Việt  Nam  của  doanh  nghiệp  kinh\ndoanh dịch vụ lữ hành nước ngoài được thực hiện theo quy định của pháp luật về\nthương mại.",
+          "score": 0.7352337837219238,
+          "metadata": {
+            "source": "luat-du-lich-2017.md",
+            "title": "Luật Du lịch số 09/2017/QH14",
+            "doc_type": "legal",
+            "url": "https://congbao.chinhphu.vn/van-ban/luat-so-09-2017-qh14-24241/18448.htm",
+            "chunk_index": 107
+          },
+          "retrieval_method": "dense"
+        },
+        {
+          "id": "legal/nghi-dinh-168-2017-nd-cp.md::chunk-30",
+          "content": "10 CÔNG BÁO/Số 429 + 430/Ngày 10-3-2018\nChương V\nKINH DOANH DU LỊCH\nMục 1\nKÝ QUỸ KINH DOANH DỊCH VỤ LỮ HÀNH\nĐiều 14. Mức ký quỹ và phương thức ký quỹ\n1. Mức ký quỹ kinh doanh dịch vụ lữ hành nội địa: 100.000.000 (một trăm\ntriệu) đồng.\n2. Mức ký quỹ kinh doanh dịch vụ lữ hành quốc tế:\na) Kinh doanh dịch vụ lữ hành đối với khách du lịch quốc tế đến Việt Nam:\n250.000.000 (hai trăm năm mươi triệu) đồng;\nb) Kinh doanh dịch vụ lữ hành đối với khách du lịch ra nước ngoài:",
+          "score": 0.721813976764679,
+          "metadata": {
+            "source": "nghi-dinh-168-2017-nd-cp.md",
+            "title": "Nghị định 168/2017/NĐ-CP quy định chi tiết Luật Du lịch",
+            "doc_type": "legal",
+            "url": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-168-2017-nd-cp-26028/21615.htm",
+            "chunk_index": 30
+          },
+          "retrieval_method": "dense"
+        },
+        {
+          "id": "legal/nghi-dinh-168-2017-nd-cp.md::chunk-31",
+          "content": "500.000.000 (năm trăm triệu) đồng;\nc) Kinh doanh dịch vụ lữ hành đối với khách du lịch quốc tế đến Việt Nam và\nkhách du lịch ra nước ngoài: 500.000.000 (năm trăm triệu) đồng.\n3. Doanh nghiệp thực hiện ký quỹ bằng đồng Việt Nam tại ngân hàng thương\nmại, ngân hàng hợp tác xã hoặc chi nhánh ngân hàng nước ngoài thành lập và hoạt\nđộng tại Việt Nam và được hưởng lãi suất theo thỏa thuận giữa doanh nghiệp và\nngân hàng nhận ký quỹ phù hợp với quy định của pháp luật. Tiền ký quỹ phải được",
+          "score": 0.7105408906936646,
+          "metadata": {
+            "source": "nghi-dinh-168-2017-nd-cp.md",
+            "title": "Nghị định 168/2017/NĐ-CP quy định chi tiết Luật Du lịch",
+            "doc_type": "legal",
+            "url": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-168-2017-nd-cp-26028/21615.htm",
+            "chunk_index": 31
+          },
+          "retrieval_method": "dense"
+        },
+        {
+          "id": "legal/luat-du-lich-2017.md::chunk-28",
+          "content": "3. Được tạo điều kiện thuận lợi về xuất cảnh, nhập cảnh, quá cảnh, hải quan,\nlưu  cư trú, đi  lại  trên  lãnh thổ  Việt  Nam  phù hợp  với quy  định  của  pháp luật và\nđiều ước quốc tế mà nước Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên.\n\n4. Được bảo đảm quyền và lợi ích hợp pháp theo hợp đồng đã giao kết với tổ\n\nchức, cá nhân kinh doanh, cung cấp dịch vụ du lịch.",
+          "score": 0.689782440662384,
+          "metadata": {
+            "source": "luat-du-lich-2017.md",
+            "title": "Luật Du lịch số 09/2017/QH14",
+            "doc_type": "legal",
+            "url": "https://congbao.chinhphu.vn/van-ban/luat-so-09-2017-qh14-24241/18448.htm",
+            "chunk_index": 28
+          },
+          "retrieval_method": "dense"
+        },
+        {
+          "id": "legal/luat-du-lich-2017.md::chunk-108",
+          "content": "2. Cơ quan chuyên môn về du lịch cấp tỉnh tiếp nhận, thẩm  định hồ sơ, cấp,\ncấp  lại,  điều  chỉnh,  gia  hạn,  thu  hồi  Giấy  phép  thành  lập  văn  phòng  đại  diện  tại\nViệt Nam của doanh nghiệp kinh doanh dịch vụ lữ hành nước ngoài.\n\nMục 2\nVẬN TẢI KHÁCH DU LỊCH\n\nĐiều 45. Kinh doanh vận tải khách du lịch",
+          "score": 0.686664342880249,
+          "metadata": {
+            "source": "luat-du-lich-2017.md",
+            "title": "Luật Du lịch số 09/2017/QH14",
+            "doc_type": "legal",
+            "url": "https://congbao.chinhphu.vn/van-ban/luat-so-09-2017-qh14-24241/18448.htm",
+            "chunk_index": 108
+          },
+          "retrieval_method": "dense"
+        },
+        {
+          "id": "legal/nghi-dinh-94-2021-nd-cp.md::chunk-4",
+          "content": "100.000.000 (một trăm triệu) đồng;\n\nc)  Kinh  doanh  dịch  vụ  lữ  hành  đối  với  khách  du  lịch  quốc  tế  đến  Việt  Nam  và\n\nkhách du lịch ra nước ngoài: 100.000.000 (một trăm triệu) đồng”.\n\n\fCÔNG BÁO/Số 931 + 932/Ngày 08-11-2021\n\n73\n\nĐiều 2. Tổ chức thực hiện\n\n1. Bộ Văn hóa, Thể thao và Du lịch chủ trì, phối hợp với các Bộ, ngành có liên\n\nquan hướng dẫn, tổ chức thi hành Nghị định này.\n\n2. Ngân hàng nhận ký quỹ kinh doanh dịch vụ lữ hành có trách nhiệm như sau:",
+          "score": 0.6775687336921692,
+          "metadata": {
+            "source": "nghi-dinh-94-2021-nd-cp.md",
+            "title": "Nghị định 94/2021/NĐ-CP sửa đổi mức ký quỹ lữ hành",
+            "doc_type": "legal",
+            "url": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-94-2021-nd-cp-34718.htm",
+            "chunk_index": 4
+          },
+          "retrieval_method": "dense"
+        },
+        {
+          "id": "legal/nghi-dinh-94-2021-nd-cp.md::chunk-3",
+          "content": "lịch về mức ký quỹ kinh doanh dịch vụ lữ hành\n\nSửa đổi, bổ sung khoản 1 và khoản 2 Điều 14 như sau:\n\n“1.  Mức  ký  quỹ  kinh  doanh  dịch  vụ  lữ  hành  nội  địa:  20.000.000  (hai  mươi\n\ntriệu) đồng.\n\n2. Mức ký quỹ kinh doanh dịch vụ lữ hành quốc tế:\n\na)  Kinh  doanh  dịch  vụ  lữ  hành  đối  với  khách  du  lịch  quốc  tế  đến  Việt  Nam:\n\n50.000.000 (năm mươi triệu) đồng;\n\nb)  Kinh  doanh  dịch  vụ  lữ  hành  đối  với  khách  du  lịch  ra  nước  ngoài:\n\n100.000.000 (một trăm triệu) đồng;",
+          "score": 0.6664215922355652,
+          "metadata": {
+            "source": "nghi-dinh-94-2021-nd-cp.md",
+            "title": "Nghị định 94/2021/NĐ-CP sửa đổi mức ký quỹ lữ hành",
+            "doc_type": "legal",
+            "url": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-94-2021-nd-cp-34718.htm",
+            "chunk_index": 3
+          },
+          "retrieval_method": "dense"
+        }
+      ],
+      "hybrid": [
+        {
+          "id": "legal/luat-du-lich-2017.md::chunk-68",
+          "content": "Điều 30. Phạm vi kinh doanh dịch vụ lữ hành\n\n1. Kinh doanh dịch vụ lữ hành nội địa phục vụ khách du lịch nội địa.\n\n2. Kinh doanh dịch vụ lữ hành quốc tế phục vụ khách du lịch quốc tế đến Việt\n\nNam và khách du lịch ra nước ngoài.\n\n\f58\n\nCÔNG BÁO/Số 515 + 516/Ngày 25-7-2017\n\n3. Doanh nghiệp kinh doanh dịch vụ lữ hành quốc tế được kinh doanh dịch vụ\nlữ hành quốc tế và dịch vụ lữ hành nội địa, trừ trường hợp quy định tại khoản 4\nĐiều này.",
+          "score": 0.03252247488101534,
+          "metadata": {
+            "source": "luat-du-lich-2017.md",
+            "title": "Luật Du lịch số 09/2017/QH14",
+            "doc_type": "legal",
+            "url": "https://congbao.chinhphu.vn/van-ban/luat-so-09-2017-qh14-24241/18448.htm",
+            "chunk_index": 68
+          },
+          "retrieval_method": "hybrid"
+        },
+        {
+          "id": "legal/luat-du-lich-2017.md::chunk-69",
+          "content": "4. Doanh nghiệp có vốn đầu tư nước ngoài chỉ được kinh doanh dịch vụ lữ hành\nquốc tế phục vụ khách du lịch quốc tế đến Việt Nam, trừ trường hợp điều ước quốc\ntế mà nước Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên có quy định khác.\n\nĐiều 31. Điều kiện kinh doanh dịch vụ lữ hành\n\n1. Điều kiện kinh doanh dịch vụ lữ hành nội địa bao gồm:\n\na) Là doanh nghiệp được thành lập theo quy định của pháp luật về doanh nghiệp;\n\nb) Ký quỹ kinh doanh dịch vụ lữ hành nội địa tại ngân hàng;",
+          "score": 0.032266458495966696,
+          "metadata": {
+            "source": "luat-du-lich-2017.md",
+            "title": "Luật Du lịch số 09/2017/QH14",
+            "doc_type": "legal",
+            "url": "https://congbao.chinhphu.vn/van-ban/luat-so-09-2017-qh14-24241/18448.htm",
+            "chunk_index": 69
+          },
+          "retrieval_method": "hybrid"
+        },
+        {
+          "id": "legal/luat-du-lich-2017.md::chunk-99",
+          "content": "64\n\nCÔNG BÁO/Số 515 + 516/Ngày 25-7-2017\n\nĐiều  38.  Doanh  nghiệp  có  vốn  đầu  tư  nước  ngoài  kinh  doanh  dịch  vụ\n\nlữ hành\n\n1.  Nhà  đầu  tư  nước  ngoài  được  góp  vốn  với  đối  tác  Việt  Nam  để  thành  lập\ndoanh  nghiệp  kinh  doanh  dịch  vụ  lữ  hành  theo  pháp  luật  Việt  Nam  và  điều  ước\nquốc tế mà nước Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên.",
+          "score": 0.03200204813108039,
+          "metadata": {
+            "source": "luat-du-lich-2017.md",
+            "title": "Luật Du lịch số 09/2017/QH14",
+            "doc_type": "legal",
+            "url": "https://congbao.chinhphu.vn/van-ban/luat-so-09-2017-qh14-24241/18448.htm",
+            "chunk_index": 99
+          },
+          "retrieval_method": "hybrid"
+        },
+        {
+          "id": "legal/nghi-dinh-168-2017-nd-cp.md::chunk-30",
+          "content": "10 CÔNG BÁO/Số 429 + 430/Ngày 10-3-2018\nChương V\nKINH DOANH DU LỊCH\nMục 1\nKÝ QUỸ KINH DOANH DỊCH VỤ LỮ HÀNH\nĐiều 14. Mức ký quỹ và phương thức ký quỹ\n1. Mức ký quỹ kinh doanh dịch vụ lữ hành nội địa: 100.000.000 (một trăm\ntriệu) đồng.\n2. Mức ký quỹ kinh doanh dịch vụ lữ hành quốc tế:\na) Kinh doanh dịch vụ lữ hành đối với khách du lịch quốc tế đến Việt Nam:\n250.000.000 (hai trăm năm mươi triệu) đồng;\nb) Kinh doanh dịch vụ lữ hành đối với khách du lịch ra nước ngoài:",
+          "score": 0.030309988518943745,
+          "metadata": {
+            "source": "nghi-dinh-168-2017-nd-cp.md",
+            "title": "Nghị định 168/2017/NĐ-CP quy định chi tiết Luật Du lịch",
+            "doc_type": "legal",
+            "url": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-168-2017-nd-cp-26028/21615.htm",
+            "chunk_index": 30
+          },
+          "retrieval_method": "hybrid"
+        },
+        {
+          "id": "legal/luat-du-lich-2017.md::chunk-107",
+          "content": "3. Lập và lưu giữ hồ sơ về chương trình du lịch đã bán cho khách du lịch theo\n\nquy định của pháp luật.\n\n4. Treo biển đại lý lữ hành ở vị trí dễ nhận biết tại trụ sở đại lý.\n\n\f66\n\nCÔNG BÁO/Số 515 + 516/Ngày 25-7-2017\n\nĐiều 44. Văn phòng đại diện tại Việt Nam của doanh nghiệp kinh doanh\n\ndịch vụ lữ hành nước ngoài\n\n1.  Việc  thành  lập  văn  phòng  đại  diện  tại  Việt  Nam  của  doanh  nghiệp  kinh\ndoanh dịch vụ lữ hành nước ngoài được thực hiện theo quy định của pháp luật về\nthương mại.",
+          "score": 0.029910714285714284,
+          "metadata": {
+            "source": "luat-du-lich-2017.md",
+            "title": "Luật Du lịch số 09/2017/QH14",
+            "doc_type": "legal",
+            "url": "https://congbao.chinhphu.vn/van-ban/luat-so-09-2017-qh14-24241/18448.htm",
+            "chunk_index": 107
+          },
+          "retrieval_method": "hybrid"
+        }
+      ]
+    },
+    {
+      "domain": "out_of_domain",
+      "query": "Làm thế nào để huấn luyện mạng nơ-ron tích chập phân loại ảnh mèo và chó?",
+      "best_dense_score": 0.17762845754623413,
+      "dense": [
+        {
+          "id": "legal/nghi-dinh-168-2017-nd-cp.md::chunk-84",
+          "content": "|                 | sơn  | soát xe    | khung  |        |                    |     |\n| 1               |      |            |        |        |                    |     |\n| 2               |      |            |        |        |                    |     |\n| ...             |      |            |        |        |                    |     |",
+          "score": 0.17762845754623413,
+          "metadata": {
+            "source": "nghi-dinh-168-2017-nd-cp.md",
+            "title": "Nghị định 168/2017/NĐ-CP quy định chi tiết Luật Du lịch",
+            "doc_type": "legal",
+            "url": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-168-2017-nd-cp-26028/21615.htm",
+            "chunk_index": 84
+          },
+          "retrieval_method": "dense"
+        },
+        {
+          "id": "news/article_04.md::chunk-45",
+          "content": "[![](https://image.vietnam.travel/sites/default/files/styles/thing_to_do_thumb/public/2026-02/12.png?itok=DSl1lqAU)A green sanctuary for slow living souls at Whale Island Resort](https://vietnam.travel/things-to-do/green-sanctuary-slow-living-souls-whale-island-resort)",
+          "score": 0.16877806186676025,
+          "metadata": {
+            "source": "article_04.md",
+            "title": "Things to do | Vietnam Tourism",
+            "doc_type": "news",
+            "url": "https://vietnam.travel/things-to-do",
+            "chunk_index": 45
+          },
+          "retrieval_method": "dense"
+        },
+        {
+          "id": "news/article_04.md::chunk-20",
+          "content": "[ ![](https://image.vietnam.travel/sites/default/files/styles/thumbnail/public/2019-09/NATURE.png?itok=skzlHEBX) **Nature** ](https://vietnam.travel/things-to-do/nature)\n[ ![](https://image.vietnam.travel/sites/default/files/styles/thumbnail/public/2019-09/CULTURE.png?itok=tX8Za-ft) **Culture** ](https://vietnam.travel/things-to-do/culture)",
+          "score": 0.15743482112884521,
+          "metadata": {
+            "source": "article_04.md",
+            "title": "Things to do | Vietnam Tourism",
+            "doc_type": "news",
+            "url": "https://vietnam.travel/things-to-do",
+            "chunk_index": 20
+          },
+          "retrieval_method": "dense"
+        },
+        {
+          "id": "legal/nghi-dinh-168-2017-nd-cp.md::chunk-9",
+          "content": "b) Cung cấp dữ liệu liên quan đến tài nguyên du lịch thuộc phạm vi chức năng,\nnhiệm vụ của bộ, cơ quan ngang bộ.\n3. Trách nhiệm của Ủy ban nhân dân cấp tỉnh:\na) Phối hợp với Bộ Văn hóa, Thể thao và Du lịch, các bộ, cơ quan ngang bộ có\nliên quan tổ chức điều tra tài nguyên du lịch theo kế hoạch, phương án điều tra của\nBộ Văn hóa, Thể thao và Du lịch;\nb) Cung cấp dữ liệu liên quan đến tài nguyên du lịch thuộc phạm vi chức năng,\nnhiệm vụ của Ủy ban nhân dân cấp tỉnh.",
+          "score": 0.1519511342048645,
+          "metadata": {
+            "source": "nghi-dinh-168-2017-nd-cp.md",
+            "title": "Nghị định 168/2017/NĐ-CP quy định chi tiết Luật Du lịch",
+            "doc_type": "legal",
+            "url": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-168-2017-nd-cp-26028/21615.htm",
+            "chunk_index": 9
+          },
+          "retrieval_method": "dense"
+        },
+        {
+          "id": "legal/luat-du-lich-2017.md::chunk-132",
+          "content": "4. Xây dựng và tổ chức các chương trình nghệ thuật biểu diễn truyền thống và\nđương đại; kết nối hệ thống bảo tàng, nhà hát với hoạt động du lịch; khai thác trò\nchơi dân gian, lễ hội truyền thống hấp dẫn khách du lịch; xây dựng các công viên\nchủ đề, trung tâm giải trí.\n\n5. Cung cấp các dịch vụ y tế, chăm sóc sức khỏe, chăm sóc sắc đẹp trên cơ sở\n\nkhai thác giá trị y học cổ truyền, y học hiện đại.\n\n6. Cung cấp các dịch vụ có liên quan khác theo nhu cầu của khách du lịch và",
+          "score": 0.14872241020202637,
+          "metadata": {
+            "source": "luat-du-lich-2017.md",
+            "title": "Luật Du lịch số 09/2017/QH14",
+            "doc_type": "legal",
+            "url": "https://congbao.chinhphu.vn/van-ban/luat-so-09-2017-qh14-24241/18448.htm",
+            "chunk_index": 132
+          },
+          "retrieval_method": "dense"
+        },
+        {
+          "id": "legal/nghi-dinh-168-2017-nd-cp.md::chunk-92",
+          "content": "| ----------------- | ----------------- | ---------------- | ----------- | ----------- | --- |\n| VẬN TẢI KHÁCH     |                   | in hoa, kéo dãn  |             |             |     |\n| DU LỊCH           | Times New Roman,  |                  | 20mm ± 3mm  | 15mm ± 3mm  |     |\nin hoa, kéo dãn\n| Đơn vị:        | Times New Roman  |     | Cỡ chữ 16 ± 18  |     |     |\n| -------------- | ---------------- | --- | --------------- | --- | --- |",
+          "score": 0.14004528522491455,
+          "metadata": {
+            "source": "nghi-dinh-168-2017-nd-cp.md",
+            "title": "Nghị định 168/2017/NĐ-CP quy định chi tiết Luật Du lịch",
+            "doc_type": "legal",
+            "url": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-168-2017-nd-cp-26028/21615.htm",
+            "chunk_index": 92
+          },
+          "retrieval_method": "dense"
+        },
+        {
+          "id": "legal/nghi-dinh-168-2017-nd-cp.md::chunk-94",
+          "content": "cao\n4. Màu sắc biển hiệu:\na) Góc trên bên trái có Logo hòn trống mái.\nb) Màu sắc biển hiệu: Viền đỏ, chữ xanh đậm,\n5. Chất liệu biển hiệu: Giấy cứng",
+          "score": 0.1381521224975586,
+          "metadata": {
+            "source": "nghi-dinh-168-2017-nd-cp.md",
+            "title": "Nghị định 168/2017/NĐ-CP quy định chi tiết Luật Du lịch",
+            "doc_type": "legal",
+            "url": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-168-2017-nd-cp-26028/21615.htm",
+            "chunk_index": 94
+          },
+          "retrieval_method": "dense"
+        },
+        {
+          "id": "news/article_02.md::chunk-11",
+          "content": "* [Nature](https://vietnam.travel/things-to-do/nature)\n    * [Culture](https://vietnam.travel/things-to-do/culture)\n    * [Cities](https://vietnam.travel/things-to-do/cities)\n    * [Beaches](https://vietnam.travel/things-to-do/beaches)\n[HOLIDAYS](https://vietnam.travel/things-to-do#inspires--interests)\n    * [Adventure](https://vietnam.travel/things-to-do/adventure)\n    * [Wellness](https://vietnam.travel/things-to-do/wellness)\n    * [Family](https://vietnam.travel/things-to-do/family)",
+          "score": 0.13741779327392578,
+          "metadata": {
+            "source": "article_02.md",
+            "title": "An official guide to e-Visas in Vietnam | Vietnam Tourism",
+            "doc_type": "news",
+            "url": "https://vietnam.travel/plan-your-trip/official-vietnam-evisa-application",
+            "chunk_index": 11
+          },
+          "retrieval_method": "dense"
+        },
+        {
+          "id": "news/article_05.md::chunk-10",
+          "content": "* [Nature](https://vietnam.travel/things-to-do/nature)\n    * [Culture](https://vietnam.travel/things-to-do/culture)\n    * [Cities](https://vietnam.travel/things-to-do/cities)\n    * [Beaches](https://vietnam.travel/things-to-do/beaches)\n[HOLIDAYS](https://vietnam.travel/things-to-do#inspires--interests)\n    * [Adventure](https://vietnam.travel/things-to-do/adventure)\n    * [Wellness](https://vietnam.travel/things-to-do/wellness)\n    * [Family](https://vietnam.travel/things-to-do/family)",
+          "score": 0.13741779327392578,
+          "metadata": {
+            "source": "article_05.md",
+            "title": "Food | Vietnam Tourism",
+            "doc_type": "news",
+            "url": "https://vietnam.travel/things-to-do/food",
+            "chunk_index": 10
+          },
+          "retrieval_method": "dense"
+        },
+        {
+          "id": "news/article_06.md::chunk-10",
+          "content": "* [Nature](https://vietnam.travel/things-to-do/nature)\n    * [Culture](https://vietnam.travel/things-to-do/culture)\n    * [Cities](https://vietnam.travel/things-to-do/cities)\n    * [Beaches](https://vietnam.travel/things-to-do/beaches)\n[HOLIDAYS](https://vietnam.travel/things-to-do#inspires--interests)\n    * [Adventure](https://vietnam.travel/things-to-do/adventure)\n    * [Wellness](https://vietnam.travel/things-to-do/wellness)\n    * [Family](https://vietnam.travel/things-to-do/family)",
+          "score": 0.13741779327392578,
+          "metadata": {
+            "source": "article_06.md",
+            "title": "Plan your trip | Vietnam Tourism",
+            "doc_type": "news",
+            "url": "https://vietnam.travel/plan-your-trip",
+            "chunk_index": 10
+          },
+          "retrieval_method": "dense"
+        }
+      ],
+      "hybrid": [
+        {
+          "id": "legal/nghi-dinh-168-2017-nd-cp.md::chunk-13",
+          "content": "liên quan khi cung cấp các sản phẩm du lịch có nguy cơ ảnh hưởng đến tính mạng,\nsức khỏe của khách du lịch.\n2. Có phương án cứu hộ, cứu nạn; bố trí lực lượng cứu hộ khách du lịch và can\nthiệp, xử lý, ứng cứu kịp thời các sự cố, tai nạn, rủi ro xảy ra; duy trì, bảo đảm\nthông tin liên lạc với khách du lịch trong suốt thời gian cung cấp sản phẩm.\n3. Bố trí, sử dụng huấn luyện viên, kỹ thuật viên, hướng dẫn viên có chuyên\nmôn phù hợp.",
+          "score": 0.01639344262295082,
+          "metadata": {
+            "source": "nghi-dinh-168-2017-nd-cp.md",
+            "title": "Nghị định 168/2017/NĐ-CP quy định chi tiết Luật Du lịch",
+            "doc_type": "legal",
+            "url": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-168-2017-nd-cp-26028/21615.htm",
+            "chunk_index": 13
+          },
+          "retrieval_method": "hybrid"
+        },
+        {
+          "id": "legal/nghi-dinh-168-2017-nd-cp.md::chunk-84",
+          "content": "|                 | sơn  | soát xe    | khung  |        |                    |     |\n| 1               |      |            |        |        |                    |     |\n| 2               |      |            |        |        |                    |     |\n| ...             |      |            |        |        |                    |     |",
+          "score": 0.01639344262295082,
+          "metadata": {
+            "source": "nghi-dinh-168-2017-nd-cp.md",
+            "title": "Nghị định 168/2017/NĐ-CP quy định chi tiết Luật Du lịch",
+            "doc_type": "legal",
+            "url": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-168-2017-nd-cp-26028/21615.htm",
+            "chunk_index": 84
+          },
+          "retrieval_method": "hybrid"
+        },
+        {
+          "id": "legal/luat-du-lich-2017.md::chunk-36",
+          "content": "2. Tài nguyên du lịch văn hóa bao gồm di tích lịch sử - văn hóa, di tích cách\nmạng, khảo cổ, kiến trúc; giá trị văn hóa truyền thống, lễ hội, văn nghệ dân gian và\ncác giá trị văn hóa khác; công trình lao động sáng tạo của con người có thể được\nsử dụng cho mục đích du lịch.\n\nĐiều 16. Điều tra tài nguyên du lịch\n\n1. Bộ Văn hóa, Thể thao và Du lịch chủ trì, phối hợp với Ủy ban nhân dân cấp\ntỉnh và cơ quan nhà nước có liên quan điều tra, đánh giá, phân loại tài nguyên du",
+          "score": 0.016129032258064516,
+          "metadata": {
+            "source": "luat-du-lich-2017.md",
+            "title": "Luật Du lịch số 09/2017/QH14",
+            "doc_type": "legal",
+            "url": "https://congbao.chinhphu.vn/van-ban/luat-so-09-2017-qh14-24241/18448.htm",
+            "chunk_index": 36
+          },
+          "retrieval_method": "hybrid"
+        },
+        {
+          "id": "news/article_04.md::chunk-45",
+          "content": "[![](https://image.vietnam.travel/sites/default/files/styles/thing_to_do_thumb/public/2026-02/12.png?itok=DSl1lqAU)A green sanctuary for slow living souls at Whale Island Resort](https://vietnam.travel/things-to-do/green-sanctuary-slow-living-souls-whale-island-resort)",
+          "score": 0.016129032258064516,
+          "metadata": {
+            "source": "article_04.md",
+            "title": "Things to do | Vietnam Tourism",
+            "doc_type": "news",
+            "url": "https://vietnam.travel/things-to-do",
+            "chunk_index": 45
+          },
+          "retrieval_method": "hybrid"
+        },
+        {
+          "id": "legal/nghi-dinh-168-2017-nd-cp.md::chunk-6",
+          "content": "Điều 5. Đánh giá, phân loại tài nguyên du lịch\n1. Căn cứ kết quả điều tra, tài nguyên du lịch được đánh giá về giá trị, sức\nchứa, mức độ hấp dẫn, phạm vi ảnh hưởng và khả năng khai thác phục vụ phát\ntriển du lịch.\n2. Căn cứ kết quả đánh giá, tài nguyên du lịch quy định tại Điều 15 Luật Du\nlịch được phân loại thành tài nguyên du lịch cấp quốc gia và tài nguyên du lịch\ncấp tỉnh.\nĐiều 6. Trách nhiệm của các bộ, cơ quan ngang bộ, Ủy ban nhân dân cấp tỉnh",
+          "score": 0.015873015873015872,
+          "metadata": {
+            "source": "nghi-dinh-168-2017-nd-cp.md",
+            "title": "Nghị định 168/2017/NĐ-CP quy định chi tiết Luật Du lịch",
+            "doc_type": "legal",
+            "url": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-168-2017-nd-cp-26028/21615.htm",
+            "chunk_index": 6
+          },
+          "retrieval_method": "hybrid"
+        }
+      ]
+    }
+  ],
+  "pipeline_results": [
+    {
+      "domain": "in_domain",
+      "results": [
+        {
+          "id": "legal/luat-du-lich-2017.md::chunk-68",
+          "content": "Điều 30. Phạm vi kinh doanh dịch vụ lữ hành\n\n1. Kinh doanh dịch vụ lữ hành nội địa phục vụ khách du lịch nội địa.\n\n2. Kinh doanh dịch vụ lữ hành quốc tế phục vụ khách du lịch quốc tế đến Việt\n\nNam và khách du lịch ra nước ngoài.\n\n\f58\n\nCÔNG BÁO/Số 515 + 516/Ngày 25-7-2017\n\n3. Doanh nghiệp kinh doanh dịch vụ lữ hành quốc tế được kinh doanh dịch vụ\nlữ hành quốc tế và dịch vụ lữ hành nội địa, trừ trường hợp quy định tại khoản 4\nĐiều này.",
+          "score": 0.03252247488101534,
+          "metadata": {
+            "source": "luat-du-lich-2017.md",
+            "title": "Luật Du lịch số 09/2017/QH14",
+            "doc_type": "legal",
+            "url": "https://congbao.chinhphu.vn/van-ban/luat-so-09-2017-qh14-24241/18448.htm",
+            "chunk_index": 68
+          },
+          "retrieval_method": "hybrid"
+        },
+        {
+          "id": "legal/luat-du-lich-2017.md::chunk-69",
+          "content": "4. Doanh nghiệp có vốn đầu tư nước ngoài chỉ được kinh doanh dịch vụ lữ hành\nquốc tế phục vụ khách du lịch quốc tế đến Việt Nam, trừ trường hợp điều ước quốc\ntế mà nước Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên có quy định khác.\n\nĐiều 31. Điều kiện kinh doanh dịch vụ lữ hành\n\n1. Điều kiện kinh doanh dịch vụ lữ hành nội địa bao gồm:\n\na) Là doanh nghiệp được thành lập theo quy định của pháp luật về doanh nghiệp;\n\nb) Ký quỹ kinh doanh dịch vụ lữ hành nội địa tại ngân hàng;",
+          "score": 0.032266458495966696,
+          "metadata": {
+            "source": "luat-du-lich-2017.md",
+            "title": "Luật Du lịch số 09/2017/QH14",
+            "doc_type": "legal",
+            "url": "https://congbao.chinhphu.vn/van-ban/luat-so-09-2017-qh14-24241/18448.htm",
+            "chunk_index": 69
+          },
+          "retrieval_method": "hybrid"
+        },
+        {
+          "id": "legal/luat-du-lich-2017.md::chunk-99",
+          "content": "64\n\nCÔNG BÁO/Số 515 + 516/Ngày 25-7-2017\n\nĐiều  38.  Doanh  nghiệp  có  vốn  đầu  tư  nước  ngoài  kinh  doanh  dịch  vụ\n\nlữ hành\n\n1.  Nhà  đầu  tư  nước  ngoài  được  góp  vốn  với  đối  tác  Việt  Nam  để  thành  lập\ndoanh  nghiệp  kinh  doanh  dịch  vụ  lữ  hành  theo  pháp  luật  Việt  Nam  và  điều  ước\nquốc tế mà nước Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên.",
+          "score": 0.03200204813108039,
+          "metadata": {
+            "source": "luat-du-lich-2017.md",
+            "title": "Luật Du lịch số 09/2017/QH14",
+            "doc_type": "legal",
+            "url": "https://congbao.chinhphu.vn/van-ban/luat-so-09-2017-qh14-24241/18448.htm",
+            "chunk_index": 99
+          },
+          "retrieval_method": "hybrid"
+        },
+        {
+          "id": "legal/nghi-dinh-168-2017-nd-cp.md::chunk-30",
+          "content": "10 CÔNG BÁO/Số 429 + 430/Ngày 10-3-2018\nChương V\nKINH DOANH DU LỊCH\nMục 1\nKÝ QUỸ KINH DOANH DỊCH VỤ LỮ HÀNH\nĐiều 14. Mức ký quỹ và phương thức ký quỹ\n1. Mức ký quỹ kinh doanh dịch vụ lữ hành nội địa: 100.000.000 (một trăm\ntriệu) đồng.\n2. Mức ký quỹ kinh doanh dịch vụ lữ hành quốc tế:\na) Kinh doanh dịch vụ lữ hành đối với khách du lịch quốc tế đến Việt Nam:\n250.000.000 (hai trăm năm mươi triệu) đồng;\nb) Kinh doanh dịch vụ lữ hành đối với khách du lịch ra nước ngoài:",
+          "score": 0.030309988518943745,
+          "metadata": {
+            "source": "nghi-dinh-168-2017-nd-cp.md",
+            "title": "Nghị định 168/2017/NĐ-CP quy định chi tiết Luật Du lịch",
+            "doc_type": "legal",
+            "url": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-168-2017-nd-cp-26028/21615.htm",
+            "chunk_index": 30
+          },
+          "retrieval_method": "hybrid"
+        },
+        {
+          "id": "legal/luat-du-lich-2017.md::chunk-107",
+          "content": "3. Lập và lưu giữ hồ sơ về chương trình du lịch đã bán cho khách du lịch theo\n\nquy định của pháp luật.\n\n4. Treo biển đại lý lữ hành ở vị trí dễ nhận biết tại trụ sở đại lý.\n\n\f66\n\nCÔNG BÁO/Số 515 + 516/Ngày 25-7-2017\n\nĐiều 44. Văn phòng đại diện tại Việt Nam của doanh nghiệp kinh doanh\n\ndịch vụ lữ hành nước ngoài\n\n1.  Việc  thành  lập  văn  phòng  đại  diện  tại  Việt  Nam  của  doanh  nghiệp  kinh\ndoanh dịch vụ lữ hành nước ngoài được thực hiện theo quy định của pháp luật về\nthương mại.",
+          "score": 0.029910714285714284,
+          "metadata": {
+            "source": "luat-du-lich-2017.md",
+            "title": "Luật Du lịch số 09/2017/QH14",
+            "doc_type": "legal",
+            "url": "https://congbao.chinhphu.vn/van-ban/luat-so-09-2017-qh14-24241/18448.htm",
+            "chunk_index": 107
+          },
+          "retrieval_method": "hybrid"
+        }
+      ]
+    },
+    {
+      "domain": "out_of_domain",
+      "results": [
+        {
+          "id": "legal/nghi-dinh-168-2017-nd-cp.md::chunk-13",
+          "content": "liên quan khi cung cấp các sản phẩm du lịch có nguy cơ ảnh hưởng đến tính mạng,\nsức khỏe của khách du lịch.\n2. Có phương án cứu hộ, cứu nạn; bố trí lực lượng cứu hộ khách du lịch và can\nthiệp, xử lý, ứng cứu kịp thời các sự cố, tai nạn, rủi ro xảy ra; duy trì, bảo đảm\nthông tin liên lạc với khách du lịch trong suốt thời gian cung cấp sản phẩm.\n3. Bố trí, sử dụng huấn luyện viên, kỹ thuật viên, hướng dẫn viên có chuyên\nmôn phù hợp.",
+          "score": 0.01639344262295082,
+          "metadata": {
+            "source": "nghi-dinh-168-2017-nd-cp.md",
+            "title": "Nghị định 168/2017/NĐ-CP quy định chi tiết Luật Du lịch",
+            "doc_type": "legal",
+            "url": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-168-2017-nd-cp-26028/21615.htm",
+            "chunk_index": 13
+          },
+          "retrieval_method": "hybrid"
+        },
+        {
+          "id": "legal/nghi-dinh-168-2017-nd-cp.md::chunk-84",
+          "content": "|                 | sơn  | soát xe    | khung  |        |                    |     |\n| 1               |      |            |        |        |                    |     |\n| 2               |      |            |        |        |                    |     |\n| ...             |      |            |        |        |                    |     |",
+          "score": 0.01639344262295082,
+          "metadata": {
+            "source": "nghi-dinh-168-2017-nd-cp.md",
+            "title": "Nghị định 168/2017/NĐ-CP quy định chi tiết Luật Du lịch",
+            "doc_type": "legal",
+            "url": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-168-2017-nd-cp-26028/21615.htm",
+            "chunk_index": 84
+          },
+          "retrieval_method": "hybrid"
+        },
+        {
+          "id": "legal/luat-du-lich-2017.md::chunk-36",
+          "content": "2. Tài nguyên du lịch văn hóa bao gồm di tích lịch sử - văn hóa, di tích cách\nmạng, khảo cổ, kiến trúc; giá trị văn hóa truyền thống, lễ hội, văn nghệ dân gian và\ncác giá trị văn hóa khác; công trình lao động sáng tạo của con người có thể được\nsử dụng cho mục đích du lịch.\n\nĐiều 16. Điều tra tài nguyên du lịch\n\n1. Bộ Văn hóa, Thể thao và Du lịch chủ trì, phối hợp với Ủy ban nhân dân cấp\ntỉnh và cơ quan nhà nước có liên quan điều tra, đánh giá, phân loại tài nguyên du",
+          "score": 0.016129032258064516,
+          "metadata": {
+            "source": "luat-du-lich-2017.md",
+            "title": "Luật Du lịch số 09/2017/QH14",
+            "doc_type": "legal",
+            "url": "https://congbao.chinhphu.vn/van-ban/luat-so-09-2017-qh14-24241/18448.htm",
+            "chunk_index": 36
+          },
+          "retrieval_method": "hybrid"
+        },
+        {
+          "id": "news/article_04.md::chunk-45",
+          "content": "[![](https://image.vietnam.travel/sites/default/files/styles/thing_to_do_thumb/public/2026-02/12.png?itok=DSl1lqAU)A green sanctuary for slow living souls at Whale Island Resort](https://vietnam.travel/things-to-do/green-sanctuary-slow-living-souls-whale-island-resort)",
+          "score": 0.016129032258064516,
+          "metadata": {
+            "source": "article_04.md",
+            "title": "Things to do | Vietnam Tourism",
+            "doc_type": "news",
+            "url": "https://vietnam.travel/things-to-do",
+            "chunk_index": 45
+          },
+          "retrieval_method": "hybrid"
+        },
+        {
+          "id": "legal/nghi-dinh-168-2017-nd-cp.md::chunk-6",
+          "content": "Điều 5. Đánh giá, phân loại tài nguyên du lịch\n1. Căn cứ kết quả điều tra, tài nguyên du lịch được đánh giá về giá trị, sức\nchứa, mức độ hấp dẫn, phạm vi ảnh hưởng và khả năng khai thác phục vụ phát\ntriển du lịch.\n2. Căn cứ kết quả đánh giá, tài nguyên du lịch quy định tại Điều 15 Luật Du\nlịch được phân loại thành tài nguyên du lịch cấp quốc gia và tài nguyên du lịch\ncấp tỉnh.\nĐiều 6. Trách nhiệm của các bộ, cơ quan ngang bộ, Ủy ban nhân dân cấp tỉnh",
+          "score": 0.015873015873015872,
+          "metadata": {
+            "source": "nghi-dinh-168-2017-nd-cp.md",
+            "title": "Nghị định 168/2017/NĐ-CP quy định chi tiết Luật Du lịch",
+            "doc_type": "legal",
+            "url": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-168-2017-nd-cp-26028/21615.htm",
+            "chunk_index": 6
+          },
+          "retrieval_method": "hybrid"
+        }
+      ]
+    }
+  ]
+}
