@@ -4,7 +4,7 @@ from __future__ import annotations
 
 import json
 from pathlib import Path
-from urllib.request import urlopen
+from urllib.request import Request, urlopen
 
 from .llm_client import DEFAULT_FREE_MODEL, DEFAULT_XKIRO_BASE_URL
 
@@ -18,7 +18,11 @@ def load_free_model_snapshot() -> dict:
 
 
 def fetch_models(access_tier: str | None = "free") -> list[dict]:
-    with urlopen(MODELS_URL, timeout=30) as response:
+    request = Request(
+        MODELS_URL,
+        headers={"User-Agent": "k4-l3a-rag-pipeline/0.1"},
+    )
+    with urlopen(request, timeout=30) as response:
         payload = json.loads(response.read().decode("utf-8"))
     models = payload.get("data") or []
     if access_tier:
