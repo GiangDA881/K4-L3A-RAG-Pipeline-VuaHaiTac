@@ -1,5 +1,7 @@
 # Individual contribution report
 
+**Đã nộp trên `main`:** [2A202602446 - Nguyễn Xuân Trường Giang.md](./2A202602446%20-%20Nguyễn%20Xuân%20Trường%20Giang.md)
+
 Mỗi thành viên copy template này thành file đặt tên theo quy chuẩn:
 
 ```text
