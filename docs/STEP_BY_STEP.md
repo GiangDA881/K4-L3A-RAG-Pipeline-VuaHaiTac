@@ -101,6 +101,6 @@ pytest tests/test_acceptance.py -q
 pytest -q
 ```
 
-- Mỗi thành viên hoàn thiện individual report.
+- Mỗi thành viên hoàn thiện báo cáo cá nhân, đặt tên file `MSV - Ho Va Ten.md` (ví dụ `HE173456 - Nguyen Van An.md`) trong `group_project/ịndividual/`.
 - Kiểm tra repository không chứa `.env`, API key hoặc file cache.
 - Demo một query đúng, một query ngoài domain và kết quả A/B.

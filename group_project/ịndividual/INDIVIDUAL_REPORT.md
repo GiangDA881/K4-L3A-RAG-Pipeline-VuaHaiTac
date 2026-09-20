@@ -1,10 +1,14 @@
 # Individual contribution report
 
-Mỗi thành viên copy template này thành:
+Mỗi thành viên copy template này thành file đặt tên theo quy chuẩn:
 
 ```text
-reports/<student-id>-<short-name>.md
+<MSV> - <Ho Va Ten>.md
 ```
+
+Ví dụ: `HE173456 - Nguyen Van An.md`
+
+Nộp vào `group_project/ịndividual/`. Không dùng dạng `student-id-short-name` và không nộp file còn tên `INDIVIDUAL_REPORT.md`.
 
 Giới hạn khuyến nghị: 1 trang, không chép lại README hoặc mô tả lý thuyết chung. Báo cáo không phải một bài pipeline cá nhân; mục đích là ghi nhận ownership và bằng chứng đóng góp trong sản phẩm nhóm.
 

@@ -6,6 +6,14 @@ Mỗi nhóm xây dựng một chatbot RAG trả lời câu hỏi từ bộ tài 
 
 Nhóm tự chọn bài toán và thu thập dữ liệu phù hợp; repo không cung cấp dữ liệu mẫu.
 
+## Quy chuẩn đặt tên
+
+- **Repository:** `K4-L3A-RAG-Pipeline-<TenNhom>`
+  - Repo nhóm này: `K4-L3A-RAG-Pipeline-VuaHaiTac`
+- **Báo cáo cá nhân:** `<MSV> - <Ho Va Ten>.md`
+  - Ví dụ: `HE173456 - Nguyen Van An.md`
+  - Copy từ template `group_project/ịndividual/INDIVIDUAL_REPORT.md`, không giữ tên `INDIVIDUAL_REPORT.md` khi nộp.
+
 ## Sản phẩm phải nộp
 
 - Repository nhóm chạy được.
@@ -14,7 +22,7 @@ Nhóm tự chọn bài toán và thu thập dữ liệu phù hợp; repo không 
 - Chatbot Streamlit hiển thị câu trả lời và nguồn đã dùng.
 - Golden dataset tối thiểu 15 câu; đánh giá 4 metric và so sánh A/B.
 - `group_project/evaluation/RESULT.md`.
-- Mỗi thành viên nộp báo cáo cá nhân theo template trong `group_project/ịndividual/INDIVIDUAL_REPORT.md`.
+- Mỗi thành viên nộp báo cáo cá nhân theo template trong `group_project/ịndividual/INDIVIDUAL_REPORT.md`, đặt tên file `MSV - Ho Va Ten.md`.
 
 ## Quick start
 
@@ -67,7 +75,7 @@ streamlit run app.py
 - [Module contracts](docs/MODULE_CONTRACTS.md): schema, interface và invariant mà code/test nên tuân theo.
 - [Step-by-step guide](docs/STEP_BY_STEP.md): thứ tự triển khai và tiêu chí hoàn thành từng bước.
 - [Grading rubric](docs/GRADING_RUBRIC.md): Rubric thang điểm.
-- [Individual report](group_project/ịndividual/INDIVIDUAL_REPORT.md): template báo cáo cá nhân.
+- [Individual report](group_project/ịndividual/INDIVIDUAL_REPORT.md): template báo cáo cá nhân; file nộp đặt tên `MSV - Ho Va Ten.md`.
 - [Suggested topics](docs/SUGGESTED_TOPICS.md): danh sách chủ đề tham khảo, không bắt buộc.
 
 ## Kiểm tra
