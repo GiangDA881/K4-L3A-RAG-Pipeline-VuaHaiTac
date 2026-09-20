@@ -1,7 +1,5 @@
 # Individual contribution report
 
-**Đã nộp trên `main`:** [2A202602446 - Nguyễn Xuân Trường Giang.md](./2A202602446%20-%20Nguyễn%20Xuân%20Trường%20Giang.md)
-
 Mỗi thành viên copy template này thành file đặt tên theo quy chuẩn:
 
 ```text
@@ -10,7 +8,9 @@ Mỗi thành viên copy template này thành file đặt tên theo quy chuẩn:
 
 Ví dụ: `HE173456 - Nguyen Van An.md`
 
-Nộp vào `group_project/ịndividual/`. Không dùng dạng `student-id-short-name` và không nộp file còn tên `INDIVIDUAL_REPORT.md`.
+Nộp vào `group_project/ịndividual/`. Giữ nguyên tiêu đề, heading và tên cột dưới đây; chỉ điền nội dung.
+
+Không dùng dạng `student-id-short-name`, không viết dính họ tên (`NguyenNhanSam`), và không nộp file còn tên `INDIVIDUAL_REPORT.md`.
 
 Giới hạn khuyến nghị: 1 trang, không chép lại README hoặc mô tả lý thuyết chung. Báo cáo không phải một bài pipeline cá nhân; mục đích là ghi nhận ownership và bằng chứng đóng góp trong sản phẩm nhóm.
 

@@ -6,6 +6,8 @@ Nộp file vào đúng thư mục này, đặt tên:
 <MSV> - <Ho Va Ten>.md
 ```
 
+Ví dụ: `HE173456 - Nguyen Van An.md`. Có khoảng trắng quanh dấu `-` và giữa các tiếng trong họ tên.
+
 Không giữ tên `INDIVIDUAL_REPORT.md` khi nộp. Template: [INDIVIDUAL_REPORT.md](./INDIVIDUAL_REPORT.md).
 
 ## Đã nộp trên `main`
@@ -13,9 +15,5 @@ Không giữ tên `INDIVIDUAL_REPORT.md` khi nộp. Template: [INDIVIDUAL_REPORT
 | MSV | Họ và tên | File |
 | --- | --- | --- |
 | 2A202602446 | Nguyễn Xuân Trường Giang | [2A202602446 - Nguyễn Xuân Trường Giang.md](./2A202602446%20-%20Nguyễn%20Xuân%20Trường%20Giang.md) |
-| 2A202602954 | Phan Trọng Hoàn | *(chưa nộp)* |
-| 2A202602672 | Nguyễn Nhân Sâm | [2A202602672 - NguyenNhanSam.md](./2A202602672%20-%20NguyenNhanSam.md) |
-
-Link trực tiếp trên GitHub:
-
-https://github.com/GiangDA881/K4-L3A-RAG-Pipeline-VuaHaiTac/blob/main/group_project/%E1%BB%8Bndividual/2A202602446%20-%20Nguy%E1%BB%85n%20Xu%C3%A2n%20Tr%C6%B0%E1%BB%9Dng%20Giang.md
+| 2A202602954 | Phan Trọng Hoàn | [2A202602954 - Phan Trọng Hoàn.md](./2A202602954%20-%20Phan%20Trọng%20Hoàn.md) |
+| 2A202602672 | Nguyễn Nhân Sâm | [2A202602672 - Nguyễn Nhân Sâm.md](./2A202602672%20-%20Nguyễn%20Nhân%20Sâm.md) |
