@@ -6,6 +6,8 @@ Mỗi nhóm xây dựng một chatbot RAG trả lời câu hỏi từ bộ tài 
 
 Nhóm tự chọn bài toán và thu thập dữ liệu phù hợp; repo không cung cấp dữ liệu mẫu.
 
+Chủ đề nhóm **VuaHaiTac**: Du lịch Việt Nam — lịch trình, địa điểm, ẩm thực, quy định địa phương. Corpus nằm ở `data/landing/` và `data/standardized/`.
+
 ## Quy chuẩn đặt tên
 
 - **Repository:** `K4-L3A-RAG-Pipeline-<TenNhom>`

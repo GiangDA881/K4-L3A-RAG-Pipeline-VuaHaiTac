@@ -15,11 +15,11 @@ if "messages" not in st.session_state:
 
 with st.sidebar:
     st.title("RAG Chatbot")
-    st.caption("Thay mô tả theo đề tài của nhóm")
+    st.caption("Du lịch Việt Nam: lịch trình, địa điểm, ẩm thực, quy định địa phương")
     top_k = st.slider("Số chunks", 3, 10, 5)
 
-st.title("RAG Chatbot")
-st.caption("Thay tiêu đề và hướng dẫn sử dụng")
+st.title("RAG Chatbot — Du lịch Việt Nam")
+st.caption("Hỏi về lịch trình, địa điểm, ẩm thực hoặc quy định du lịch. Câu trả lời phải bám nguồn đã thu thập.")
 
 for message in st.session_state.messages:
     with st.chat_message(message["role"]):
